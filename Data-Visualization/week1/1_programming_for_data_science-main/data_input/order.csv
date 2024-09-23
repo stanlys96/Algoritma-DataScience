@@ -1,0 +1,1827 @@
+invoice_id,order_date,customer_id,branch,city,customer_type,gender,product_line,unit_price,quantity,payment,gross_margin_ratio
+765-26-6951,01/01/19,12,A,Jakarta,Normal,Male,Sports and travel,508270.0,6,Credit card,4.761904762
+530-90-9855,01/01/19,54,A,Jakarta,Member,Male,Home and lifestyle,333130.0,8,Cash,4.761904762
+891-01-7034,01/01/19,115,B,Bekasi,Normal,Female,Electronic accessories,522969.99999999994,6,Cash,4.761904762
+493-65-6248,01/01/19,237,C,Bogor,Member,Female,Sports and travel,258859.99999999997,10,Credit card,4.761904762
+556-97-7101,01/01/19,187,C,Bogor,Normal,Female,Electronic accessories,442540.0,2,Cash,4.761904762
+133-14-7229,01/01/19,177,C,Bogor,Normal,Male,Health and beauty,440090.0,2,Cash,4.761904762
+651-88-7328,01/01/19,22,A,Jakarta,Normal,Female,Fashion accessories,460179.99999999994,9,Cash,4.761904762
+182-52-7000,01/01/19,80,A,Jakarta,Member,Female,Sports and travel,189280.0,4,Ewallet,4.761904762
+416-17-9926,01/01/19,63,A,Jakarta,Member,Female,Electronic accessories,519540.0,10,Credit card,4.761904762
+271-77-8740,01/01/19,225,C,Bogor,Member,Female,Sports and travel,204540.0,6,Ewallet,4.761904762
+770-42-8960,01/01/19,92,B,Bekasi,Normal,Male,Food and beverages,147840.0,8,Cash,4.761904762
+746-04-1077,01/01/19,159,B,Bekasi,Member,Female,Food and beverages,592410.0,10,Credit card,4.761904762
+530-90-9855,01/01/19,46,A,Jakarta,Member,Male,Home and lifestyle,333130.0,8,Cash,4.761904762
+891-01-7034,01/01/19,118,B,Bekasi,Normal,Female,Electronic accessories,522969.99999999994,6,Cash,4.761904762
+493-65-6248,01/01/19,238,C,Bogor,Member,Female,Sports and travel,258859.99999999997,10,Credit card,4.761904762
+556-97-7101,01/01/19,187,C,Bogor,Normal,Female,Electronic accessories,442540.0,2,Cash,4.761904762
+133-14-7229,01/01/19,177,C,Bogor,Normal,Male,Health and beauty,440090.0,2,Cash,4.761904762
+651-88-7328,01/01/19,38,A,Jakarta,Normal,Female,Fashion accessories,460179.99999999994,9,Cash,4.761904762
+182-52-7000,01/01/19,72,A,Jakarta,Member,Female,Sports and travel,189280.0,4,Ewallet,4.761904762
+416-17-9926,01/01/19,74,A,Jakarta,Member,Female,Electronic accessories,519540.0,10,Credit card,4.761904762
+271-77-8740,01/01/19,223,C,Bogor,Member,Female,Sports and travel,204540.0,6,Ewallet,4.761904762
+770-42-8960,01/01/19,81,B,Bekasi,Normal,Male,Food and beverages,147840.0,8,Cash,4.761904762
+746-04-1077,01/01/19,142,B,Bekasi,Member,Female,Food and beverages,592410.0,10,Credit card,4.761904762
+504-35-8843,01/02/19,19,A,Jakarta,Normal,Male,Sports and travel,297290.0,1,Cash,4.761904762
+446-47-6729,01/02/19,179,C,Bogor,Normal,Male,Fashion accessories,698740.0,2,Credit card,4.761904762
+244-08-0162,01/02/19,117,B,Bekasi,Normal,Female,Health and beauty,239470.0,10,Cash,4.761904762
+198-84-7132,01/02/19,125,B,Bekasi,Member,Male,Fashion accessories,284270.0,9,Cash,4.761904762
+744-09-5786,01/02/19,92,B,Bekasi,Normal,Male,Electronic accessories,154070.0,6,Cash,4.761904762
+712-39-0363,01/02/19,53,A,Jakarta,Member,Male,Food and beverages,291620.0,6,Ewallet,4.761904762
+345-68-9016,01/02/19,222,C,Bogor,Member,Female,Sports and travel,221690.0,8,Credit card,4.761904762
+670-71-7306,01/02/19,98,B,Bekasi,Normal,Male,Sports and travel,312410.0,6,Credit card,4.761904762
+446-47-6729,01/02/19,176,C,Bogor,Normal,Male,Fashion accessories,698740.0,2,Credit card,4.761904762
+244-08-0162,01/02/19,114,B,Bekasi,Normal,Female,Health and beauty,239470.0,10,Cash,4.761904762
+198-84-7132,01/02/19,125,B,Bekasi,Member,Male,Fashion accessories,284270.0,9,Cash,4.761904762
+744-09-5786,01/02/19,85,B,Bekasi,Normal,Male,Electronic accessories,154070.0,6,Cash,4.761904762
+712-39-0363,01/02/19,44,A,Jakarta,Member,Male,Food and beverages,291620.0,6,Ewallet,4.761904762
+345-68-9016,01/02/19,233,C,Bogor,Member,Female,Sports and travel,221690.0,8,Credit card,4.761904762
+670-71-7306,01/02/19,99,B,Bekasi,Normal,Male,Sports and travel,312410.0,6,Credit card,4.761904762
+249-42-3782,01/03/19,9,A,Jakarta,Normal,Male,Health and beauty,490070.00000000006,5,Ewallet,4.761904762
+749-24-1565,01/03/19,28,A,Jakarta,Normal,Female,Health and beauty,161210.0,9,Ewallet,4.761904762
+687-15-1097,01/03/19,223,C,Bogor,Member,Female,Health and beauty,147840.0,2,Cash,4.761904762
+422-29-8786,01/03/19,29,A,Jakarta,Normal,Female,Home and lifestyle,469630.0,5,Credit card,4.761904762
+343-87-0864,01/03/19,210,C,Bogor,Member,Male,Health and beauty,531160.0,1,Credit card,4.761904762
+875-31-8302,01/03/19,94,B,Bekasi,Normal,Male,Sports and travel,653660.0,1,Cash,4.761904762
+501-61-1753,01/03/19,114,B,Bekasi,Normal,Female,Home and lifestyle,442050.0,6,Ewallet,4.761904762
+552-44-5977,01/03/19,132,B,Bekasi,Member,Male,Health and beauty,434000.0,8,Credit card,4.761904762
+749-24-1565,01/03/19,23,A,Jakarta,Normal,Female,Health and beauty,161210.0,9,Ewallet,4.761904762
+687-15-1097,01/03/19,240,C,Bogor,Member,Female,Health and beauty,147840.0,2,Cash,4.761904762
+422-29-8786,01/03/19,40,A,Jakarta,Normal,Female,Home and lifestyle,469630.0,5,Credit card,4.761904762
+343-87-0864,01/03/19,209,C,Bogor,Member,Male,Health and beauty,531160.0,1,Credit card,4.761904762
+875-31-8302,01/03/19,95,B,Bekasi,Normal,Male,Sports and travel,653660.0,1,Cash,4.761904762
+501-61-1753,01/03/19,106,B,Bekasi,Normal,Female,Home and lifestyle,442050.0,6,Ewallet,4.761904762
+552-44-5977,01/03/19,135,B,Bekasi,Member,Male,Health and beauty,434000.0,8,Credit card,4.761904762
+279-74-2924,01/04/19,128,B,Bekasi,Member,Male,Electronic accessories,505190.0,1,Cash,4.761904762
+672-51-8681,01/04/19,225,C,Bogor,Member,Female,Electronic accessories,466550.00000000006,9,Credit card,4.761904762
+656-16-1063,01/04/19,90,B,Bekasi,Normal,Male,Sports and travel,324940.0,3,Credit card,4.761904762
+731-14-2199,01/04/19,70,A,Jakarta,Member,Female,Home and lifestyle,248780.0,10,Ewallet,4.761904762
+725-32-9708,01/04/19,156,B,Bekasi,Member,Female,Fashion accessories,480969.99999999994,4,Cash,4.761904762
+132-23-6451,01/04/19,49,A,Jakarta,Member,Male,Health and beauty,146790.0,5,Cash,4.761904762
+672-51-8681,01/04/19,238,C,Bogor,Member,Female,Electronic accessories,466550.00000000006,9,Credit card,4.761904762
+656-16-1063,01/04/19,86,B,Bekasi,Normal,Male,Sports and travel,324940.0,3,Credit card,4.761904762
+731-14-2199,01/04/19,79,A,Jakarta,Member,Female,Home and lifestyle,248780.0,10,Ewallet,4.761904762
+725-32-9708,01/04/19,149,B,Bekasi,Member,Female,Fashion accessories,480969.99999999994,4,Cash,4.761904762
+132-23-6451,01/04/19,59,A,Jakarta,Member,Male,Health and beauty,146790.0,5,Cash,4.761904762
+750-67-8428,01/05/19,73,A,Jakarta,Member,Female,Health and beauty,522830.0,7,Ewallet,4.761904762
+628-34-3388,01/05/19,177,C,Bogor,Normal,Male,Fashion accessories,191660.0,6,Credit card,4.761904762
+217-58-1179,01/05/19,41,A,Jakarta,Member,Male,Home and lifestyle,438550.0,4,Cash,4.761904762
+144-51-6085,01/05/19,53,A,Jakarta,Member,Male,Home and lifestyle,495179.99999999994,4,Credit card,4.761904762
+843-01-4703,01/05/19,144,B,Bekasi,Member,Female,Home and lifestyle,247660.00000000003,9,Credit card,4.761904762
+573-98-8548,01/05/19,230,C,Bogor,Member,Female,Fashion accessories,223300.0,1,Ewallet,4.761904762
+209-61-0206,01/05/19,27,A,Jakarta,Normal,Female,Home and lifestyle,300370.0,5,Ewallet,4.761904762
+339-12-4827,01/05/19,150,B,Bekasi,Member,Female,Fashion accessories,517719.99999999994,1,Credit card,4.761904762
+841-18-8232,01/05/19,113,B,Bekasi,Normal,Female,Food and beverages,498400.0,1,Credit card,4.761904762
+801-88-0346,01/05/19,182,C,Bogor,Normal,Female,Fashion accessories,532420.0,3,Credit card,4.761904762
+433-08-7822,01/05/19,182,C,Bogor,Normal,Female,Health and beauty,552230.0,7,Ewallet,4.761904762
+489-82-1237,01/05/19,23,A,Jakarta,Normal,Female,Electronic accessories,657160.0,7,Credit card,4.761904762
+217-58-1179,01/05/19,48,A,Jakarta,Member,Male,Home and lifestyle,438550.0,4,Cash,4.761904762
+144-51-6085,01/05/19,48,A,Jakarta,Member,Male,Home and lifestyle,495179.99999999994,4,Credit card,4.761904762
+843-01-4703,01/05/19,144,B,Bekasi,Member,Female,Home and lifestyle,247660.00000000003,9,Credit card,4.761904762
+573-98-8548,01/05/19,232,C,Bogor,Member,Female,Fashion accessories,223300.0,1,Ewallet,4.761904762
+209-61-0206,01/05/19,25,A,Jakarta,Normal,Female,Home and lifestyle,300370.0,5,Ewallet,4.761904762
+339-12-4827,01/05/19,153,B,Bekasi,Member,Female,Fashion accessories,517719.99999999994,1,Credit card,4.761904762
+841-18-8232,01/05/19,112,B,Bekasi,Normal,Female,Food and beverages,498400.0,1,Credit card,4.761904762
+801-88-0346,01/05/19,191,C,Bogor,Normal,Female,Fashion accessories,532420.0,3,Credit card,4.761904762
+433-08-7822,01/05/19,184,C,Bogor,Normal,Female,Health and beauty,552230.0,7,Ewallet,4.761904762
+489-82-1237,01/05/19,21,A,Jakarta,Normal,Female,Electronic accessories,657160.0,7,Credit card,4.761904762
+393-65-2792,01/06/19,174,C,Bogor,Normal,Male,Food and beverages,626360.0,10,Credit card,4.761904762
+704-11-6354,01/06/19,59,A,Jakarta,Member,Male,Home and lifestyle,412300.0,8,Cash,4.761904762
+490-29-1201,01/06/19,39,A,Jakarta,Normal,Female,Sports and travel,107380.0,1,Cash,4.761904762
+834-25-9262,01/06/19,188,C,Bogor,Normal,Female,Fashion accessories,571760.0,4,Cash,4.761904762
+662-72-2873,01/06/19,29,A,Jakarta,Normal,Female,Food and beverages,286580.0,5,Ewallet,4.761904762
+826-58-8051,01/06/19,83,B,Bekasi,Normal,Male,Home and lifestyle,435330.0,4,Ewallet,4.761904762
+729-06-2010,01/06/19,123,B,Bekasi,Member,Male,Health and beauty,563290.0,9,Cash,4.761904762
+852-82-2749,01/06/19,2,A,Jakarta,Normal,Male,Sports and travel,452130.0,4,Ewallet,4.761904762
+846-10-0341,01/06/19,27,A,Jakarta,Normal,Female,Fashion accessories,297990.0,7,Cash,4.761904762
+704-11-6354,01/06/19,58,A,Jakarta,Member,Male,Home and lifestyle,412300.0,8,Cash,4.761904762
+490-29-1201,01/06/19,38,A,Jakarta,Normal,Female,Sports and travel,107380.0,1,Cash,4.761904762
+834-25-9262,01/06/19,198,C,Bogor,Normal,Female,Fashion accessories,571760.0,4,Cash,4.761904762
+662-72-2873,01/06/19,31,A,Jakarta,Normal,Female,Food and beverages,286580.0,5,Ewallet,4.761904762
+826-58-8051,01/06/19,88,B,Bekasi,Normal,Male,Home and lifestyle,435330.0,4,Ewallet,4.761904762
+729-06-2010,01/06/19,136,B,Bekasi,Member,Male,Health and beauty,563290.0,9,Cash,4.761904762
+852-82-2749,01/06/19,15,A,Jakarta,Normal,Male,Sports and travel,452130.0,4,Ewallet,4.761904762
+846-10-0341,01/06/19,29,A,Jakarta,Normal,Female,Fashion accessories,297990.0,7,Cash,4.761904762
+232-16-2483,01/07/19,240,C,Bogor,Member,Female,Sports and travel,476840.00000000006,1,Ewallet,4.761904762
+109-28-2512,01/07/19,160,B,Bekasi,Member,Female,Fashion accessories,683270.0,6,Ewallet,4.761904762
+799-71-1548,01/07/19,59,A,Jakarta,Member,Male,Electronic accessories,544040.0,4,Credit card,4.761904762
+126-54-1082,01/07/19,66,A,Jakarta,Member,Female,Home and lifestyle,150780.0,9,Credit card,4.761904762
+566-19-5475,01/07/19,87,B,Bekasi,Normal,Male,Fashion accessories,335790.0,7,Cash,4.761904762
+526-86-8552,01/07/19,225,C,Bogor,Member,Female,Home and lifestyle,152740.0,10,Cash,4.761904762
+889-04-9723,01/07/19,149,B,Bekasi,Member,Female,Food and beverages,623980.0,4,Credit card,4.761904762
+541-48-8554,01/07/19,11,A,Jakarta,Normal,Male,Sports and travel,426650.0,9,Credit card,4.761904762
+390-31-6381,01/07/19,175,C,Bogor,Normal,Male,Food and beverages,190540.0,3,Cash,4.761904762
+799-71-1548,01/07/19,43,A,Jakarta,Member,Male,Electronic accessories,544040.0,4,Credit card,4.761904762
+126-54-1082,01/07/19,74,A,Jakarta,Member,Female,Home and lifestyle,150780.0,9,Credit card,4.761904762
+566-19-5475,01/07/19,88,B,Bekasi,Normal,Male,Fashion accessories,335790.0,7,Cash,4.761904762
+526-86-8552,01/07/19,228,C,Bogor,Member,Female,Home and lifestyle,152740.0,10,Cash,4.761904762
+889-04-9723,01/07/19,159,B,Bekasi,Member,Female,Food and beverages,623980.0,4,Credit card,4.761904762
+541-48-8554,01/07/19,17,A,Jakarta,Normal,Male,Sports and travel,426650.0,9,Credit card,4.761904762
+390-31-6381,01/07/19,161,C,Bogor,Normal,Male,Food and beverages,190540.0,3,Cash,4.761904762
+189-08-9157,01/08/19,196,C,Bogor,Normal,Female,Fashion accessories,222110.0,9,Credit card,4.761904762
+663-86-9076,01/08/19,238,C,Bogor,Member,Female,Food and beverages,479780.00000000006,8,Ewallet,4.761904762
+571-94-0759,01/08/19,141,B,Bekasi,Member,Female,Food and beverages,522199.99999999994,10,Cash,4.761904762
+750-57-9686,01/08/19,195,C,Bogor,Normal,Female,Home and lifestyle,317660.0,4,Credit card,4.761904762
+192-98-7397,01/08/19,172,C,Bogor,Normal,Male,Fashion accessories,89460.0,1,Ewallet,4.761904762
+674-15-9296,01/08/19,13,A,Jakarta,Normal,Male,Sports and travel,259980.0,5,Ewallet,4.761904762
+387-49-4215,01/08/19,148,B,Bekasi,Member,Female,Sports and travel,339500.0,3,Cash,4.761904762
+484-22-8230,01/08/19,229,C,Bogor,Member,Female,Fashion accessories,363230.0,7,Cash,4.761904762
+241-96-5076,01/08/19,145,B,Bekasi,Member,Female,Home and lifestyle,343700.0,2,Credit card,4.761904762
+767-97-4650,01/08/19,156,B,Bekasi,Member,Female,Sports and travel,453810.0,2,Credit card,4.761904762
+442-44-6497,01/08/19,214,C,Bogor,Member,Male,Home and lifestyle,388990.0,3,Credit card,4.761904762
+457-13-1708,01/08/19,137,B,Bekasi,Member,Male,Fashion accessories,456610.0,10,Credit card,4.761904762
+257-60-7754,01/08/19,23,A,Jakarta,Normal,Female,Electronic accessories,351610.0,4,Cash,4.761904762
+845-94-6841,01/08/19,239,C,Bogor,Member,Female,Food and beverages,510159.99999999994,9,Cash,4.761904762
+840-76-5966,01/08/19,57,A,Jakarta,Member,Male,Sports and travel,89320.0,2,Ewallet,4.761904762
+124-31-1458,01/08/19,79,A,Jakarta,Member,Female,Electronic accessories,557130.0,3,Cash,4.761904762
+631-34-1880,01/08/19,207,C,Bogor,Member,Male,Food and beverages,170170.0,3,Credit card,4.761904762
+490-95-0021,01/08/19,155,B,Bekasi,Member,Female,Food and beverages,232470.0,10,Ewallet,4.761904762
+571-94-0759,01/08/19,144,B,Bekasi,Member,Female,Food and beverages,522199.99999999994,10,Cash,4.761904762
+750-57-9686,01/08/19,183,C,Bogor,Normal,Female,Home and lifestyle,317660.0,4,Credit card,4.761904762
+192-98-7397,01/08/19,164,C,Bogor,Normal,Male,Fashion accessories,89460.0,1,Ewallet,4.761904762
+674-15-9296,01/08/19,4,A,Jakarta,Normal,Male,Sports and travel,259980.0,5,Ewallet,4.761904762
+387-49-4215,01/08/19,152,B,Bekasi,Member,Female,Sports and travel,339500.0,3,Cash,4.761904762
+484-22-8230,01/08/19,229,C,Bogor,Member,Female,Fashion accessories,363230.0,7,Cash,4.761904762
+241-96-5076,01/08/19,150,B,Bekasi,Member,Female,Home and lifestyle,343700.0,2,Credit card,4.761904762
+767-97-4650,01/08/19,145,B,Bekasi,Member,Female,Sports and travel,453810.0,2,Credit card,4.761904762
+442-44-6497,01/08/19,203,C,Bogor,Member,Male,Home and lifestyle,388990.0,3,Credit card,4.761904762
+457-13-1708,01/08/19,126,B,Bekasi,Member,Male,Fashion accessories,456610.0,10,Credit card,4.761904762
+257-60-7754,01/08/19,37,A,Jakarta,Normal,Female,Electronic accessories,351610.0,4,Cash,4.761904762
+845-94-6841,01/08/19,232,C,Bogor,Member,Female,Food and beverages,510159.99999999994,9,Cash,4.761904762
+840-76-5966,01/08/19,50,A,Jakarta,Member,Male,Sports and travel,89320.0,2,Ewallet,4.761904762
+124-31-1458,01/08/19,75,A,Jakarta,Member,Female,Electronic accessories,557130.0,3,Cash,4.761904762
+631-34-1880,01/08/19,207,C,Bogor,Member,Male,Food and beverages,170170.0,3,Credit card,4.761904762
+490-95-0021,01/08/19,159,B,Bekasi,Member,Female,Food and beverages,232470.0,10,Ewallet,4.761904762
+263-10-3913,01/09/19,214,C,Bogor,Member,Male,Fashion accessories,343280.0,9,Credit card,4.761904762
+554-42-2417,01/09/19,200,C,Bogor,Normal,Female,Sports and travel,668080.0,10,Cash,4.761904762
+370-96-0655,01/09/19,198,C,Bogor,Normal,Female,Fashion accessories,345240.0,6,Ewallet,4.761904762
+343-75-9322,01/09/19,151,B,Bekasi,Member,Female,Sports and travel,82950.0,8,Cash,4.761904762
+288-62-1085,01/09/19,50,A,Jakarta,Member,Male,Fashion accessories,269780.0,5,Ewallet,4.761904762
+305-89-2768,01/09/19,143,B,Bekasi,Member,Female,Home and lifestyle,153300.0,3,Ewallet,4.761904762
+867-47-1948,01/09/19,188,C,Bogor,Normal,Female,Home and lifestyle,110600.0,10,Cash,4.761904762
+189-40-5216,01/09/19,176,C,Bogor,Normal,Male,Electronic accessories,674590.0,7,Cash,4.761904762
+554-42-2417,01/09/19,196,C,Bogor,Normal,Female,Sports and travel,668080.0,10,Cash,4.761904762
+370-96-0655,01/09/19,181,C,Bogor,Normal,Female,Fashion accessories,345240.0,6,Ewallet,4.761904762
+343-75-9322,01/09/19,153,B,Bekasi,Member,Female,Sports and travel,82950.0,8,Cash,4.761904762
+288-62-1085,01/09/19,42,A,Jakarta,Member,Male,Fashion accessories,269780.0,5,Ewallet,4.761904762
+305-89-2768,01/09/19,159,B,Bekasi,Member,Female,Home and lifestyle,153300.0,3,Ewallet,4.761904762
+867-47-1948,01/09/19,190,C,Bogor,Normal,Female,Home and lifestyle,110600.0,10,Cash,4.761904762
+189-40-5216,01/09/19,162,C,Bogor,Normal,Male,Electronic accessories,674590.0,7,Cash,4.761904762
+665-32-9167,01/10/19,77,A,Jakarta,Member,Female,Health and beauty,253820.0,2,Credit card,4.761904762
+640-49-2076,01/10/19,84,B,Bekasi,Normal,Male,Sports and travel,586460.0,8,Cash,4.761904762
+873-51-0671,01/10/19,76,A,Jakarta,Member,Female,Sports and travel,153860.0,7,Ewallet,4.761904762
+744-02-5987,01/10/19,50,A,Jakarta,Member,Male,Home and lifestyle,548660.0,6,Ewallet,4.761904762
+603-07-0961,01/10/19,208,C,Bogor,Member,Male,Electronic accessories,523530.00000000006,5,Cash,4.761904762
+241-11-2261,01/10/19,108,B,Bekasi,Normal,Female,Fashion accessories,559020.0,7,Credit card,4.761904762
+887-42-0517,01/10/19,182,C,Bogor,Normal,Female,Sports and travel,581980.0,7,Credit card,4.761904762
+226-34-0034,01/10/19,115,B,Bekasi,Normal,Female,Electronic accessories,96460.0,4,Ewallet,4.761904762
+577-34-7579,01/10/19,219,C,Bogor,Member,Male,Food and beverages,353430.0,9,Cash,4.761904762
+744-02-5987,01/10/19,58,A,Jakarta,Member,Male,Home and lifestyle,548660.0,6,Ewallet,4.761904762
+603-07-0961,01/10/19,201,C,Bogor,Member,Male,Electronic accessories,523530.00000000006,5,Cash,4.761904762
+241-11-2261,01/10/19,117,B,Bekasi,Normal,Female,Fashion accessories,559020.0,7,Credit card,4.761904762
+887-42-0517,01/10/19,183,C,Bogor,Normal,Female,Sports and travel,581980.0,7,Credit card,4.761904762
+226-34-0034,01/10/19,107,B,Bekasi,Normal,Female,Electronic accessories,96460.0,4,Ewallet,4.761904762
+577-34-7579,01/10/19,213,C,Bogor,Member,Male,Food and beverages,353430.0,9,Cash,4.761904762
+746-68-6593,01/11/19,224,C,Bogor,Member,Female,Sports and travel,610120.0,2,Credit card,4.761904762
+478-06-7835,01/11/19,5,A,Jakarta,Normal,Male,Fashion accessories,627830.0,1,Ewallet,4.761904762
+540-11-4336,01/11/19,4,A,Jakarta,Normal,Male,Food and beverages,174580.0,9,Credit card,4.761904762
+289-15-7034,01/11/19,51,A,Jakarta,Member,Male,Sports and travel,576310.0,4,Credit card,4.761904762
+732-67-5346,01/11/19,18,A,Jakarta,Normal,Male,Food and beverages,96530.0,5,Credit card,4.761904762
+130-67-4723,01/11/19,52,A,Jakarta,Member,Male,Food and beverages,339500.0,6,Ewallet,4.761904762
+592-46-1692,01/11/19,234,C,Bogor,Member,Female,Food and beverages,257390.00000000003,7,Cash,4.761904762
+406-46-7107,01/11/19,23,A,Jakarta,Normal,Female,Home and lifestyle,675640.0,6,Cash,4.761904762
+746-68-6593,01/11/19,234,C,Bogor,Member,Female,Sports and travel,610120.0,2,Credit card,4.761904762
+478-06-7835,01/11/19,18,A,Jakarta,Normal,Male,Fashion accessories,627830.0,1,Ewallet,4.761904762
+540-11-4336,01/11/19,8,A,Jakarta,Normal,Male,Food and beverages,174580.0,9,Credit card,4.761904762
+289-15-7034,01/11/19,48,A,Jakarta,Member,Male,Sports and travel,576310.0,4,Credit card,4.761904762
+732-67-5346,01/11/19,18,A,Jakarta,Normal,Male,Food and beverages,96530.0,5,Credit card,4.761904762
+130-67-4723,01/11/19,57,A,Jakarta,Member,Male,Food and beverages,339500.0,6,Ewallet,4.761904762
+592-46-1692,01/11/19,222,C,Bogor,Member,Female,Food and beverages,257390.00000000003,7,Cash,4.761904762
+406-46-7107,01/11/19,31,A,Jakarta,Normal,Female,Home and lifestyle,675640.0,6,Cash,4.761904762
+381-20-0914,01/12/19,69,A,Jakarta,Member,Female,Fashion accessories,140070.0,9,Credit card,4.761904762
+704-48-3927,01/12/19,60,A,Jakarta,Member,Male,Electronic accessories,620690.0,10,Ewallet,4.761904762
+659-36-1684,01/12/19,203,C,Bogor,Member,Male,Sports and travel,399840.0,7,Credit card,4.761904762
+848-07-1692,01/12/19,110,B,Bekasi,Normal,Female,Health and beauty,400540.0,2,Ewallet,4.761904762
+296-11-7041,01/12/19,160,B,Bekasi,Member,Female,Health and beauty,189490.0,1,Credit card,4.761904762
+647-50-1224,01/12/19,31,A,Jakarta,Normal,Female,Fashion accessories,205940.0,10,Ewallet,4.761904762
+852-62-7105,01/12/19,116,B,Bekasi,Normal,Female,Fashion accessories,582750.0,10,Credit card,4.761904762
+751-41-9720,01/12/19,165,C,Bogor,Normal,Male,Home and lifestyle,682500.0,10,Ewallet,4.761904762
+197-77-7132,01/12/19,131,B,Bekasi,Member,Male,Electronic accessories,640920.0,8,Ewallet,4.761904762
+751-15-6198,01/12/19,93,B,Bekasi,Normal,Male,Sports and travel,161070.0,6,Ewallet,4.761904762
+533-66-5566,01/12/19,103,B,Bekasi,Normal,Female,Home and lifestyle,357490.0,7,Cash,4.761904762
+848-07-1692,01/12/19,103,B,Bekasi,Normal,Female,Health and beauty,400540.0,2,Ewallet,4.761904762
+296-11-7041,01/12/19,147,B,Bekasi,Member,Female,Health and beauty,189490.0,1,Credit card,4.761904762
+647-50-1224,01/12/19,33,A,Jakarta,Normal,Female,Fashion accessories,205940.0,10,Ewallet,4.761904762
+852-62-7105,01/12/19,120,B,Bekasi,Normal,Female,Fashion accessories,582750.0,10,Credit card,4.761904762
+751-41-9720,01/12/19,176,C,Bogor,Normal,Male,Home and lifestyle,682500.0,10,Ewallet,4.761904762
+197-77-7132,01/12/19,137,B,Bekasi,Member,Male,Electronic accessories,640920.0,8,Ewallet,4.761904762
+751-15-6198,01/12/19,92,B,Bekasi,Normal,Male,Sports and travel,161070.0,6,Ewallet,4.761904762
+533-66-5566,01/12/19,113,B,Bekasi,Normal,Female,Home and lifestyle,357490.0,7,Cash,4.761904762
+732-94-0499,01/13/19,185,C,Bogor,Normal,Female,Electronic accessories,291550.0,10,Credit card,4.761904762
+556-86-3144,01/13/19,224,C,Bogor,Member,Female,Fashion accessories,520030.00000000006,1,Cash,4.761904762
+459-50-7686,01/13/19,21,A,Jakarta,Normal,Female,Electronic accessories,164220.0,6,Ewallet,4.761904762
+339-38-9982,01/13/19,121,B,Bekasi,Member,Male,Fashion accessories,419020.0,2,Ewallet,4.761904762
+355-34-6244,01/13/19,93,B,Bekasi,Normal,Male,Food and beverages,506730.0,2,Credit card,4.761904762
+327-40-9673,01/13/19,129,B,Bekasi,Member,Male,Sports and travel,508199.99999999994,6,Cash,4.761904762
+460-93-5834,01/13/19,6,A,Jakarta,Normal,Male,Sports and travel,319060.0,7,Cash,4.761904762
+397-25-8725,01/13/19,62,A,Jakarta,Member,Female,Health and beauty,277340.0,9,Credit card,4.761904762
+784-08-0310,01/13/19,221,C,Bogor,Member,Female,Food and beverages,147280.0,4,Cash,4.761904762
+195-06-0432,01/13/19,57,A,Jakarta,Member,Male,Home and lifestyle,567070.0,3,Credit card,4.761904762
+556-86-3144,01/13/19,239,C,Bogor,Member,Female,Fashion accessories,520030.00000000006,1,Cash,4.761904762
+459-50-7686,01/13/19,40,A,Jakarta,Normal,Female,Electronic accessories,164220.0,6,Ewallet,4.761904762
+339-38-9982,01/13/19,130,B,Bekasi,Member,Male,Fashion accessories,419020.0,2,Ewallet,4.761904762
+355-34-6244,01/13/19,87,B,Bekasi,Normal,Male,Food and beverages,506730.0,2,Credit card,4.761904762
+327-40-9673,01/13/19,122,B,Bekasi,Member,Male,Sports and travel,508199.99999999994,6,Cash,4.761904762
+460-93-5834,01/13/19,4,A,Jakarta,Normal,Male,Sports and travel,319060.0,7,Cash,4.761904762
+397-25-8725,01/13/19,63,A,Jakarta,Member,Female,Health and beauty,277340.0,9,Credit card,4.761904762
+784-08-0310,01/13/19,228,C,Bogor,Member,Female,Food and beverages,147280.0,4,Cash,4.761904762
+195-06-0432,01/13/19,60,A,Jakarta,Member,Male,Home and lifestyle,567070.0,3,Credit card,4.761904762
+426-39-2418,01/14/19,173,C,Bogor,Normal,Male,Electronic accessories,429870.0,7,Cash,4.761904762
+785-13-7708,01/14/19,99,B,Bekasi,Normal,Male,Food and beverages,511420.0,7,Credit card,4.761904762
+667-23-5919,01/14/19,77,A,Jakarta,Member,Female,Fashion accessories,676900.0,5,Ewallet,4.761904762
+868-52-7573,01/14/19,107,B,Bekasi,Normal,Female,Food and beverages,697830.0,5,Cash,4.761904762
+592-34-6155,01/14/19,178,C,Bogor,Normal,Male,Food and beverages,222390.0,4,Ewallet,4.761904762
+359-90-3665,01/14/19,155,B,Bekasi,Member,Female,Fashion accessories,126559.99999999999,4,Credit card,4.761904762
+588-47-8641,01/14/19,53,A,Jakarta,Member,Male,Fashion accessories,392280.0,10,Ewallet,4.761904762
+320-85-2052,01/14/19,117,B,Bekasi,Normal,Female,Sports and travel,243670.00000000003,1,Credit card,4.761904762
+451-73-2711,01/14/19,172,C,Bogor,Normal,Male,Food and beverages,593810.0,1,Ewallet,4.761904762
+704-10-4056,01/14/19,218,C,Bogor,Member,Male,Health and beauty,423290.0,3,Credit card,4.761904762
+559-61-5987,01/14/19,116,B,Bekasi,Normal,Female,Health and beauty,124250.0,1,Cash,4.761904762
+658-66-3967,01/14/19,171,C,Bogor,Normal,Male,Health and beauty,372330.0,7,Ewallet,4.761904762
+377-79-7592,01/14/19,240,C,Bogor,Member,Female,Electronic accessories,313880.0,9,Credit card,4.761904762
+426-39-2418,01/14/19,169,C,Bogor,Normal,Male,Electronic accessories,429870.0,7,Cash,4.761904762
+785-13-7708,01/14/19,97,B,Bekasi,Normal,Male,Food and beverages,511420.0,7,Credit card,4.761904762
+667-23-5919,01/14/19,65,A,Jakarta,Member,Female,Fashion accessories,676900.0,5,Ewallet,4.761904762
+868-52-7573,01/14/19,114,B,Bekasi,Normal,Female,Food and beverages,697830.0,5,Cash,4.761904762
+592-34-6155,01/14/19,177,C,Bogor,Normal,Male,Food and beverages,222390.0,4,Ewallet,4.761904762
+359-90-3665,01/14/19,159,B,Bekasi,Member,Female,Fashion accessories,126559.99999999999,4,Credit card,4.761904762
+588-47-8641,01/14/19,54,A,Jakarta,Member,Male,Fashion accessories,392280.0,10,Ewallet,4.761904762
+320-85-2052,01/14/19,101,B,Bekasi,Normal,Female,Sports and travel,243670.00000000003,1,Credit card,4.761904762
+451-73-2711,01/14/19,174,C,Bogor,Normal,Male,Food and beverages,593810.0,1,Ewallet,4.761904762
+704-10-4056,01/14/19,211,C,Bogor,Member,Male,Health and beauty,423290.0,3,Credit card,4.761904762
+559-61-5987,01/14/19,117,B,Bekasi,Normal,Female,Health and beauty,124250.0,1,Cash,4.761904762
+658-66-3967,01/14/19,165,C,Bogor,Normal,Male,Health and beauty,372330.0,7,Ewallet,4.761904762
+377-79-7592,01/14/19,222,C,Bogor,Member,Female,Electronic accessories,313880.0,9,Credit card,4.761904762
+299-46-1805,01/15/19,143,B,Bekasi,Member,Female,Sports and travel,656040.0,6,Cash,4.761904762
+272-65-1806,01/15/19,24,A,Jakarta,Normal,Female,Electronic accessories,426160.0,9,Ewallet,4.761904762
+437-58-8131,01/15/19,114,B,Bekasi,Normal,Female,Fashion accessories,514640.0,2,Ewallet,4.761904762
+450-28-2866,01/15/19,219,C,Bogor,Member,Male,Food and beverages,122080.00000000001,5,Cash,4.761904762
+138-17-5109,01/15/19,70,A,Jakarta,Member,Female,Home and lifestyle,624470.0,9,Credit card,4.761904762
+301-11-9629,01/15/19,38,A,Jakarta,Normal,Female,Sports and travel,133700.0,7,Cash,4.761904762
+589-02-8023,01/15/19,59,A,Jakarta,Member,Male,Food and beverages,586390.0,2,Credit card,4.761904762
+188-55-0967,01/15/19,133,B,Bekasi,Member,Male,Health and beauty,465290.0,10,Credit card,4.761904762
+369-82-2676,01/15/19,88,B,Bekasi,Normal,Male,Electronic accessories,529620.0,5,Ewallet,4.761904762
+314-23-4520,01/15/19,217,C,Bogor,Member,Male,Health and beauty,568610.0,7,Cash,4.761904762
+886-54-6089,01/15/19,34,A,Jakarta,Normal,Female,Home and lifestyle,80010.0,6,Cash,4.761904762
+744-16-7898,01/15/19,109,B,Bekasi,Normal,Female,Home and lifestyle,681590.0,10,Credit card,4.761904762
+660-29-7083,01/15/19,161,C,Bogor,Normal,Male,Electronic accessories,391090.0,10,Cash,4.761904762
+437-58-8131,01/15/19,106,B,Bekasi,Normal,Female,Fashion accessories,514640.0,2,Ewallet,4.761904762
+450-28-2866,01/15/19,217,C,Bogor,Member,Male,Food and beverages,122080.00000000001,5,Cash,4.761904762
+138-17-5109,01/15/19,64,A,Jakarta,Member,Female,Home and lifestyle,624470.0,9,Credit card,4.761904762
+301-11-9629,01/15/19,39,A,Jakarta,Normal,Female,Sports and travel,133700.0,7,Cash,4.761904762
+589-02-8023,01/15/19,57,A,Jakarta,Member,Male,Food and beverages,586390.0,2,Credit card,4.761904762
+188-55-0967,01/15/19,126,B,Bekasi,Member,Male,Health and beauty,465290.0,10,Credit card,4.761904762
+369-82-2676,01/15/19,85,B,Bekasi,Normal,Male,Electronic accessories,529620.0,5,Ewallet,4.761904762
+314-23-4520,01/15/19,203,C,Bogor,Member,Male,Health and beauty,568610.0,7,Cash,4.761904762
+886-54-6089,01/15/19,30,A,Jakarta,Normal,Female,Home and lifestyle,80010.0,6,Cash,4.761904762
+744-16-7898,01/15/19,110,B,Bekasi,Normal,Female,Home and lifestyle,681590.0,10,Credit card,4.761904762
+660-29-7083,01/15/19,172,C,Bogor,Normal,Male,Electronic accessories,391090.0,10,Cash,4.761904762
+659-65-8956,01/16/19,127,B,Bekasi,Member,Male,Fashion accessories,359520.0,1,Ewallet,4.761904762
+234-65-2137,01/16/19,164,C,Bogor,Normal,Male,Home and lifestyle,669060.0,10,Cash,4.761904762
+677-11-0152,01/16/19,181,C,Bogor,Normal,Female,Food and beverages,652820.0,9,Cash,4.761904762
+347-72-6115,01/16/19,156,B,Bekasi,Member,Female,Sports and travel,635180.0,7,Credit card,4.761904762
+286-62-6248,01/16/19,84,B,Bekasi,Normal,Male,Fashion accessories,274470.0,4,Credit card,4.761904762
+859-71-0933,01/16/19,221,C,Bogor,Member,Female,Sports and travel,108430.0,2,Cash,4.761904762
+842-29-4695,01/16/19,217,C,Bogor,Member,Male,Sports and travel,119980.0,7,Credit card,4.761904762
+648-83-1321,01/16/19,53,A,Jakarta,Member,Male,Home and lifestyle,444920.0,10,Cash,4.761904762
+372-62-5264,01/16/19,194,C,Bogor,Normal,Female,Food and beverages,368200.0,9,Cash,4.761904762
+618-34-8551,01/16/19,28,A,Jakarta,Normal,Female,Sports and travel,652260.0,2,Credit card,4.761904762
+677-11-0152,01/16/19,199,C,Bogor,Normal,Female,Food and beverages,652820.0,9,Cash,4.761904762
+347-72-6115,01/16/19,142,B,Bekasi,Member,Female,Sports and travel,635180.0,7,Credit card,4.761904762
+286-62-6248,01/16/19,98,B,Bekasi,Normal,Male,Fashion accessories,274470.0,4,Credit card,4.761904762
+859-71-0933,01/16/19,235,C,Bogor,Member,Female,Sports and travel,108430.0,2,Cash,4.761904762
+842-29-4695,01/16/19,215,C,Bogor,Member,Male,Sports and travel,119980.0,7,Credit card,4.761904762
+648-83-1321,01/16/19,50,A,Jakarta,Member,Male,Home and lifestyle,444920.0,10,Cash,4.761904762
+372-62-5264,01/16/19,198,C,Bogor,Normal,Female,Food and beverages,368200.0,9,Cash,4.761904762
+618-34-8551,01/16/19,40,A,Jakarta,Normal,Female,Sports and travel,652260.0,2,Credit card,4.761904762
+280-35-5823,01/17/19,146,B,Bekasi,Member,Female,Home and lifestyle,607040.0,1,Ewallet,4.761904762
+746-54-5508,01/17/19,13,A,Jakarta,Normal,Male,Home and lifestyle,150640.0,6,Credit card,4.761904762
+600-38-9738,01/17/19,212,C,Bogor,Member,Male,Sports and travel,503440.0,5,Credit card,4.761904762
+698-98-5964,01/17/19,32,A,Jakarta,Normal,Female,Food and beverages,568470.0,10,Credit card,4.761904762
+349-97-8902,01/17/19,138,B,Bekasi,Member,Male,Food and beverages,405230.0,2,Ewallet,4.761904762
+670-79-6321,01/17/19,152,B,Bekasi,Member,Female,Home and lifestyle,662130.0,7,Credit card,4.761904762
+679-22-6530,01/17/19,113,B,Bekasi,Normal,Female,Sports and travel,284340.0,2,Credit card,4.761904762
+445-30-9252,01/17/19,3,A,Jakarta,Normal,Male,Sports and travel,179900.0,3,Ewallet,4.761904762
+200-16-5952,01/17/19,212,C,Bogor,Member,Male,Food and beverages,459550.00000000006,2,Cash,4.761904762
+497-37-6538,01/17/19,3,A,Jakarta,Normal,Male,Sports and travel,412370.0,7,Ewallet,4.761904762
+101-81-4070,01/17/19,236,C,Bogor,Member,Female,Health and beauty,439740.0,2,Ewallet,4.761904762
+746-54-5508,01/17/19,20,A,Jakarta,Normal,Male,Home and lifestyle,150640.0,6,Credit card,4.761904762
+600-38-9738,01/17/19,220,C,Bogor,Member,Male,Sports and travel,503440.0,5,Credit card,4.761904762
+698-98-5964,01/17/19,25,A,Jakarta,Normal,Female,Food and beverages,568470.0,10,Credit card,4.761904762
+349-97-8902,01/17/19,128,B,Bekasi,Member,Male,Food and beverages,405230.0,2,Ewallet,4.761904762
+670-79-6321,01/17/19,143,B,Bekasi,Member,Female,Home and lifestyle,662130.0,7,Credit card,4.761904762
+679-22-6530,01/17/19,103,B,Bekasi,Normal,Female,Sports and travel,284340.0,2,Credit card,4.761904762
+445-30-9252,01/17/19,19,A,Jakarta,Normal,Male,Sports and travel,179900.0,3,Ewallet,4.761904762
+200-16-5952,01/17/19,216,C,Bogor,Member,Male,Food and beverages,459550.00000000006,2,Cash,4.761904762
+497-37-6538,01/17/19,11,A,Jakarta,Normal,Male,Sports and travel,412370.0,7,Ewallet,4.761904762
+101-81-4070,01/17/19,232,C,Bogor,Member,Female,Health and beauty,439740.0,2,Ewallet,4.761904762
+700-81-1757,01/18/19,37,A,Jakarta,Normal,Female,Electronic accessories,184170.0,5,Credit card,4.761904762
+414-12-7047,01/18/19,82,B,Bekasi,Normal,Male,Food and beverages,138530.0,8,Ewallet,4.761904762
+622-20-1945,01/18/19,187,C,Bogor,Normal,Female,Health and beauty,275940.0,1,Cash,4.761904762
+706-36-6154,01/18/19,60,A,Jakarta,Member,Male,Home and lifestyle,135520.0,9,Ewallet,4.761904762
+562-12-5430,01/18/19,63,A,Jakarta,Member,Female,Fashion accessories,617050.0,3,Ewallet,4.761904762
+821-14-9046,01/18/19,152,B,Bekasi,Member,Female,Fashion accessories,122360.0,6,Credit card,4.761904762
+678-79-0726,01/18/19,223,C,Bogor,Member,Female,Sports and travel,634410.0,9,Cash,4.761904762
+166-19-2553,01/18/19,41,A,Jakarta,Member,Male,Sports and travel,623420.0,6,Cash,4.761904762
+781-84-8059,01/18/19,179,C,Bogor,Normal,Male,Fashion accessories,425180.0,7,Ewallet,4.761904762
+414-12-7047,01/18/19,91,B,Bekasi,Normal,Male,Food and beverages,138530.0,8,Ewallet,4.761904762
+622-20-1945,01/18/19,195,C,Bogor,Normal,Female,Health and beauty,275940.0,1,Cash,4.761904762
+706-36-6154,01/18/19,59,A,Jakarta,Member,Male,Home and lifestyle,135520.0,9,Ewallet,4.761904762
+562-12-5430,01/18/19,77,A,Jakarta,Member,Female,Fashion accessories,617050.0,3,Ewallet,4.761904762
+821-14-9046,01/18/19,145,B,Bekasi,Member,Female,Fashion accessories,122360.0,6,Credit card,4.761904762
+678-79-0726,01/18/19,240,C,Bogor,Member,Female,Sports and travel,634410.0,9,Cash,4.761904762
+166-19-2553,01/18/19,52,A,Jakarta,Member,Male,Sports and travel,623420.0,6,Cash,4.761904762
+781-84-8059,01/18/19,178,C,Bogor,Normal,Male,Fashion accessories,425180.0,7,Ewallet,4.761904762
+645-44-1170,01/19/19,60,A,Jakarta,Member,Male,Home and lifestyle,406490.0,9,Ewallet,4.761904762
+894-41-5205,01/19/19,198,C,Bogor,Normal,Female,Food and beverages,302260.0,8,Credit card,4.761904762
+796-32-9050,01/19/19,9,A,Jakarta,Normal,Male,Food and beverages,358960.0,6,Cash,4.761904762
+608-27-6295,01/19/19,131,B,Bekasi,Member,Male,Electronic accessories,370230.0,6,Credit card,4.761904762
+779-06-0012,01/19/19,230,C,Bogor,Member,Female,Home and lifestyle,620270.0,1,Cash,4.761904762
+882-40-4577,01/19/19,51,A,Jakarta,Member,Male,Sports and travel,470820.00000000006,4,Credit card,4.761904762
+375-72-3056,01/19/19,82,B,Bekasi,Normal,Male,Sports and travel,441420.0,3,Ewallet,4.761904762
+284-54-4231,01/19/19,218,C,Bogor,Member,Male,Sports and travel,566510.0,1,Credit card,4.761904762
+149-61-1929,01/19/19,8,A,Jakarta,Normal,Male,Sports and travel,449330.0,10,Credit card,4.761904762
+482-17-1179,01/19/19,53,A,Jakarta,Member,Male,Electronic accessories,83580.0,3,Credit card,4.761904762
+832-51-6761,01/19/19,8,A,Jakarta,Normal,Male,Food and beverages,237160.00000000003,8,Ewallet,4.761904762
+125-45-2293,01/19/19,24,A,Jakarta,Normal,Female,Fashion accessories,693700.0,6,Cash,4.761904762
+761-49-0439,01/19/19,151,B,Bekasi,Member,Female,Electronic accessories,84700.0,8,Ewallet,4.761904762
+151-27-8496,01/19/19,189,C,Bogor,Normal,Female,Electronic accessories,392910.0,4,Ewallet,4.761904762
+809-69-9497,01/19/19,28,A,Jakarta,Normal,Female,Home and lifestyle,319760.0,10,Ewallet,4.761904762
+728-47-9078,01/19/19,219,C,Bogor,Member,Male,Food and beverages,417130.0,4,Cash,4.761904762
+779-06-0012,01/19/19,229,C,Bogor,Member,Female,Home and lifestyle,620270.0,1,Cash,4.761904762
+882-40-4577,01/19/19,55,A,Jakarta,Member,Male,Sports and travel,470820.00000000006,4,Credit card,4.761904762
+375-72-3056,01/19/19,89,B,Bekasi,Normal,Male,Sports and travel,441420.0,3,Ewallet,4.761904762
+284-54-4231,01/19/19,206,C,Bogor,Member,Male,Sports and travel,566510.0,1,Credit card,4.761904762
+149-61-1929,01/19/19,5,A,Jakarta,Normal,Male,Sports and travel,449330.0,10,Credit card,4.761904762
+482-17-1179,01/19/19,53,A,Jakarta,Member,Male,Electronic accessories,83580.0,3,Credit card,4.761904762
+832-51-6761,01/19/19,1,A,Jakarta,Normal,Male,Food and beverages,237160.00000000003,8,Ewallet,4.761904762
+125-45-2293,01/19/19,28,A,Jakarta,Normal,Female,Fashion accessories,693700.0,6,Cash,4.761904762
+761-49-0439,01/19/19,153,B,Bekasi,Member,Female,Electronic accessories,84700.0,8,Ewallet,4.761904762
+151-27-8496,01/19/19,188,C,Bogor,Normal,Female,Electronic accessories,392910.0,4,Ewallet,4.761904762
+809-69-9497,01/19/19,35,A,Jakarta,Normal,Female,Home and lifestyle,319760.0,10,Ewallet,4.761904762
+728-47-9078,01/19/19,213,C,Bogor,Member,Male,Food and beverages,417130.0,4,Cash,4.761904762
+817-48-8732,01/20/19,63,A,Jakarta,Member,Female,Home and lifestyle,506449.99999999994,10,Cash,4.761904762
+378-24-2715,01/20/19,82,B,Bekasi,Normal,Male,Home and lifestyle,374080.0,2,Ewallet,4.761904762
+645-78-8093,01/20/19,24,A,Jakarta,Normal,Female,Sports and travel,651980.0,2,Ewallet,4.761904762
+725-96-3778,01/20/19,233,C,Bogor,Member,Female,Home and lifestyle,624750.0,8,Cash,4.761904762
+257-73-1380,01/20/19,208,C,Bogor,Member,Male,Sports and travel,580510.0,4,Ewallet,4.761904762
+356-44-8813,01/20/19,94,B,Bekasi,Normal,Male,Home and lifestyle,262360.0,3,Credit card,4.761904762
+760-27-5490,01/20/19,177,C,Bogor,Normal,Male,Fashion accessories,109340.0,8,Ewallet,4.761904762
+410-67-1709,01/20/19,62,A,Jakarta,Member,Female,Fashion accessories,447160.0,8,Ewallet,4.761904762
+787-87-2010,01/20/19,46,A,Jakarta,Member,Male,Health and beauty,388500.0,4,Credit card,4.761904762
+458-10-8612,01/20/19,174,C,Bogor,Normal,Male,Health and beauty,448560.0,7,Ewallet,4.761904762
+645-78-8093,01/20/19,24,A,Jakarta,Normal,Female,Sports and travel,651980.0,2,Ewallet,4.761904762
+725-96-3778,01/20/19,235,C,Bogor,Member,Female,Home and lifestyle,624750.0,8,Cash,4.761904762
+257-73-1380,01/20/19,210,C,Bogor,Member,Male,Sports and travel,580510.0,4,Ewallet,4.761904762
+356-44-8813,01/20/19,92,B,Bekasi,Normal,Male,Home and lifestyle,262360.0,3,Credit card,4.761904762
+760-27-5490,01/20/19,176,C,Bogor,Normal,Male,Fashion accessories,109340.0,8,Ewallet,4.761904762
+410-67-1709,01/20/19,65,A,Jakarta,Member,Female,Fashion accessories,447160.0,8,Ewallet,4.761904762
+787-87-2010,01/20/19,44,A,Jakarta,Member,Male,Health and beauty,388500.0,4,Credit card,4.761904762
+458-10-8612,01/20/19,176,C,Bogor,Normal,Male,Health and beauty,448560.0,7,Ewallet,4.761904762
+329-62-1586,01/21/19,1,A,Jakarta,Normal,Male,Food and beverages,382690.0,3,Credit card,4.761904762
+870-72-4431,01/21/19,194,C,Bogor,Normal,Female,Health and beauty,694330.0,6,Credit card,4.761904762
+239-10-7476,01/21/19,24,A,Jakarta,Normal,Female,Home and lifestyle,545650.0,6,Ewallet,4.761904762
+316-68-6352,01/21/19,61,A,Jakarta,Member,Female,Food and beverages,254520.0,2,Cash,4.761904762
+462-67-9126,01/21/19,4,A,Jakarta,Normal,Male,Home and lifestyle,512540.0,6,Cash,4.761904762
+269-10-8440,01/21/19,41,A,Jakarta,Member,Male,Health and beauty,372190.0,7,Cash,4.761904762
+401-18-8016,01/21/19,143,B,Bekasi,Member,Female,Sports and travel,686910.0,1,Cash,4.761904762
+162-65-8559,01/21/19,220,C,Bogor,Member,Male,Food and beverages,482860.0,1,Cash,4.761904762
+316-68-6352,01/21/19,73,A,Jakarta,Member,Female,Food and beverages,254520.0,2,Cash,4.761904762
+462-67-9126,01/21/19,6,A,Jakarta,Normal,Male,Home and lifestyle,512540.0,6,Cash,4.761904762
+269-10-8440,01/21/19,50,A,Jakarta,Member,Male,Health and beauty,372190.0,7,Cash,4.761904762
+401-18-8016,01/21/19,146,B,Bekasi,Member,Female,Sports and travel,686910.0,1,Cash,4.761904762
+162-65-8559,01/21/19,205,C,Bogor,Member,Male,Food and beverages,482860.0,1,Cash,4.761904762
+287-21-9091,01/22/19,4,A,Jakarta,Normal,Male,Home and lifestyle,522690.0,9,Ewallet,4.761904762
+756-01-7507,01/22/19,186,C,Bogor,Normal,Female,Health and beauty,142660.0,5,Cash,4.761904762
+186-09-3669,01/22/19,240,C,Bogor,Member,Female,Health and beauty,570570.0,1,Ewallet,4.761904762
+521-18-7827,01/22/19,202,C,Bogor,Member,Male,Home and lifestyle,275730.0,5,Credit card,4.761904762
+460-35-4390,01/22/19,17,A,Jakarta,Normal,Male,Home and lifestyle,214760.0,3,Ewallet,4.761904762
+563-47-4072,01/22/19,102,B,Bekasi,Normal,Female,Health and beauty,390670.0,6,Cash,4.761904762
+120-54-2248,01/22/19,110,B,Bekasi,Normal,Female,Food and beverages,202020.0,5,Credit card,4.761904762
+186-09-3669,01/22/19,237,C,Bogor,Member,Female,Health and beauty,570570.0,1,Ewallet,4.761904762
+521-18-7827,01/22/19,213,C,Bogor,Member,Male,Home and lifestyle,275730.0,5,Credit card,4.761904762
+460-35-4390,01/22/19,15,A,Jakarta,Normal,Male,Home and lifestyle,214760.0,3,Ewallet,4.761904762
+563-47-4072,01/22/19,101,B,Bekasi,Normal,Female,Health and beauty,390670.0,6,Cash,4.761904762
+120-54-2248,01/22/19,118,B,Bekasi,Normal,Female,Food and beverages,202020.0,5,Credit card,4.761904762
+480-63-2856,01/23/19,180,C,Bogor,Normal,Male,Food and beverages,134750.0,8,Ewallet,4.761904762
+565-80-5980,01/23/19,231,C,Bogor,Member,Female,Home and lifestyle,331660.0,4,Cash,4.761904762
+731-81-9469,01/23/19,221,C,Bogor,Member,Female,Sports and travel,628600.0,10,Credit card,4.761904762
+434-83-9547,01/23/19,216,C,Bogor,Member,Male,Food and beverages,269290.0,8,Cash,4.761904762
+604-70-6476,01/23/19,46,A,Jakarta,Member,Male,Fashion accessories,125580.00000000001,5,Ewallet,4.761904762
+740-22-2500,01/23/19,200,C,Bogor,Normal,Female,Electronic accessories,588350.0,3,Cash,4.761904762
+767-05-1286,01/23/19,236,C,Bogor,Member,Female,Home and lifestyle,586390.0,6,Ewallet,4.761904762
+213-32-1216,01/23/19,40,A,Jakarta,Normal,Female,Electronic accessories,462420.0,6,Cash,4.761904762
+219-61-4139,01/23/19,161,C,Bogor,Normal,Male,Electronic accessories,581560.0,1,Ewallet,4.761904762
+318-12-0304,01/23/19,3,A,Jakarta,Normal,Male,Fashion accessories,214270.0,1,Ewallet,4.761904762
+828-46-6863,01/23/19,54,A,Jakarta,Member,Male,Food and beverages,689710.0,6,Credit card,4.761904762
+790-38-4466,01/23/19,193,C,Bogor,Normal,Female,Health and beauty,76930.0,5,Credit card,4.761904762
+477-59-2456,01/23/19,183,C,Bogor,Normal,Female,Fashion accessories,318080.0,7,Cash,4.761904762
+160-22-2687,01/23/19,62,A,Jakarta,Member,Female,Health and beauty,671650.0,5,Ewallet,4.761904762
+316-66-3011,01/23/19,78,A,Jakarta,Member,Female,Food and beverages,333410.0,9,Cash,4.761904762
+809-46-1866,01/23/19,1,A,Jakarta,Normal,Male,Health and beauty,407050.0,4,Cash,4.761904762
+148-41-7930,01/23/19,173,C,Bogor,Normal,Male,Health and beauty,699720.0,7,Cash,4.761904762
+434-83-9547,01/23/19,213,C,Bogor,Member,Male,Food and beverages,269290.0,8,Cash,4.761904762
+604-70-6476,01/23/19,56,A,Jakarta,Member,Male,Fashion accessories,125580.00000000001,5,Ewallet,4.761904762
+740-22-2500,01/23/19,190,C,Bogor,Normal,Female,Electronic accessories,588350.0,3,Cash,4.761904762
+767-05-1286,01/23/19,221,C,Bogor,Member,Female,Home and lifestyle,586390.0,6,Ewallet,4.761904762
+213-32-1216,01/23/19,27,A,Jakarta,Normal,Female,Electronic accessories,462420.0,6,Cash,4.761904762
+219-61-4139,01/23/19,169,C,Bogor,Normal,Male,Electronic accessories,581560.0,1,Ewallet,4.761904762
+318-12-0304,01/23/19,15,A,Jakarta,Normal,Male,Fashion accessories,214270.0,1,Ewallet,4.761904762
+828-46-6863,01/23/19,41,A,Jakarta,Member,Male,Food and beverages,689710.0,6,Credit card,4.761904762
+790-38-4466,01/23/19,191,C,Bogor,Normal,Female,Health and beauty,76930.0,5,Credit card,4.761904762
+477-59-2456,01/23/19,190,C,Bogor,Normal,Female,Fashion accessories,318080.0,7,Cash,4.761904762
+160-22-2687,01/23/19,79,A,Jakarta,Member,Female,Health and beauty,671650.0,5,Ewallet,4.761904762
+316-66-3011,01/23/19,61,A,Jakarta,Member,Female,Food and beverages,333410.0,9,Cash,4.761904762
+809-46-1866,01/23/19,19,A,Jakarta,Normal,Male,Health and beauty,407050.0,4,Cash,4.761904762
+148-41-7930,01/23/19,177,C,Bogor,Normal,Male,Health and beauty,699720.0,7,Cash,4.761904762
+232-11-3025,01/24/19,11,A,Jakarta,Normal,Male,Sports and travel,551390.0,10,Cash,4.761904762
+139-20-0155,01/24/19,129,B,Bekasi,Member,Male,Electronic accessories,282100.0,10,Credit card,4.761904762
+726-27-2396,01/24/19,29,A,Jakarta,Normal,Female,Health and beauty,542500.0,5,Ewallet,4.761904762
+435-13-4908,01/24/19,54,A,Jakarta,Member,Male,Fashion accessories,606760.0,8,Credit card,4.761904762
+789-23-8625,01/24/19,128,B,Bekasi,Member,Male,Fashion accessories,652540.0,3,Cash,4.761904762
+510-79-0415,01/24/19,148,B,Bekasi,Member,Female,Sports and travel,161560.0,6,Ewallet,4.761904762
+438-23-1242,01/24/19,84,B,Bekasi,Normal,Male,Electronic accessories,531160.0,7,Ewallet,4.761904762
+775-72-1988,01/24/19,87,B,Bekasi,Normal,Male,Home and lifestyle,512960.0,5,Ewallet,4.761904762
+443-60-9639,01/24/19,234,C,Bogor,Member,Female,Home and lifestyle,426090.0,1,Cash,4.761904762
+778-34-2523,01/24/19,78,A,Jakarta,Member,Female,Electronic accessories,340340.0,8,Cash,4.761904762
+237-44-6163,01/24/19,10,A,Jakarta,Normal,Male,Electronic accessories,73920.0,8,Cash,4.761904762
+235-06-8510,01/24/19,208,C,Bogor,Member,Male,Home and lifestyle,600040.0,3,Ewallet,4.761904762
+602-16-6955,01/24/19,115,B,Bekasi,Normal,Female,Sports and travel,536200.0,10,Ewallet,4.761904762
+139-20-0155,01/24/19,132,B,Bekasi,Member,Male,Electronic accessories,282100.0,10,Credit card,4.761904762
+726-27-2396,01/24/19,36,A,Jakarta,Normal,Female,Health and beauty,542500.0,5,Ewallet,4.761904762
+435-13-4908,01/24/19,43,A,Jakarta,Member,Male,Fashion accessories,606760.0,8,Credit card,4.761904762
+789-23-8625,01/24/19,121,B,Bekasi,Member,Male,Fashion accessories,652540.0,3,Cash,4.761904762
+510-79-0415,01/24/19,145,B,Bekasi,Member,Female,Sports and travel,161560.0,6,Ewallet,4.761904762
+438-23-1242,01/24/19,87,B,Bekasi,Normal,Male,Electronic accessories,531160.0,7,Ewallet,4.761904762
+775-72-1988,01/24/19,87,B,Bekasi,Normal,Male,Home and lifestyle,512960.0,5,Ewallet,4.761904762
+443-60-9639,01/24/19,237,C,Bogor,Member,Female,Home and lifestyle,426090.0,1,Cash,4.761904762
+778-34-2523,01/24/19,79,A,Jakarta,Member,Female,Electronic accessories,340340.0,8,Cash,4.761904762
+237-44-6163,01/24/19,13,A,Jakarta,Normal,Male,Electronic accessories,73920.0,8,Cash,4.761904762
+235-06-8510,01/24/19,211,C,Bogor,Member,Male,Home and lifestyle,600040.0,3,Ewallet,4.761904762
+602-16-6955,01/24/19,105,B,Bekasi,Normal,Female,Sports and travel,536200.0,10,Ewallet,4.761904762
+145-94-9061,01/25/19,118,B,Bekasi,Normal,Female,Food and beverages,618520.0,5,Cash,4.761904762
+778-71-5554,01/25/19,220,C,Bogor,Member,Male,Fashion accessories,108010.0,1,Credit card,4.761904762
+191-10-6171,01/25/19,120,B,Bekasi,Normal,Female,Fashion accessories,277340.0,7,Cash,4.761904762
+280-17-4359,01/25/19,211,C,Bogor,Member,Male,Health and beauty,633500.0,10,Cash,4.761904762
+824-88-3614,01/25/19,175,C,Bogor,Normal,Male,Health and beauty,240170.00000000003,8,Ewallet,4.761904762
+888-02-0338,01/25/19,17,A,Jakarta,Normal,Male,Electronic accessories,183610.0,9,Ewallet,4.761904762
+283-79-9594,01/25/19,119,B,Bekasi,Normal,Female,Food and beverages,339570.0,7,Credit card,4.761904762
+307-83-9164,01/25/19,60,A,Jakarta,Member,Male,Home and lifestyle,420070.0,4,Cash,4.761904762
+730-61-8757,01/25/19,139,B,Bekasi,Member,Male,Health and beauty,357910.0,4,Credit card,4.761904762
+261-12-8671,01/25/19,113,B,Bekasi,Normal,Female,Fashion accessories,426720.0,2,Credit card,4.761904762
+569-71-4390,01/25/19,90,B,Bekasi,Normal,Male,Sports and travel,153090.0,2,Ewallet,4.761904762
+268-03-6164,01/25/19,86,B,Bekasi,Normal,Male,Health and beauty,672770.0,1,Ewallet,4.761904762
+340-21-9136,01/25/19,62,A,Jakarta,Member,Female,Sports and travel,280350.0,4,Cash,4.761904762
+856-66-2701,01/25/19,59,A,Jakarta,Member,Male,Home and lifestyle,373100.0,3,Ewallet,4.761904762
+394-55-6384,01/25/19,229,C,Bogor,Member,Female,Sports and travel,491330.0,9,Cash,4.761904762
+288-38-3758,01/25/19,234,C,Bogor,Member,Female,Fashion accessories,594090.0,3,Ewallet,4.761904762
+843-73-4724,01/25/19,18,A,Jakarta,Normal,Male,Fashion accessories,518699.99999999994,1,Cash,4.761904762
+824-88-3614,01/25/19,167,C,Bogor,Normal,Male,Health and beauty,240170.00000000003,8,Ewallet,4.761904762
+888-02-0338,01/25/19,12,A,Jakarta,Normal,Male,Electronic accessories,183610.0,9,Ewallet,4.761904762
+283-79-9594,01/25/19,101,B,Bekasi,Normal,Female,Food and beverages,339570.0,7,Credit card,4.761904762
+307-83-9164,01/25/19,47,A,Jakarta,Member,Male,Home and lifestyle,420070.0,4,Cash,4.761904762
+730-61-8757,01/25/19,125,B,Bekasi,Member,Male,Health and beauty,357910.0,4,Credit card,4.761904762
+261-12-8671,01/25/19,105,B,Bekasi,Normal,Female,Fashion accessories,426720.0,2,Credit card,4.761904762
+569-71-4390,01/25/19,97,B,Bekasi,Normal,Male,Sports and travel,153090.0,2,Ewallet,4.761904762
+268-03-6164,01/25/19,95,B,Bekasi,Normal,Male,Health and beauty,672770.0,1,Ewallet,4.761904762
+340-21-9136,01/25/19,64,A,Jakarta,Member,Female,Sports and travel,280350.0,4,Cash,4.761904762
+856-66-2701,01/25/19,56,A,Jakarta,Member,Male,Home and lifestyle,373100.0,3,Ewallet,4.761904762
+394-55-6384,01/25/19,235,C,Bogor,Member,Female,Sports and travel,491330.0,9,Cash,4.761904762
+288-38-3758,01/25/19,225,C,Bogor,Member,Female,Fashion accessories,594090.0,3,Ewallet,4.761904762
+843-73-4724,01/25/19,14,A,Jakarta,Normal,Male,Fashion accessories,518699.99999999994,1,Cash,4.761904762
+847-38-7188,01/26/19,105,B,Bekasi,Normal,Female,Food and beverages,676760.0,3,Ewallet,4.761904762
+225-32-0908,01/26/19,190,C,Bogor,Normal,Female,Sports and travel,314020.0,10,Ewallet,4.761904762
+316-55-4634,01/26/19,130,B,Bekasi,Member,Male,Food and beverages,560350.0,5,Credit card,4.761904762
+641-43-2399,01/26/19,99,B,Bekasi,Normal,Male,Home and lifestyle,178850.0,4,Ewallet,4.761904762
+836-82-5858,01/26/19,131,B,Bekasi,Member,Male,Health and beauty,485590.00000000006,9,Ewallet,4.761904762
+289-65-5721,01/26/19,112,B,Bekasi,Normal,Female,Fashion accessories,569590.0,2,Cash,4.761904762
+834-61-8124,01/26/19,18,A,Jakarta,Normal,Male,Electronic accessories,361830.0,7,Cash,4.761904762
+173-82-9529,01/26/19,105,B,Bekasi,Normal,Female,Fashion accessories,265650.0,10,Cash,4.761904762
+539-21-7227,01/26/19,114,B,Bekasi,Normal,Female,Sports and travel,360780.0,5,Cash,4.761904762
+258-69-7810,01/26/19,184,C,Bogor,Normal,Female,Fashion accessories,257950.0,5,Cash,4.761904762
+881-41-7302,01/26/19,193,C,Bogor,Normal,Female,Fashion accessories,454929.99999999994,1,Credit card,4.761904762
+135-13-8269,01/26/19,143,B,Bekasi,Member,Female,Food and beverages,552160.0,2,Cash,4.761904762
+308-39-1707,01/26/19,37,A,Jakarta,Normal,Female,Fashion accessories,84630.0,1,Credit card,4.761904762
+896-34-0956,01/26/19,15,A,Jakarta,Normal,Male,Fashion accessories,149240.0,1,Cash,4.761904762
+176-78-1170,01/26/19,206,C,Bogor,Member,Male,Health and beauty,236670.00000000003,3,Ewallet,4.761904762
+794-42-3736,01/26/19,99,B,Bekasi,Normal,Male,Food and beverages,233310.0,2,Credit card,4.761904762
+452-04-8808,01/26/19,88,B,Bekasi,Normal,Male,Electronic accessories,609560.0,7,Cash,4.761904762
+641-43-2399,01/26/19,99,B,Bekasi,Normal,Male,Home and lifestyle,178850.0,4,Ewallet,4.761904762
+836-82-5858,01/26/19,137,B,Bekasi,Member,Male,Health and beauty,485590.00000000006,9,Ewallet,4.761904762
+289-65-5721,01/26/19,103,B,Bekasi,Normal,Female,Fashion accessories,569590.0,2,Cash,4.761904762
+834-61-8124,01/26/19,7,A,Jakarta,Normal,Male,Electronic accessories,361830.0,7,Cash,4.761904762
+173-82-9529,01/26/19,117,B,Bekasi,Normal,Female,Fashion accessories,265650.0,10,Cash,4.761904762
+539-21-7227,01/26/19,111,B,Bekasi,Normal,Female,Sports and travel,360780.0,5,Cash,4.761904762
+258-69-7810,01/26/19,197,C,Bogor,Normal,Female,Fashion accessories,257950.0,5,Cash,4.761904762
+881-41-7302,01/26/19,184,C,Bogor,Normal,Female,Fashion accessories,454929.99999999994,1,Credit card,4.761904762
+135-13-8269,01/26/19,158,B,Bekasi,Member,Female,Food and beverages,552160.0,2,Cash,4.761904762
+308-39-1707,01/26/19,31,A,Jakarta,Normal,Female,Fashion accessories,84630.0,1,Credit card,4.761904762
+896-34-0956,01/26/19,1,A,Jakarta,Normal,Male,Fashion accessories,149240.0,1,Cash,4.761904762
+176-78-1170,01/26/19,220,C,Bogor,Member,Male,Health and beauty,236670.00000000003,3,Ewallet,4.761904762
+794-42-3736,01/26/19,81,B,Bekasi,Normal,Male,Food and beverages,233310.0,2,Credit card,4.761904762
+452-04-8808,01/26/19,82,B,Bekasi,Normal,Male,Electronic accessories,609560.0,7,Cash,4.761904762
+123-19-1176,01/27/19,54,A,Jakarta,Member,Male,Health and beauty,407540.0,8,Ewallet,4.761904762
+870-54-3162,01/27/19,37,A,Jakarta,Normal,Female,Sports and travel,225750.0,5,Cash,4.761904762
+633-91-1052,01/27/19,25,A,Jakarta,Normal,Female,Home and lifestyle,84210.0,2,Cash,4.761904762
+613-59-9758,01/27/19,188,C,Bogor,Normal,Female,Sports and travel,100520.0,10,Cash,4.761904762
+394-41-0748,01/27/19,239,C,Bogor,Member,Female,Fashion accessories,378490.0,9,Ewallet,4.761904762
+325-90-8763,01/27/19,232,C,Bogor,Member,Female,Electronic accessories,325990.0,10,Cash,4.761904762
+862-59-8517,01/27/19,191,C,Bogor,Normal,Female,Food and beverages,631680.0,6,Cash,4.761904762
+620-02-2046,01/27/19,170,C,Bogor,Normal,Male,Home and lifestyle,485800.00000000006,2,Ewallet,4.761904762
+595-27-4851,01/27/19,25,A,Jakarta,Normal,Female,Fashion accessories,379960.0,7,Ewallet,4.761904762
+534-01-4457,01/27/19,10,A,Jakarta,Normal,Male,Food and beverages,571970.0,6,Credit card,4.761904762
+788-07-8452,01/27/19,227,C,Bogor,Member,Female,Home and lifestyle,169680.0,7,Ewallet,4.761904762
+869-11-3082,01/27/19,136,B,Bekasi,Member,Male,Health and beauty,673120.0,4,Credit card,4.761904762
+585-90-0249,01/27/19,44,A,Jakarta,Member,Male,Electronic accessories,512820.00000000006,1,Ewallet,4.761904762
+624-01-8356,01/27/19,114,B,Bekasi,Normal,Female,Home and lifestyle,343070.0,10,Credit card,4.761904762
+633-91-1052,01/27/19,35,A,Jakarta,Normal,Female,Home and lifestyle,84210.0,2,Cash,4.761904762
+613-59-9758,01/27/19,184,C,Bogor,Normal,Female,Sports and travel,100520.0,10,Cash,4.761904762
+394-41-0748,01/27/19,239,C,Bogor,Member,Female,Fashion accessories,378490.0,9,Ewallet,4.761904762
+325-90-8763,01/27/19,233,C,Bogor,Member,Female,Electronic accessories,325990.0,10,Cash,4.761904762
+862-59-8517,01/27/19,196,C,Bogor,Normal,Female,Food and beverages,631680.0,6,Cash,4.761904762
+620-02-2046,01/27/19,163,C,Bogor,Normal,Male,Home and lifestyle,485800.00000000006,2,Ewallet,4.761904762
+595-27-4851,01/27/19,34,A,Jakarta,Normal,Female,Fashion accessories,379960.0,7,Ewallet,4.761904762
+534-01-4457,01/27/19,9,A,Jakarta,Normal,Male,Food and beverages,571970.0,6,Credit card,4.761904762
+788-07-8452,01/27/19,221,C,Bogor,Member,Female,Home and lifestyle,169680.0,7,Ewallet,4.761904762
+869-11-3082,01/27/19,134,B,Bekasi,Member,Male,Health and beauty,673120.0,4,Credit card,4.761904762
+585-90-0249,01/27/19,57,A,Jakarta,Member,Male,Electronic accessories,512820.00000000006,1,Ewallet,4.761904762
+624-01-8356,01/27/19,104,B,Bekasi,Normal,Female,Home and lifestyle,343070.0,10,Credit card,4.761904762
+149-71-6266,01/28/19,129,B,Bekasi,Member,Male,Sports and travel,546490.0,9,Cash,4.761904762
+400-89-4171,01/28/19,183,C,Bogor,Normal,Female,Sports and travel,566790.0,8,Cash,4.761904762
+342-65-4817,01/28/19,205,C,Bogor,Member,Male,Health and beauty,607600.0,3,Ewallet,4.761904762
+593-65-1552,01/28/19,199,C,Bogor,Normal,Female,Home and lifestyle,488670.0,4,Credit card,4.761904762
+211-30-9270,01/28/19,161,C,Bogor,Normal,Male,Health and beauty,121870.0,5,Credit card,4.761904762
+372-26-1506,01/28/19,188,C,Bogor,Normal,Female,Fashion accessories,166740.0,5,Ewallet,4.761904762
+390-80-5128,01/28/19,145,B,Bekasi,Member,Female,Health and beauty,134050.0,1,Credit card,4.761904762
+726-29-6793,01/28/19,55,A,Jakarta,Member,Male,Electronic accessories,169260.0,8,Ewallet,4.761904762
+243-47-2663,01/28/19,205,C,Bogor,Member,Male,Electronic accessories,131390.0,6,Credit card,4.761904762
+222-42-0244,01/28/19,156,B,Bekasi,Member,Female,Health and beauty,504770.0,9,Credit card,4.761904762
+544-55-9589,01/28/19,145,B,Bekasi,Member,Female,Electronic accessories,150010.0,10,Cash,4.761904762
+699-88-1972,01/28/19,97,B,Bekasi,Normal,Male,Health and beauty,694120.0,8,Credit card,4.761904762
+865-41-9075,01/28/19,12,A,Jakarta,Normal,Male,Food and beverages,80710.0,7,Cash,4.761904762
+430-53-4718,01/28/19,122,B,Bekasi,Member,Male,Health and beauty,527590.0,8,Credit card,4.761904762
+342-65-4817,01/28/19,216,C,Bogor,Member,Male,Health and beauty,607600.0,3,Ewallet,4.761904762
+593-65-1552,01/28/19,187,C,Bogor,Normal,Female,Home and lifestyle,488670.0,4,Credit card,4.761904762
+211-30-9270,01/28/19,171,C,Bogor,Normal,Male,Health and beauty,121870.0,5,Credit card,4.761904762
+372-26-1506,01/28/19,190,C,Bogor,Normal,Female,Fashion accessories,166740.0,5,Ewallet,4.761904762
+390-80-5128,01/28/19,141,B,Bekasi,Member,Female,Health and beauty,134050.0,1,Credit card,4.761904762
+726-29-6793,01/28/19,44,A,Jakarta,Member,Male,Electronic accessories,169260.0,8,Ewallet,4.761904762
+243-47-2663,01/28/19,213,C,Bogor,Member,Male,Electronic accessories,131390.0,6,Credit card,4.761904762
+222-42-0244,01/28/19,156,B,Bekasi,Member,Female,Health and beauty,504770.0,9,Credit card,4.761904762
+544-55-9589,01/28/19,143,B,Bekasi,Member,Female,Electronic accessories,150010.0,10,Cash,4.761904762
+699-88-1972,01/28/19,90,B,Bekasi,Normal,Male,Health and beauty,694120.0,8,Credit card,4.761904762
+865-41-9075,01/28/19,4,A,Jakarta,Normal,Male,Food and beverages,80710.0,7,Cash,4.761904762
+430-53-4718,01/28/19,131,B,Bekasi,Member,Male,Health and beauty,527590.0,8,Credit card,4.761904762
+746-94-0204,01/29/19,5,A,Jakarta,Normal,Male,Fashion accessories,582680.0,9,Credit card,4.761904762
+606-80-4905,01/29/19,234,C,Bogor,Member,Female,Sports and travel,134050.0,6,Credit card,4.761904762
+110-48-7033,01/29/19,135,B,Bekasi,Member,Male,Fashion accessories,228339.99999999997,4,Cash,4.761904762
+382-25-8917,01/29/19,176,C,Bogor,Normal,Male,Fashion accessories,294560.0,6,Cash,4.761904762
+575-67-1508,01/29/19,6,A,Jakarta,Normal,Male,Electronic accessories,270200.0,1,Ewallet,4.761904762
+862-17-9201,01/29/19,102,B,Bekasi,Normal,Female,Food and beverages,588350.0,6,Credit card,4.761904762
+343-61-3544,01/29/19,131,B,Bekasi,Member,Male,Sports and travel,186690.0,10,Cash,4.761904762
+816-72-8853,01/29/19,75,A,Jakarta,Member,Female,Sports and travel,195510.0,5,Cash,4.761904762
+800-09-8606,01/29/19,80,A,Jakarta,Member,Female,Home and lifestyle,611590.0,5,Cash,4.761904762
+137-63-5492,01/29/19,172,C,Bogor,Normal,Male,Electronic accessories,411320.0,10,Ewallet,4.761904762
+569-76-2760,01/29/19,74,A,Jakarta,Member,Female,Sports and travel,154070.0,4,Credit card,4.761904762
+233-67-5758,01/29/19,172,C,Bogor,Normal,Male,Health and beauty,282450.0,1,Ewallet,4.761904762
+606-80-4905,01/29/19,233,C,Bogor,Member,Female,Sports and travel,134050.0,6,Credit card,4.761904762
+110-48-7033,01/29/19,129,B,Bekasi,Member,Male,Fashion accessories,228339.99999999997,4,Cash,4.761904762
+382-25-8917,01/29/19,162,C,Bogor,Normal,Male,Fashion accessories,294560.0,6,Cash,4.761904762
+575-67-1508,01/29/19,16,A,Jakarta,Normal,Male,Electronic accessories,270200.0,1,Ewallet,4.761904762
+862-17-9201,01/29/19,112,B,Bekasi,Normal,Female,Food and beverages,588350.0,6,Credit card,4.761904762
+343-61-3544,01/29/19,129,B,Bekasi,Member,Male,Sports and travel,186690.0,10,Cash,4.761904762
+816-72-8853,01/29/19,62,A,Jakarta,Member,Female,Sports and travel,195510.0,5,Cash,4.761904762
+800-09-8606,01/29/19,69,A,Jakarta,Member,Female,Home and lifestyle,611590.0,5,Cash,4.761904762
+137-63-5492,01/29/19,174,C,Bogor,Normal,Male,Electronic accessories,411320.0,10,Ewallet,4.761904762
+569-76-2760,01/29/19,72,A,Jakarta,Member,Female,Sports and travel,154070.0,4,Credit card,4.761904762
+233-67-5758,01/29/19,178,C,Bogor,Normal,Male,Health and beauty,282450.0,1,Ewallet,4.761904762
+423-80-0988,01/30/19,164,C,Bogor,Normal,Male,Sports and travel,534800.0,2,Ewallet,4.761904762
+416-13-5917,01/30/19,183,C,Bogor,Normal,Female,Food and beverages,679210.0,5,Ewallet,4.761904762
+182-69-8360,01/30/19,107,B,Bekasi,Normal,Female,Electronic accessories,165550.0,4,Credit card,4.761904762
+556-72-8512,01/30/19,180,C,Bogor,Normal,Male,Home and lifestyle,160720.0,1,Cash,4.761904762
+283-26-5248,01/30/19,227,C,Bogor,Member,Female,Food and beverages,689640.0,10,Ewallet,4.761904762
+134-54-4720,01/30/19,115,B,Bekasi,Normal,Female,Electronic accessories,296940.0,8,Ewallet,4.761904762
+664-14-2882,01/30/19,232,C,Bogor,Member,Female,Home and lifestyle,73710.0,5,Credit card,4.761904762
+804-38-3935,01/30/19,43,A,Jakarta,Member,Male,Electronic accessories,656460.0,3,Credit card,4.761904762
+862-29-5914,01/30/19,183,C,Bogor,Normal,Female,Sports and travel,156660.0,1,Credit card,4.761904762
+416-13-5917,01/30/19,196,C,Bogor,Normal,Female,Food and beverages,679210.0,5,Ewallet,4.761904762
+182-69-8360,01/30/19,108,B,Bekasi,Normal,Female,Electronic accessories,165550.0,4,Credit card,4.761904762
+556-72-8512,01/30/19,168,C,Bogor,Normal,Male,Home and lifestyle,160720.0,1,Cash,4.761904762
+283-26-5248,01/30/19,234,C,Bogor,Member,Female,Food and beverages,689640.0,10,Ewallet,4.761904762
+134-54-4720,01/30/19,119,B,Bekasi,Normal,Female,Electronic accessories,296940.0,8,Ewallet,4.761904762
+664-14-2882,01/30/19,237,C,Bogor,Member,Female,Home and lifestyle,73710.0,5,Credit card,4.761904762
+804-38-3935,01/30/19,46,A,Jakarta,Member,Male,Electronic accessories,656460.0,3,Credit card,4.761904762
+862-29-5914,01/30/19,198,C,Bogor,Normal,Female,Sports and travel,156660.0,1,Credit card,4.761904762
+239-36-3640,01/31/19,83,B,Bekasi,Normal,Male,Electronic accessories,317450.0,6,Ewallet,4.761904762
+583-72-1480,01/31/19,209,C,Bogor,Member,Male,Electronic accessories,259420.00000000003,4,Ewallet,4.761904762
+366-93-0948,01/31/19,54,A,Jakarta,Member,Male,Electronic accessories,464449.99999999994,1,Credit card,4.761904762
+226-71-3580,01/31/19,200,C,Bogor,Normal,Female,Sports and travel,166250.0,9,Cash,4.761904762
+532-59-7201,01/31/19,124,B,Bekasi,Member,Male,Sports and travel,559510.0,6,Cash,4.761904762
+525-88-7307,01/31/19,140,B,Bekasi,Member,Male,Sports and travel,530740.0,1,Cash,4.761904762
+286-75-7818,01/31/19,87,B,Bekasi,Normal,Male,Fashion accessories,483560.0,2,Credit card,4.761904762
+187-83-5490,01/31/19,59,A,Jakarta,Member,Male,Electronic accessories,145390.0,4,Cash,4.761904762
+834-45-5519,01/31/19,104,B,Bekasi,Normal,Female,Electronic accessories,301000.0,4,Ewallet,4.761904762
+735-32-9839,01/31/19,205,C,Bogor,Member,Male,Fashion accessories,690900.0,8,Ewallet,4.761904762
+525-09-8450,01/31/19,84,B,Bekasi,Normal,Male,Electronic accessories,504909.99999999994,10,Credit card,4.761904762
+457-94-0464,01/31/19,130,B,Bekasi,Member,Male,Electronic accessories,615090.0,9,Ewallet,4.761904762
+189-55-2313,01/31/19,195,C,Bogor,Normal,Female,Fashion accessories,435260.0,10,Ewallet,4.761904762
+522-57-8364,01/31/19,42,A,Jakarta,Member,Male,Fashion accessories,359380.0,8,Ewallet,4.761904762
+239-36-3640,01/31/19,96,B,Bekasi,Normal,Male,Electronic accessories,317450.0,6,Ewallet,4.761904762
+583-72-1480,01/31/19,215,C,Bogor,Member,Male,Electronic accessories,259420.00000000003,4,Ewallet,4.761904762
+366-93-0948,01/31/19,44,A,Jakarta,Member,Male,Electronic accessories,464449.99999999994,1,Credit card,4.761904762
+226-71-3580,01/31/19,199,C,Bogor,Normal,Female,Sports and travel,166250.0,9,Cash,4.761904762
+532-59-7201,01/31/19,127,B,Bekasi,Member,Male,Sports and travel,559510.0,6,Cash,4.761904762
+525-88-7307,01/31/19,125,B,Bekasi,Member,Male,Sports and travel,530740.0,1,Cash,4.761904762
+286-75-7818,01/31/19,82,B,Bekasi,Normal,Male,Fashion accessories,483560.0,2,Credit card,4.761904762
+187-83-5490,01/31/19,58,A,Jakarta,Member,Male,Electronic accessories,145390.0,4,Cash,4.761904762
+834-45-5519,01/31/19,103,B,Bekasi,Normal,Female,Electronic accessories,301000.0,4,Ewallet,4.761904762
+735-32-9839,01/31/19,211,C,Bogor,Member,Male,Fashion accessories,690900.0,8,Ewallet,4.761904762
+525-09-8450,01/31/19,95,B,Bekasi,Normal,Male,Electronic accessories,504909.99999999994,10,Credit card,4.761904762
+457-94-0464,01/31/19,128,B,Bekasi,Member,Male,Electronic accessories,615090.0,9,Ewallet,4.761904762
+189-55-2313,01/31/19,185,C,Bogor,Normal,Female,Fashion accessories,435260.0,10,Ewallet,4.761904762
+522-57-8364,01/31/19,51,A,Jakarta,Member,Male,Fashion accessories,359380.0,8,Ewallet,4.761904762
+551-21-3069,02/01/19,192,C,Bogor,Normal,Female,Electronic accessories,161490.0,9,Cash,4.761904762
+237-01-6122,02/01/19,223,C,Bogor,Member,Female,Home and lifestyle,565530.0,9,Credit card,4.761904762
+105-31-1824,02/01/19,48,A,Jakarta,Member,Male,Sports and travel,486640.0,7,Credit card,4.761904762
+870-76-1733,02/01/19,75,A,Jakarta,Member,Female,Food and beverages,99610.0,5,Credit card,4.761904762
+358-88-9262,02/01/19,222,C,Bogor,Member,Female,Food and beverages,612360.0,6,Ewallet,4.761904762
+443-82-0585,02/01/19,80,A,Jakarta,Member,Female,Health and beauty,543760.0,4,Cash,4.761904762
+870-76-1733,02/01/19,72,A,Jakarta,Member,Female,Food and beverages,99610.0,5,Credit card,4.761904762
+358-88-9262,02/01/19,222,C,Bogor,Member,Female,Food and beverages,612360.0,6,Ewallet,4.761904762
+443-82-0585,02/01/19,72,A,Jakarta,Member,Female,Health and beauty,543760.0,4,Cash,4.761904762
+554-53-8700,02/02/19,206,C,Bogor,Member,Male,Home and lifestyle,392770.0,2,Cash,4.761904762
+382-03-4532,02/02/19,77,A,Jakarta,Member,Female,Health and beauty,128309.99999999999,1,Cash,4.761904762
+642-32-2990,02/02/19,26,A,Jakarta,Normal,Female,Food and beverages,76720.0,10,Ewallet,4.761904762
+376-02-8238,02/02/19,100,B,Bekasi,Normal,Male,Home and lifestyle,657090.0,8,Credit card,4.761904762
+845-51-0542,02/02/19,138,B,Bekasi,Member,Male,Food and beverages,325850.0,9,Ewallet,4.761904762
+376-56-3573,02/02/19,200,C,Bogor,Normal,Female,Fashion accessories,667940.0,4,Ewallet,4.761904762
+201-86-2184,02/02/19,157,B,Bekasi,Member,Female,Electronic accessories,183820.0,7,Cash,4.761904762
+405-31-3305,02/02/19,44,A,Jakarta,Member,Male,Fashion accessories,301910.0,10,Credit card,4.761904762
+541-08-3113,02/02/19,174,C,Bogor,Normal,Male,Food and beverages,461790.0,8,Cash,4.761904762
+420-18-8989,02/02/19,78,A,Jakarta,Member,Female,Sports and travel,360640.0,8,Cash,4.761904762
+418-05-0656,02/02/19,106,B,Bekasi,Normal,Female,Fashion accessories,178920.0,7,Cash,4.761904762
+390-17-5806,02/02/19,240,C,Bogor,Member,Female,Food and beverages,268940.0,1,Cash,4.761904762
+717-96-4189,02/02/19,200,C,Bogor,Normal,Female,Electronic accessories,248430.0,6,Cash,4.761904762
+756-93-1854,02/02/19,233,C,Bogor,Member,Female,Fashion accessories,583450.0,2,Credit card,4.761904762
+376-02-8238,02/02/19,84,B,Bekasi,Normal,Male,Home and lifestyle,657090.0,8,Credit card,4.761904762
+845-51-0542,02/02/19,138,B,Bekasi,Member,Male,Food and beverages,325850.0,9,Ewallet,4.761904762
+376-56-3573,02/02/19,195,C,Bogor,Normal,Female,Fashion accessories,667940.0,4,Ewallet,4.761904762
+201-86-2184,02/02/19,151,B,Bekasi,Member,Female,Electronic accessories,183820.0,7,Cash,4.761904762
+405-31-3305,02/02/19,48,A,Jakarta,Member,Male,Fashion accessories,301910.0,10,Credit card,4.761904762
+541-08-3113,02/02/19,179,C,Bogor,Normal,Male,Food and beverages,461790.0,8,Cash,4.761904762
+420-18-8989,02/02/19,76,A,Jakarta,Member,Female,Sports and travel,360640.0,8,Cash,4.761904762
+418-05-0656,02/02/19,114,B,Bekasi,Normal,Female,Fashion accessories,178920.0,7,Cash,4.761904762
+390-17-5806,02/02/19,221,C,Bogor,Member,Female,Food and beverages,268940.0,1,Cash,4.761904762
+717-96-4189,02/02/19,192,C,Bogor,Normal,Female,Electronic accessories,248430.0,6,Cash,4.761904762
+756-93-1854,02/02/19,228,C,Bogor,Member,Female,Fashion accessories,583450.0,2,Credit card,4.761904762
+326-78-5178,02/03/19,213,C,Bogor,Member,Male,Food and beverages,639800.0,7,Cash,4.761904762
+347-34-2234,02/03/19,145,B,Bekasi,Member,Female,Sports and travel,385490.0,9,Ewallet,4.761904762
+430-60-3493,02/03/19,78,A,Jakarta,Member,Female,Home and lifestyle,664160.0,7,Cash,4.761904762
+566-71-1091,02/03/19,18,A,Jakarta,Normal,Male,Fashion accessories,539140.0,5,Cash,4.761904762
+639-76-1242,02/03/19,164,C,Bogor,Normal,Male,Food and beverages,283640.0,5,Cash,4.761904762
+326-71-2155,02/03/19,191,C,Bogor,Normal,Female,Sports and travel,517650.0,4,Cash,4.761904762
+277-63-2961,02/03/19,140,B,Bekasi,Member,Male,Sports and travel,517790.0,1,Credit card,4.761904762
+718-57-9773,02/03/19,181,C,Bogor,Normal,Female,Sports and travel,345310.0,10,Credit card,4.761904762
+443-59-0061,02/03/19,41,A,Jakarta,Member,Male,Food and beverages,472150.0,10,Ewallet,4.761904762
+742-04-5161,02/03/19,47,A,Jakarta,Member,Male,Home and lifestyle,509460.0,10,Cash,4.761904762
+322-02-2271,02/03/19,102,B,Bekasi,Normal,Female,Sports and travel,300790.0,3,Cash,4.761904762
+585-86-8361,02/03/19,39,A,Jakarta,Normal,Female,Food and beverages,190960.0,5,Credit card,4.761904762
+190-59-3964,02/03/19,129,B,Bekasi,Member,Male,Food and beverages,330120.0,5,Credit card,4.761904762
+676-10-2200,02/03/19,140,B,Bekasi,Member,Male,Fashion accessories,376460.0,1,Ewallet,4.761904762
+430-60-3493,02/03/19,63,A,Jakarta,Member,Female,Home and lifestyle,664160.0,7,Cash,4.761904762
+566-71-1091,02/03/19,10,A,Jakarta,Normal,Male,Fashion accessories,539140.0,5,Cash,4.761904762
+639-76-1242,02/03/19,167,C,Bogor,Normal,Male,Food and beverages,283640.0,5,Cash,4.761904762
+326-71-2155,02/03/19,185,C,Bogor,Normal,Female,Sports and travel,517650.0,4,Cash,4.761904762
+277-63-2961,02/03/19,140,B,Bekasi,Member,Male,Sports and travel,517790.0,1,Credit card,4.761904762
+718-57-9773,02/03/19,183,C,Bogor,Normal,Female,Sports and travel,345310.0,10,Credit card,4.761904762
+443-59-0061,02/03/19,55,A,Jakarta,Member,Male,Food and beverages,472150.0,10,Ewallet,4.761904762
+742-04-5161,02/03/19,47,A,Jakarta,Member,Male,Home and lifestyle,509460.0,10,Cash,4.761904762
+322-02-2271,02/03/19,111,B,Bekasi,Normal,Female,Sports and travel,300790.0,3,Cash,4.761904762
+585-86-8361,02/03/19,30,A,Jakarta,Normal,Female,Food and beverages,190960.0,5,Credit card,4.761904762
+190-59-3964,02/03/19,124,B,Bekasi,Member,Male,Food and beverages,330120.0,5,Credit card,4.761904762
+676-10-2200,02/03/19,125,B,Bekasi,Member,Male,Fashion accessories,376460.0,1,Ewallet,4.761904762
+441-94-7118,02/04/19,49,A,Jakarta,Member,Male,Electronic accessories,503650.0,1,Cash,4.761904762
+236-86-3015,02/04/19,213,C,Bogor,Member,Male,Home and lifestyle,97860.0,1,Ewallet,4.761904762
+745-71-3520,02/04/19,64,A,Jakarta,Member,Female,Electronic accessories,176540.0,7,Cash,4.761904762
+627-95-3243,02/04/19,148,B,Bekasi,Member,Female,Home and lifestyle,543760.0,9,Ewallet,4.761904762
+198-66-9832,02/04/19,154,B,Bekasi,Member,Female,Fashion accessories,504280.00000000006,2,Cash,4.761904762
+695-28-6250,02/04/19,22,A,Jakarta,Normal,Female,Sports and travel,301420.0,5,Ewallet,4.761904762
+518-17-2983,02/04/19,27,A,Jakarta,Normal,Female,Fashion accessories,340410.0,4,Ewallet,4.761904762
+268-20-3585,02/04/19,194,C,Bogor,Normal,Female,Health and beauty,96950.0,9,Ewallet,4.761904762
+434-35-9162,02/04/19,135,B,Bekasi,Member,Male,Food and beverages,163380.0,4,Ewallet,4.761904762
+404-91-5964,02/04/19,15,A,Jakarta,Normal,Male,Electronic accessories,522060.0,7,Credit card,4.761904762
+151-33-7434,02/04/19,120,B,Bekasi,Normal,Female,Food and beverages,474390.0,1,Credit card,4.761904762
+441-94-7118,02/04/19,55,A,Jakarta,Member,Male,Electronic accessories,503650.0,1,Cash,4.761904762
+236-86-3015,02/04/19,203,C,Bogor,Member,Male,Home and lifestyle,97860.0,1,Ewallet,4.761904762
+745-71-3520,02/04/19,75,A,Jakarta,Member,Female,Electronic accessories,176540.0,7,Cash,4.761904762
+627-95-3243,02/04/19,143,B,Bekasi,Member,Female,Home and lifestyle,543760.0,9,Ewallet,4.761904762
+198-66-9832,02/04/19,152,B,Bekasi,Member,Female,Fashion accessories,504280.00000000006,2,Cash,4.761904762
+695-28-6250,02/04/19,30,A,Jakarta,Normal,Female,Sports and travel,301420.0,5,Ewallet,4.761904762
+518-17-2983,02/04/19,30,A,Jakarta,Normal,Female,Fashion accessories,340410.0,4,Ewallet,4.761904762
+268-20-3585,02/04/19,182,C,Bogor,Normal,Female,Health and beauty,96950.0,9,Ewallet,4.761904762
+434-35-9162,02/04/19,126,B,Bekasi,Member,Male,Food and beverages,163380.0,4,Ewallet,4.761904762
+404-91-5964,02/04/19,18,A,Jakarta,Normal,Male,Electronic accessories,522060.0,7,Credit card,4.761904762
+151-33-7434,02/04/19,102,B,Bekasi,Normal,Female,Food and beverages,474390.0,1,Credit card,4.761904762
+479-26-8945,02/05/19,152,B,Bekasi,Member,Female,Sports and travel,115429.99999999999,2,Ewallet,4.761904762
+210-67-5886,02/05/19,225,C,Bogor,Member,Female,Health and beauty,687470.0,3,Credit card,4.761904762
+338-65-2210,02/05/19,232,C,Bogor,Member,Female,Health and beauty,480199.99999999994,10,Cash,4.761904762
+729-09-9681,02/05/19,49,A,Jakarta,Member,Male,Home and lifestyle,181370.0,6,Ewallet,4.761904762
+181-94-6432,02/05/19,203,C,Bogor,Member,Male,Fashion accessories,485310.0,2,Ewallet,4.761904762
+374-17-3652,02/05/19,160,B,Bekasi,Member,Female,Food and beverages,299740.0,9,Credit card,4.761904762
+210-57-1719,02/05/19,120,B,Bekasi,Normal,Female,Health and beauty,407680.0,9,Cash,4.761904762
+880-35-0356,02/05/19,79,A,Jakarta,Member,Female,Sports and travel,526400.0,3,Ewallet,4.761904762
+307-04-2070,02/05/19,66,A,Jakarta,Member,Female,Fashion accessories,214340.0,1,Credit card,4.761904762
+325-89-4209,02/05/19,45,A,Jakarta,Member,Male,Food and beverages,615300.0,1,Ewallet,4.761904762
+409-49-6995,02/05/19,225,C,Bogor,Member,Female,Food and beverages,330890.0,6,Cash,4.761904762
+324-92-3863,02/05/19,44,A,Jakarta,Member,Male,Electronic accessories,146230.0,2,Cash,4.761904762
+729-09-9681,02/05/19,49,A,Jakarta,Member,Male,Home and lifestyle,181370.0,6,Ewallet,4.761904762
+181-94-6432,02/05/19,212,C,Bogor,Member,Male,Fashion accessories,485310.0,2,Ewallet,4.761904762
+374-17-3652,02/05/19,158,B,Bekasi,Member,Female,Food and beverages,299740.0,9,Credit card,4.761904762
+210-57-1719,02/05/19,102,B,Bekasi,Normal,Female,Health and beauty,407680.0,9,Cash,4.761904762
+880-35-0356,02/05/19,80,A,Jakarta,Member,Female,Sports and travel,526400.0,3,Ewallet,4.761904762
+307-04-2070,02/05/19,71,A,Jakarta,Member,Female,Fashion accessories,214340.0,1,Credit card,4.761904762
+325-89-4209,02/05/19,54,A,Jakarta,Member,Male,Food and beverages,615300.0,1,Ewallet,4.761904762
+409-49-6995,02/05/19,234,C,Bogor,Member,Female,Food and beverages,330890.0,6,Cash,4.761904762
+324-92-3863,02/05/19,50,A,Jakarta,Member,Male,Electronic accessories,146230.0,2,Cash,4.761904762
+351-62-0822,02/06/19,147,B,Bekasi,Member,Female,Fashion accessories,101360.0,4,Ewallet,4.761904762
+183-56-6882,02/06/19,227,C,Bogor,Member,Female,Food and beverages,695940.0,4,Ewallet,4.761904762
+727-46-3608,02/06/19,141,B,Bekasi,Member,Female,Food and beverages,140070.0,9,Ewallet,4.761904762
+512-91-0811,02/06/19,176,C,Bogor,Normal,Male,Health and beauty,628250.0,1,Credit card,4.761904762
+875-46-5808,02/06/19,137,B,Bekasi,Member,Male,Health and beauty,181300.0,10,Ewallet,4.761904762
+595-86-2894,02/06/19,205,C,Bogor,Member,Male,Fashion accessories,678860.0,4,Ewallet,4.761904762
+609-81-8548,02/06/19,70,A,Jakarta,Member,Female,Home and lifestyle,262079.99999999997,6,Credit card,4.761904762
+857-67-9057,02/06/19,93,B,Bekasi,Normal,Male,Electronic accessories,160650.0,10,Ewallet,4.761904762
+258-92-7466,02/06/19,40,A,Jakarta,Normal,Female,Health and beauty,249760.0,5,Credit card,4.761904762
+149-14-0304,02/06/19,232,C,Bogor,Member,Female,Health and beauty,199500.0,8,Cash,4.761904762
+471-06-8611,02/06/19,189,C,Bogor,Normal,Female,Food and beverages,366940.0,1,Credit card,4.761904762
+811-35-1094,02/06/19,121,B,Bekasi,Member,Male,Electronic accessories,353150.0,6,Credit card,4.761904762
+373-88-1424,02/06/19,216,C,Bogor,Member,Male,Home and lifestyle,250670.00000000003,5,Ewallet,4.761904762
+875-46-5808,02/06/19,125,B,Bekasi,Member,Male,Health and beauty,181300.0,10,Ewallet,4.761904762
+595-86-2894,02/06/19,207,C,Bogor,Member,Male,Fashion accessories,678860.0,4,Ewallet,4.761904762
+609-81-8548,02/06/19,80,A,Jakarta,Member,Female,Home and lifestyle,262079.99999999997,6,Credit card,4.761904762
+857-67-9057,02/06/19,89,B,Bekasi,Normal,Male,Electronic accessories,160650.0,10,Ewallet,4.761904762
+258-92-7466,02/06/19,33,A,Jakarta,Normal,Female,Health and beauty,249760.0,5,Credit card,4.761904762
+149-14-0304,02/06/19,225,C,Bogor,Member,Female,Health and beauty,199500.0,8,Cash,4.761904762
+471-06-8611,02/06/19,195,C,Bogor,Normal,Female,Food and beverages,366940.0,1,Credit card,4.761904762
+811-35-1094,02/06/19,136,B,Bekasi,Member,Male,Electronic accessories,353150.0,6,Credit card,4.761904762
+373-88-1424,02/06/19,214,C,Bogor,Member,Male,Home and lifestyle,250670.00000000003,5,Ewallet,4.761904762
+252-56-2699,02/07/19,20,A,Jakarta,Normal,Male,Food and beverages,302330.0,10,Ewallet,4.761904762
+635-40-6220,02/07/19,13,A,Jakarta,Normal,Male,Health and beauty,627200.0,8,Ewallet,4.761904762
+214-17-6927,02/07/19,187,C,Bogor,Normal,Female,Food and beverages,115360.0,6,Ewallet,4.761904762
+380-94-4661,02/07/19,217,C,Bogor,Member,Male,Electronic accessories,461580.0,4,Credit card,4.761904762
+868-81-1752,02/07/19,89,B,Bekasi,Normal,Male,Home and lifestyle,154140.0,9,Cash,4.761904762
+810-60-6344,02/07/19,185,C,Bogor,Normal,Female,Electronic accessories,286020.0,8,Credit card,4.761904762
+533-33-5337,02/07/19,89,B,Bekasi,Normal,Male,Electronic accessories,555730.0,10,Cash,4.761904762
+827-44-5872,02/07/19,151,B,Bekasi,Member,Female,Food and beverages,380520.0,10,Credit card,4.761904762
+583-41-4548,02/07/19,162,C,Bogor,Normal,Male,Home and lifestyle,116690.00000000001,7,Ewallet,4.761904762
+560-49-6611,02/07/19,76,A,Jakarta,Member,Female,Sports and travel,319060.0,1,Cash,4.761904762
+421-95-9805,02/07/19,31,A,Jakarta,Normal,Female,Electronic accessories,202720.0,1,Credit card,4.761904762
+641-96-3695,02/07/19,231,C,Bogor,Member,Female,Fashion accessories,304220.0,6,Ewallet,4.761904762
+648-94-3045,02/07/19,161,C,Bogor,Normal,Male,Health and beauty,412650.0,10,Ewallet,4.761904762
+626-43-7888,02/07/19,192,C,Bogor,Normal,Female,Fashion accessories,422870.0,8,Ewallet,4.761904762
+784-21-9238,02/07/19,208,C,Bogor,Member,Male,Sports and travel,71190.0,1,Cash,4.761904762
+114-35-5271,02/07/19,111,B,Bekasi,Normal,Female,Electronic accessories,405370.0,8,Cash,4.761904762
+453-33-6436,02/07/19,24,A,Jakarta,Normal,Female,Home and lifestyle,651840.0,8,Cash,4.761904762
+430-02-3888,02/07/19,97,B,Bekasi,Normal,Male,Electronic accessories,322140.0,6,Cash,4.761904762
+744-82-9138,02/07/19,168,C,Bogor,Normal,Male,Fashion accessories,602910.0,2,Cash,4.761904762
+374-38-5555,02/07/19,102,B,Bekasi,Normal,Female,Fashion accessories,445970.0,5,Ewallet,4.761904762
+380-94-4661,02/07/19,203,C,Bogor,Member,Male,Electronic accessories,461580.0,4,Credit card,4.761904762
+868-81-1752,02/07/19,88,B,Bekasi,Normal,Male,Home and lifestyle,154140.0,9,Cash,4.761904762
+810-60-6344,02/07/19,196,C,Bogor,Normal,Female,Electronic accessories,286020.0,8,Credit card,4.761904762
+533-33-5337,02/07/19,82,B,Bekasi,Normal,Male,Electronic accessories,555730.0,10,Cash,4.761904762
+827-44-5872,02/07/19,158,B,Bekasi,Member,Female,Food and beverages,380520.0,10,Credit card,4.761904762
+583-41-4548,02/07/19,167,C,Bogor,Normal,Male,Home and lifestyle,116690.00000000001,7,Ewallet,4.761904762
+560-49-6611,02/07/19,61,A,Jakarta,Member,Female,Sports and travel,319060.0,1,Cash,4.761904762
+421-95-9805,02/07/19,29,A,Jakarta,Normal,Female,Electronic accessories,202720.0,1,Credit card,4.761904762
+641-96-3695,02/07/19,227,C,Bogor,Member,Female,Fashion accessories,304220.0,6,Ewallet,4.761904762
+648-94-3045,02/07/19,169,C,Bogor,Normal,Male,Health and beauty,412650.0,10,Ewallet,4.761904762
+626-43-7888,02/07/19,192,C,Bogor,Normal,Female,Fashion accessories,422870.0,8,Ewallet,4.761904762
+784-21-9238,02/07/19,210,C,Bogor,Member,Male,Sports and travel,71190.0,1,Cash,4.761904762
+114-35-5271,02/07/19,114,B,Bekasi,Normal,Female,Electronic accessories,405370.0,8,Cash,4.761904762
+453-33-6436,02/07/19,39,A,Jakarta,Normal,Female,Home and lifestyle,651840.0,8,Cash,4.761904762
+430-02-3888,02/07/19,95,B,Bekasi,Normal,Male,Electronic accessories,322140.0,6,Cash,4.761904762
+744-82-9138,02/07/19,170,C,Bogor,Normal,Male,Fashion accessories,602910.0,2,Cash,4.761904762
+374-38-5555,02/07/19,109,B,Bekasi,Normal,Female,Fashion accessories,445970.0,5,Ewallet,4.761904762
+373-73-7910,02/08/19,6,A,Jakarta,Normal,Male,Sports and travel,604170.0,7,Ewallet,4.761904762
+649-29-6775,02/08/19,92,B,Bekasi,Normal,Male,Fashion accessories,234640.00000000003,1,Cash,4.761904762
+354-25-5821,02/08/19,141,B,Bekasi,Member,Female,Sports and travel,483840.00000000006,6,Cash,4.761904762
+549-84-7482,02/08/19,103,B,Bekasi,Normal,Female,Sports and travel,631960.0,9,Ewallet,4.761904762
+687-47-8271,02/08/19,13,A,Jakarta,Normal,Male,Fashion accessories,692860.0,10,Credit card,4.761904762
+732-04-5373,02/08/19,139,B,Bekasi,Member,Male,Home and lifestyle,325290.0,4,Cash,4.761904762
+271-88-8734,02/08/19,237,C,Bogor,Member,Female,Fashion accessories,680470.0,10,Credit card,4.761904762
+440-59-5691,02/08/19,229,C,Bogor,Member,Female,Health and beauty,260050.0,7,Credit card,4.761904762
+830-58-2383,02/08/19,92,B,Bekasi,Normal,Male,Home and lifestyle,222250.0,4,Cash,4.761904762
+756-49-0168,02/08/19,41,A,Jakarta,Member,Male,Fashion accessories,137900.0,1,Ewallet,4.761904762
+815-04-6282,02/08/19,225,C,Bogor,Member,Female,Sports and travel,454790.0,5,Credit card,4.761904762
+181-82-6255,02/08/19,118,B,Bekasi,Normal,Female,Home and lifestyle,114590.0,6,Cash,4.761904762
+732-04-5373,02/08/19,135,B,Bekasi,Member,Male,Home and lifestyle,325290.0,4,Cash,4.761904762
+271-88-8734,02/08/19,228,C,Bogor,Member,Female,Fashion accessories,680470.0,10,Credit card,4.761904762
+440-59-5691,02/08/19,223,C,Bogor,Member,Female,Health and beauty,260050.0,7,Credit card,4.761904762
+830-58-2383,02/08/19,87,B,Bekasi,Normal,Male,Home and lifestyle,222250.0,4,Cash,4.761904762
+756-49-0168,02/08/19,56,A,Jakarta,Member,Male,Fashion accessories,137900.0,1,Ewallet,4.761904762
+815-04-6282,02/08/19,232,C,Bogor,Member,Female,Sports and travel,454790.0,5,Credit card,4.761904762
+181-82-6255,02/08/19,117,B,Bekasi,Normal,Female,Home and lifestyle,114590.0,6,Cash,4.761904762
+871-39-9221,02/09/19,187,C,Bogor,Normal,Female,Electronic accessories,87150.0,6,Cash,4.761904762
+130-98-8941,02/09/19,175,C,Bogor,Normal,Male,Fashion accessories,449820.00000000006,7,Cash,4.761904762
+866-05-7563,02/09/19,151,B,Bekasi,Member,Female,Electronic accessories,569800.0,3,Cash,4.761904762
+447-15-7839,02/09/19,73,A,Jakarta,Member,Female,Sports and travel,155680.0,10,Cash,4.761904762
+428-83-5800,02/09/19,222,C,Bogor,Member,Female,Food and beverages,147560.0,3,Cash,4.761904762
+746-19-0921,02/09/19,177,C,Bogor,Normal,Male,Food and beverages,151060.0,1,Ewallet,4.761904762
+602-80-9671,02/09/19,234,C,Bogor,Member,Female,Home and lifestyle,111650.0,6,Credit card,4.761904762
+747-58-7183,02/09/19,93,B,Bekasi,Normal,Male,Fashion accessories,400890.0,3,Ewallet,4.761904762
+146-09-5432,02/09/19,51,A,Jakarta,Member,Male,Food and beverages,245280.0,9,Ewallet,4.761904762
+509-10-0516,02/09/19,90,B,Bekasi,Normal,Male,Home and lifestyle,321790.0,4,Ewallet,4.761904762
+450-42-3339,02/09/19,170,C,Bogor,Normal,Male,Health and beauty,592270.0,10,Credit card,4.761904762
+200-40-6154,02/09/19,131,B,Bekasi,Member,Male,Home and lifestyle,461370.0,6,Cash,4.761904762
+727-02-1313,02/09/19,53,A,Jakarta,Member,Male,Food and beverages,222880.0,1,Cash,4.761904762
+130-98-8941,02/09/19,164,C,Bogor,Normal,Male,Fashion accessories,449820.00000000006,7,Cash,4.761904762
+866-05-7563,02/09/19,145,B,Bekasi,Member,Female,Electronic accessories,569800.0,3,Cash,4.761904762
+447-15-7839,02/09/19,66,A,Jakarta,Member,Female,Sports and travel,155680.0,10,Cash,4.761904762
+428-83-5800,02/09/19,225,C,Bogor,Member,Female,Food and beverages,147560.0,3,Cash,4.761904762
+746-19-0921,02/09/19,165,C,Bogor,Normal,Male,Food and beverages,151060.0,1,Ewallet,4.761904762
+602-80-9671,02/09/19,226,C,Bogor,Member,Female,Home and lifestyle,111650.0,6,Credit card,4.761904762
+747-58-7183,02/09/19,92,B,Bekasi,Normal,Male,Fashion accessories,400890.0,3,Ewallet,4.761904762
+146-09-5432,02/09/19,45,A,Jakarta,Member,Male,Food and beverages,245280.0,9,Ewallet,4.761904762
+509-10-0516,02/09/19,83,B,Bekasi,Normal,Male,Home and lifestyle,321790.0,4,Ewallet,4.761904762
+450-42-3339,02/09/19,166,C,Bogor,Normal,Male,Health and beauty,592270.0,10,Credit card,4.761904762
+200-40-6154,02/09/19,134,B,Bekasi,Member,Male,Home and lifestyle,461370.0,6,Cash,4.761904762
+727-02-1313,02/09/19,54,A,Jakarta,Member,Male,Food and beverages,222880.0,1,Cash,4.761904762
+669-54-1719,02/10/19,126,B,Bekasi,Member,Male,Electronic accessories,132510.0,6,Credit card,4.761904762
+162-48-8011,02/10/19,67,A,Jakarta,Member,Female,Food and beverages,312130.0,5,Cash,4.761904762
+838-78-4295,02/10/19,198,C,Bogor,Normal,Female,Health and beauty,234290.0,2,Ewallet,4.761904762
+695-51-0018,02/10/19,106,B,Bekasi,Normal,Female,Sports and travel,243880.00000000003,4,Cash,4.761904762
+685-64-1609,02/10/19,70,A,Jakarta,Member,Female,Fashion accessories,210980.0,10,Ewallet,4.761904762
+400-60-7251,02/10/19,2,A,Jakarta,Normal,Male,Home and lifestyle,518489.99999999994,1,Ewallet,4.761904762
+227-07-4446,02/10/19,235,C,Bogor,Member,Female,Electronic accessories,546910.0,10,Cash,4.761904762
+378-07-7001,02/10/19,139,B,Bekasi,Member,Male,Electronic accessories,336630.0,3,Credit card,4.761904762
+559-98-9873,02/10/19,78,A,Jakarta,Member,Female,Fashion accessories,375550.0,7,Ewallet,4.761904762
+196-01-2849,02/10/19,233,C,Bogor,Member,Female,Fashion accessories,513659.99999999994,7,Cash,4.761904762
+448-34-8700,02/10/19,124,B,Bekasi,Member,Male,Home and lifestyle,258369.99999999997,7,Ewallet,4.761904762
+400-60-7251,02/10/19,20,A,Jakarta,Normal,Male,Home and lifestyle,518489.99999999994,1,Ewallet,4.761904762
+227-07-4446,02/10/19,224,C,Bogor,Member,Female,Electronic accessories,546910.0,10,Cash,4.761904762
+378-07-7001,02/10/19,128,B,Bekasi,Member,Male,Electronic accessories,336630.0,3,Credit card,4.761904762
+559-98-9873,02/10/19,79,A,Jakarta,Member,Female,Fashion accessories,375550.0,7,Ewallet,4.761904762
+196-01-2849,02/10/19,239,C,Bogor,Member,Female,Fashion accessories,513659.99999999994,7,Cash,4.761904762
+448-34-8700,02/10/19,127,B,Bekasi,Member,Male,Home and lifestyle,258369.99999999997,7,Ewallet,4.761904762
+796-12-2025,02/11/19,164,C,Bogor,Normal,Male,Fashion accessories,434840.0,10,Cash,4.761904762
+284-34-9626,02/11/19,118,B,Bekasi,Normal,Female,Home and lifestyle,539280.0,3,Credit card,4.761904762
+418-02-5978,02/11/19,109,B,Bekasi,Normal,Female,Health and beauty,588630.0,9,Cash,4.761904762
+866-99-7614,02/11/19,174,C,Bogor,Normal,Male,Food and beverages,624400.0,10,Credit card,4.761904762
+842-40-8179,02/11/19,151,B,Bekasi,Member,Female,Food and beverages,540400.0,10,Credit card,4.761904762
+534-53-3526,02/11/19,31,A,Jakarta,Normal,Female,Sports and travel,663320.0,4,Ewallet,4.761904762
+401-09-4232,02/11/19,208,C,Bogor,Member,Male,Home and lifestyle,606830.0,5,Ewallet,4.761904762
+531-56-4728,02/11/19,1,A,Jakarta,Normal,Male,Home and lifestyle,560560.0,3,Cash,4.761904762
+284-34-9626,02/11/19,119,B,Bekasi,Normal,Female,Home and lifestyle,539280.0,3,Credit card,4.761904762
+418-02-5978,02/11/19,120,B,Bekasi,Normal,Female,Health and beauty,588630.0,9,Cash,4.761904762
+866-99-7614,02/11/19,164,C,Bogor,Normal,Male,Food and beverages,624400.0,10,Credit card,4.761904762
+842-40-8179,02/11/19,154,B,Bekasi,Member,Female,Food and beverages,540400.0,10,Credit card,4.761904762
+534-53-3526,02/11/19,25,A,Jakarta,Normal,Female,Sports and travel,663320.0,4,Ewallet,4.761904762
+401-09-4232,02/11/19,212,C,Bogor,Member,Male,Home and lifestyle,606830.0,5,Ewallet,4.761904762
+531-56-4728,02/11/19,18,A,Jakarta,Normal,Male,Home and lifestyle,560560.0,3,Cash,4.761904762
+365-64-0515,02/12/19,36,A,Jakarta,Normal,Female,Electronic accessories,328650.0,5,Ewallet,4.761904762
+549-03-9315,02/12/19,99,B,Bekasi,Normal,Male,Fashion accessories,664090.0,8,Ewallet,4.761904762
+305-18-3552,02/12/19,127,B,Bekasi,Member,Male,Home and lifestyle,422660.0,10,Cash,4.761904762
+287-83-1405,02/12/19,9,A,Jakarta,Normal,Male,Health and beauty,178010.0,6,Ewallet,4.761904762
+641-51-2661,02/12/19,236,C,Bogor,Member,Female,Food and beverages,609700.0,10,Credit card,4.761904762
+528-87-5606,02/12/19,143,B,Bekasi,Member,Female,Electronic accessories,276360.0,1,Cash,4.761904762
+373-14-0504,02/12/19,79,A,Jakarta,Member,Female,Sports and travel,501409.99999999994,2,Ewallet,4.761904762
+885-56-0389,02/12/19,213,C,Bogor,Member,Male,Fashion accessories,366450.0,1,Cash,4.761904762
+549-03-9315,02/12/19,94,B,Bekasi,Normal,Male,Fashion accessories,664090.0,8,Ewallet,4.761904762
+305-18-3552,02/12/19,137,B,Bekasi,Member,Male,Home and lifestyle,422660.0,10,Cash,4.761904762
+287-83-1405,02/12/19,1,A,Jakarta,Normal,Male,Health and beauty,178010.0,6,Ewallet,4.761904762
+641-51-2661,02/12/19,224,C,Bogor,Member,Female,Food and beverages,609700.0,10,Credit card,4.761904762
+528-87-5606,02/12/19,148,B,Bekasi,Member,Female,Electronic accessories,276360.0,1,Cash,4.761904762
+373-14-0504,02/12/19,69,A,Jakarta,Member,Female,Sports and travel,501409.99999999994,2,Ewallet,4.761904762
+885-56-0389,02/12/19,214,C,Bogor,Member,Male,Fashion accessories,366450.0,1,Cash,4.761904762
+139-52-2867,02/13/19,184,C,Bogor,Normal,Female,Fashion accessories,157570.0,7,Credit card,4.761904762
+151-16-1484,02/13/19,56,A,Jakarta,Member,Male,Electronic accessories,225750.0,4,Ewallet,4.761904762
+563-36-9814,02/13/19,47,A,Jakarta,Member,Male,Electronic accessories,537740.0,1,Ewallet,4.761904762
+767-54-1907,02/13/19,150,B,Bekasi,Member,Female,Fashion accessories,206920.0,5,Cash,4.761904762
+173-50-1108,02/13/19,159,B,Bekasi,Member,Female,Sports and travel,141260.0,4,Credit card,4.761904762
+339-18-7061,02/13/19,221,C,Bogor,Member,Female,Fashion accessories,650860.0,2,Credit card,4.761904762
+388-76-2555,02/13/19,90,B,Bekasi,Normal,Male,Sports and travel,95830.0,6,Cash,4.761904762
+549-23-9016,02/13/19,240,C,Bogor,Member,Female,Food and beverages,104090.0,2,Credit card,4.761904762
+139-52-2867,02/13/19,192,C,Bogor,Normal,Female,Fashion accessories,157570.0,7,Credit card,4.761904762
+151-16-1484,02/13/19,41,A,Jakarta,Member,Male,Electronic accessories,225750.0,4,Ewallet,4.761904762
+563-36-9814,02/13/19,42,A,Jakarta,Member,Male,Electronic accessories,537740.0,1,Ewallet,4.761904762
+767-54-1907,02/13/19,148,B,Bekasi,Member,Female,Fashion accessories,206920.0,5,Cash,4.761904762
+173-50-1108,02/13/19,147,B,Bekasi,Member,Female,Sports and travel,141260.0,4,Credit card,4.761904762
+339-18-7061,02/13/19,231,C,Bogor,Member,Female,Fashion accessories,650860.0,2,Credit card,4.761904762
+388-76-2555,02/13/19,85,B,Bekasi,Normal,Male,Sports and travel,95830.0,6,Cash,4.761904762
+549-23-9016,02/13/19,229,C,Bogor,Member,Female,Food and beverages,104090.0,2,Credit card,4.761904762
+853-23-2453,02/14/19,126,B,Bekasi,Member,Male,Health and beauty,530180.0,4,Cash,4.761904762
+638-60-7125,02/14/19,40,A,Jakarta,Normal,Female,Electronic accessories,696920.0,8,Credit card,4.761904762
+174-36-3675,02/14/19,213,C,Bogor,Member,Male,Food and beverages,695590.0,2,Cash,4.761904762
+150-89-8043,02/14/19,9,A,Jakarta,Normal,Male,Sports and travel,312550.0,3,Cash,4.761904762
+235-46-8343,02/14/19,203,C,Bogor,Member,Male,Food and beverages,193620.0,10,Credit card,4.761904762
+109-86-4363,02/14/19,141,B,Bekasi,Member,Female,Sports and travel,420560.0,7,Credit card,4.761904762
+528-14-9470,02/14/19,46,A,Jakarta,Member,Male,Health and beauty,639100.0,1,Ewallet,4.761904762
+545-07-8534,02/14/19,200,C,Bogor,Normal,Female,Health and beauty,408240.0,2,Ewallet,4.761904762
+174-36-3675,02/14/19,216,C,Bogor,Member,Male,Food and beverages,695590.0,2,Cash,4.761904762
+150-89-8043,02/14/19,11,A,Jakarta,Normal,Male,Sports and travel,312550.0,3,Cash,4.761904762
+235-46-8343,02/14/19,210,C,Bogor,Member,Male,Food and beverages,193620.0,10,Credit card,4.761904762
+109-86-4363,02/14/19,141,B,Bekasi,Member,Female,Sports and travel,420560.0,7,Credit card,4.761904762
+528-14-9470,02/14/19,52,A,Jakarta,Member,Male,Health and beauty,639100.0,1,Ewallet,4.761904762
+545-07-8534,02/14/19,190,C,Bogor,Normal,Female,Health and beauty,408240.0,2,Ewallet,4.761904762
+285-68-5083,02/15/19,231,C,Bogor,Member,Female,Sports and travel,173180.0,3,Credit card,4.761904762
+227-78-1148,02/15/19,108,B,Bekasi,Normal,Female,Fashion accessories,509880.0,7,Cash,4.761904762
+394-43-4238,02/15/19,131,B,Bekasi,Member,Male,Home and lifestyle,124390.0,5,Credit card,4.761904762
+136-08-6195,02/15/19,22,A,Jakarta,Normal,Female,Home and lifestyle,489719.99999999994,8,Credit card,4.761904762
+372-94-8041,02/15/19,13,A,Jakarta,Normal,Male,Health and beauty,106820.0,6,Ewallet,4.761904762
+873-95-4984,02/15/19,143,B,Bekasi,Member,Female,Health and beauty,538300.0,7,Cash,4.761904762
+860-79-0874,02/15/19,233,C,Bogor,Member,Female,Fashion accessories,695100.0,10,Credit card,4.761904762
+541-89-9860,02/15/19,233,C,Bogor,Member,Female,Fashion accessories,563360.0,3,Cash,4.761904762
+710-46-4433,02/15/19,147,B,Bekasi,Member,Female,Food and beverages,541800.0,9,Credit card,4.761904762
+233-34-0817,02/15/19,240,C,Bogor,Member,Female,Electronic accessories,691880.0,1,Cash,4.761904762
+246-11-3901,02/15/19,200,C,Bogor,Normal,Female,Electronic accessories,229599.99999999997,10,Cash,4.761904762
+152-68-2907,02/15/19,18,A,Jakarta,Normal,Male,Food and beverages,365400.0,3,Credit card,4.761904762
+556-41-6224,02/15/19,173,C,Bogor,Normal,Male,Health and beauty,235480.0,8,Credit card,4.761904762
+305-03-2383,02/15/19,25,A,Jakarta,Normal,Female,Food and beverages,469699.99999999994,3,Cash,4.761904762
+400-80-4065,02/15/19,215,C,Bogor,Member,Male,Health and beauty,479850.0,4,Credit card,4.761904762
+497-36-0989,02/15/19,15,A,Jakarta,Normal,Male,Fashion accessories,363580.0,3,Cash,4.761904762
+234-36-2483,02/15/19,100,B,Bekasi,Normal,Male,Health and beauty,403130.0,6,Cash,4.761904762
+321-49-7382,02/15/19,136,B,Bekasi,Member,Male,Sports and travel,618170.0,1,Credit card,4.761904762
+431-66-2305,02/15/19,119,B,Bekasi,Normal,Female,Electronic accessories,617750.0,9,Credit card,4.761904762
+394-43-4238,02/15/19,125,B,Bekasi,Member,Male,Home and lifestyle,124390.0,5,Credit card,4.761904762
+136-08-6195,02/15/19,40,A,Jakarta,Normal,Female,Home and lifestyle,489719.99999999994,8,Credit card,4.761904762
+372-94-8041,02/15/19,2,A,Jakarta,Normal,Male,Health and beauty,106820.0,6,Ewallet,4.761904762
+873-95-4984,02/15/19,156,B,Bekasi,Member,Female,Health and beauty,538300.0,7,Cash,4.761904762
+860-79-0874,02/15/19,221,C,Bogor,Member,Female,Fashion accessories,695100.0,10,Credit card,4.761904762
+541-89-9860,02/15/19,233,C,Bogor,Member,Female,Fashion accessories,563360.0,3,Cash,4.761904762
+710-46-4433,02/15/19,154,B,Bekasi,Member,Female,Food and beverages,541800.0,9,Credit card,4.761904762
+233-34-0817,02/15/19,227,C,Bogor,Member,Female,Electronic accessories,691880.0,1,Cash,4.761904762
+246-11-3901,02/15/19,198,C,Bogor,Normal,Female,Electronic accessories,229599.99999999997,10,Cash,4.761904762
+152-68-2907,02/15/19,4,A,Jakarta,Normal,Male,Food and beverages,365400.0,3,Credit card,4.761904762
+556-41-6224,02/15/19,170,C,Bogor,Normal,Male,Health and beauty,235480.0,8,Credit card,4.761904762
+305-03-2383,02/15/19,24,A,Jakarta,Normal,Female,Food and beverages,469699.99999999994,3,Cash,4.761904762
+400-80-4065,02/15/19,211,C,Bogor,Member,Male,Health and beauty,479850.0,4,Credit card,4.761904762
+497-36-0989,02/15/19,3,A,Jakarta,Normal,Male,Fashion accessories,363580.0,3,Cash,4.761904762
+234-36-2483,02/15/19,98,B,Bekasi,Normal,Male,Health and beauty,403130.0,6,Cash,4.761904762
+321-49-7382,02/15/19,132,B,Bekasi,Member,Male,Sports and travel,618170.0,1,Credit card,4.761904762
+431-66-2305,02/15/19,103,B,Bekasi,Normal,Female,Electronic accessories,617750.0,9,Credit card,4.761904762
+241-72-9525,02/16/19,96,B,Bekasi,Normal,Male,Sports and travel,363370.0,10,Cash,4.761904762
+587-03-7455,02/16/19,226,C,Bogor,Member,Female,Fashion accessories,684530.0,7,Ewallet,4.761904762
+598-06-7312,02/16/19,138,B,Bekasi,Member,Male,Fashion accessories,639450.0,1,Cash,4.761904762
+273-84-2164,02/16/19,217,C,Bogor,Member,Male,Electronic accessories,84350.0,5,Ewallet,4.761904762
+133-77-3154,02/16/19,124,B,Bekasi,Member,Male,Fashion accessories,421260.0,4,Credit card,4.761904762
+408-66-6712,02/16/19,231,C,Bogor,Member,Female,Health and beauty,333970.0,6,Ewallet,4.761904762
+895-03-6665,02/16/19,115,B,Bekasi,Normal,Female,Fashion accessories,255570.0,9,Cash,4.761904762
+873-14-6353,02/16/19,58,A,Jakarta,Member,Male,Food and beverages,173740.0,7,Credit card,4.761904762
+587-03-7455,02/16/19,222,C,Bogor,Member,Female,Fashion accessories,684530.0,7,Ewallet,4.761904762
+598-06-7312,02/16/19,126,B,Bekasi,Member,Male,Fashion accessories,639450.0,1,Cash,4.761904762
+273-84-2164,02/16/19,212,C,Bogor,Member,Male,Electronic accessories,84350.0,5,Ewallet,4.761904762
+133-77-3154,02/16/19,133,B,Bekasi,Member,Male,Fashion accessories,421260.0,4,Credit card,4.761904762
+408-66-6712,02/16/19,222,C,Bogor,Member,Female,Health and beauty,333970.0,6,Ewallet,4.761904762
+895-03-6665,02/16/19,104,B,Bekasi,Normal,Female,Fashion accessories,255570.0,9,Cash,4.761904762
+873-14-6353,02/16/19,45,A,Jakarta,Member,Male,Food and beverages,173740.0,7,Credit card,4.761904762
+636-48-8204,02/17/19,20,A,Jakarta,Normal,Male,Electronic accessories,241920.00000000003,5,Ewallet,4.761904762
+590-83-4591,02/17/19,134,B,Bekasi,Member,Male,Electronic accessories,612150.0,6,Credit card,4.761904762
+420-11-4919,02/17/19,233,C,Bogor,Member,Female,Food and beverages,499730.0,5,Credit card,4.761904762
+389-25-3394,02/17/19,179,C,Bogor,Normal,Male,Electronic accessories,82670.0,5,Cash,4.761904762
+803-17-8013,02/17/19,74,A,Jakarta,Member,Female,Home and lifestyle,621530.0,8,Cash,4.761904762
+634-97-8956,02/17/19,3,A,Jakarta,Normal,Male,Food and beverages,230300.0,3,Credit card,4.761904762
+612-36-5536,02/17/19,44,A,Jakarta,Member,Male,Food and beverages,566720.0,8,Credit card,4.761904762
+827-77-7633,02/17/19,13,A,Jakarta,Normal,Male,Sports and travel,686630.0,9,Cash,4.761904762
+123-35-4896,02/17/19,197,C,Bogor,Normal,Female,Sports and travel,326620.0,9,Ewallet,4.761904762
+788-21-5741,02/17/19,9,A,Jakarta,Normal,Male,Fashion accessories,317660.0,3,Credit card,4.761904762
+785-96-0615,02/17/19,142,B,Bekasi,Member,Female,Electronic accessories,250180.0,8,Ewallet,4.761904762
+201-63-8275,02/17/19,237,C,Bogor,Member,Female,Sports and travel,475929.99999999994,7,Ewallet,4.761904762
+131-70-8179,02/17/19,65,A,Jakarta,Member,Female,Health and beauty,644630.0,3,Cash,4.761904762
+420-11-4919,02/17/19,227,C,Bogor,Member,Female,Food and beverages,499730.0,5,Credit card,4.761904762
+389-25-3394,02/17/19,177,C,Bogor,Normal,Male,Electronic accessories,82670.0,5,Cash,4.761904762
+803-17-8013,02/17/19,77,A,Jakarta,Member,Female,Home and lifestyle,621530.0,8,Cash,4.761904762
+634-97-8956,02/17/19,11,A,Jakarta,Normal,Male,Food and beverages,230300.0,3,Credit card,4.761904762
+612-36-5536,02/17/19,48,A,Jakarta,Member,Male,Food and beverages,566720.0,8,Credit card,4.761904762
+827-77-7633,02/17/19,17,A,Jakarta,Normal,Male,Sports and travel,686630.0,9,Cash,4.761904762
+123-35-4896,02/17/19,185,C,Bogor,Normal,Female,Sports and travel,326620.0,9,Ewallet,4.761904762
+788-21-5741,02/17/19,9,A,Jakarta,Normal,Male,Fashion accessories,317660.0,3,Credit card,4.761904762
+785-96-0615,02/17/19,152,B,Bekasi,Member,Female,Electronic accessories,250180.0,8,Ewallet,4.761904762
+201-63-8275,02/17/19,221,C,Bogor,Member,Female,Sports and travel,475929.99999999994,7,Ewallet,4.761904762
+131-70-8179,02/17/19,74,A,Jakarta,Member,Female,Health and beauty,644630.0,3,Cash,4.761904762
+597-78-7908,02/18/19,171,C,Bogor,Normal,Male,Fashion accessories,631540.0,3,Cash,4.761904762
+354-39-5160,02/18/19,73,A,Jakarta,Member,Female,Home and lifestyle,240940.0,6,Cash,4.761904762
+278-97-7759,02/18/19,76,A,Jakarta,Member,Female,Electronic accessories,437360.0,1,Cash,4.761904762
+787-15-1757,02/18/19,209,C,Bogor,Member,Male,Health and beauty,308490.0,4,Ewallet,4.761904762
+764-44-8999,02/18/19,104,B,Bekasi,Normal,Female,Health and beauty,103320.0,2,Ewallet,4.761904762
+652-49-6720,02/18/19,232,C,Bogor,Member,Female,Electronic accessories,426650.0,1,Ewallet,4.761904762
+849-09-3807,02/18/19,62,A,Jakarta,Member,Female,Fashion accessories,618380.0,7,Cash,4.761904762
+278-97-7759,02/18/19,74,A,Jakarta,Member,Female,Electronic accessories,437360.0,1,Cash,4.761904762
+787-15-1757,02/18/19,209,C,Bogor,Member,Male,Health and beauty,308490.0,4,Ewallet,4.761904762
+764-44-8999,02/18/19,106,B,Bekasi,Normal,Female,Health and beauty,103320.0,2,Ewallet,4.761904762
+652-49-6720,02/18/19,229,C,Bogor,Member,Female,Electronic accessories,426650.0,1,Ewallet,4.761904762
+849-09-3807,02/18/19,69,A,Jakarta,Member,Female,Fashion accessories,618380.0,7,Cash,4.761904762
+272-27-9238,02/19/19,195,C,Bogor,Normal,Female,Food and beverages,288680.0,4,Cash,4.761904762
+752-23-3760,02/19/19,157,B,Bekasi,Member,Female,Sports and travel,448560.0,7,Credit card,4.761904762
+868-06-0466,02/19/19,44,A,Jakarta,Member,Male,Electronic accessories,487060.0,9,Credit card,4.761904762
+183-21-3799,02/19/19,190,C,Bogor,Normal,Female,Electronic accessories,543410.0,9,Ewallet,4.761904762
+629-42-4133,02/19/19,165,C,Bogor,Normal,Male,Health and beauty,152600.0,8,Cash,4.761904762
+886-77-9084,02/19/19,164,C,Bogor,Normal,Male,Electronic accessories,503230.0,8,Ewallet,4.761904762
+409-33-9708,02/19/19,31,A,Jakarta,Normal,Female,Fashion accessories,689360.0,2,Ewallet,4.761904762
+449-16-6770,02/19/19,3,A,Jakarta,Normal,Male,Health and beauty,355530.0,5,Credit card,4.761904762
+384-59-6655,02/19/19,66,A,Jakarta,Member,Female,Food and beverages,690620.0,9,Cash,4.761904762
+272-27-9238,02/19/19,185,C,Bogor,Normal,Female,Food and beverages,288680.0,4,Cash,4.761904762
+752-23-3760,02/19/19,148,B,Bekasi,Member,Female,Sports and travel,448560.0,7,Credit card,4.761904762
+868-06-0466,02/19/19,50,A,Jakarta,Member,Male,Electronic accessories,487060.0,9,Credit card,4.761904762
+183-21-3799,02/19/19,181,C,Bogor,Normal,Female,Electronic accessories,543410.0,9,Ewallet,4.761904762
+629-42-4133,02/19/19,176,C,Bogor,Normal,Male,Health and beauty,152600.0,8,Cash,4.761904762
+886-77-9084,02/19/19,174,C,Bogor,Normal,Male,Electronic accessories,503230.0,8,Ewallet,4.761904762
+409-33-9708,02/19/19,26,A,Jakarta,Normal,Female,Fashion accessories,689360.0,2,Ewallet,4.761904762
+449-16-6770,02/19/19,20,A,Jakarta,Normal,Male,Health and beauty,355530.0,5,Credit card,4.761904762
+384-59-6655,02/19/19,77,A,Jakarta,Member,Female,Food and beverages,690620.0,9,Cash,4.761904762
+692-92-5582,02/20/19,158,B,Bekasi,Member,Female,Food and beverages,383880.0,3,Credit card,4.761904762
+782-95-9291,02/20/19,55,A,Jakarta,Member,Male,Food and beverages,646030.0,5,Credit card,4.761904762
+548-46-9322,02/20/19,100,B,Bekasi,Normal,Male,Food and beverages,279300.0,10,Credit card,4.761904762
+498-41-1961,02/20/19,99,B,Bekasi,Normal,Male,Health and beauty,466760.00000000006,5,Cash,4.761904762
+725-56-0833,02/20/19,21,A,Jakarta,Normal,Female,Health and beauty,226240.0,10,Credit card,4.761904762
+458-61-0011,02/20/19,92,B,Bekasi,Normal,Male,Food and beverages,422100.0,4,Cash,4.761904762
+779-42-2410,02/20/19,139,B,Bekasi,Member,Male,Food and beverages,404180.0,3,Ewallet,4.761904762
+546-80-2899,02/20/19,54,A,Jakarta,Member,Male,Home and lifestyle,263830.0,2,Ewallet,4.761904762
+848-95-6252,02/20/19,223,C,Bogor,Member,Female,Home and lifestyle,603890.0,1,Ewallet,4.761904762
+311-13-6971,02/20/19,137,B,Bekasi,Member,Male,Sports and travel,223930.0,10,Credit card,4.761904762
+498-41-1961,02/20/19,91,B,Bekasi,Normal,Male,Health and beauty,466760.00000000006,5,Cash,4.761904762
+725-56-0833,02/20/19,33,A,Jakarta,Normal,Female,Health and beauty,226240.0,10,Credit card,4.761904762
+458-61-0011,02/20/19,99,B,Bekasi,Normal,Male,Food and beverages,422100.0,4,Cash,4.761904762
+779-42-2410,02/20/19,130,B,Bekasi,Member,Male,Food and beverages,404180.0,3,Ewallet,4.761904762
+546-80-2899,02/20/19,60,A,Jakarta,Member,Male,Home and lifestyle,263830.0,2,Ewallet,4.761904762
+848-95-6252,02/20/19,235,C,Bogor,Member,Female,Home and lifestyle,603890.0,1,Ewallet,4.761904762
+311-13-6971,02/20/19,133,B,Bekasi,Member,Male,Sports and travel,223930.0,10,Credit card,4.761904762
+319-74-2561,02/21/19,68,A,Jakarta,Member,Female,Electronic accessories,662480.0,3,Cash,4.761904762
+279-62-1445,02/21/19,222,C,Bogor,Member,Female,Fashion accessories,87780.0,1,Cash,4.761904762
+269-04-5750,02/21/19,125,B,Bekasi,Member,Male,Fashion accessories,516739.99999999994,4,Cash,4.761904762
+714-02-3114,02/21/19,200,C,Bogor,Normal,Female,Sports and travel,691600.0,2,Cash,4.761904762
+389-70-2397,02/21/19,191,C,Bogor,Normal,Female,Health and beauty,585620.0,5,Cash,4.761904762
+503-21-4385,02/21/19,136,B,Bekasi,Member,Male,Health and beauty,279370.0,3,Ewallet,4.761904762
+319-74-2561,02/21/19,66,A,Jakarta,Member,Female,Electronic accessories,662480.0,3,Cash,4.761904762
+279-62-1445,02/21/19,236,C,Bogor,Member,Female,Fashion accessories,87780.0,1,Cash,4.761904762
+269-04-5750,02/21/19,130,B,Bekasi,Member,Male,Fashion accessories,516739.99999999994,4,Cash,4.761904762
+714-02-3114,02/21/19,182,C,Bogor,Normal,Female,Sports and travel,691600.0,2,Cash,4.761904762
+389-70-2397,02/21/19,200,C,Bogor,Normal,Female,Health and beauty,585620.0,5,Cash,4.761904762
+503-21-4385,02/21/19,140,B,Bekasi,Member,Male,Health and beauty,279370.0,3,Ewallet,4.761904762
+488-25-4221,02/22/19,230,C,Bogor,Member,Female,Food and beverages,212870.0,1,Credit card,4.761904762
+743-88-1662,02/22/19,173,C,Bogor,Normal,Male,Sports and travel,668430.0,7,Ewallet,4.761904762
+831-64-0259,02/22/19,102,B,Bekasi,Normal,Female,Fashion accessories,278250.0,5,Ewallet,4.761904762
+837-55-7229,02/22/19,104,B,Bekasi,Normal,Female,Fashion accessories,332080.0,1,Credit card,4.761904762
+582-52-8065,02/22/19,116,B,Bekasi,Normal,Female,Fashion accessories,380170.0,9,Cash,4.761904762
+807-14-7833,02/22/19,80,A,Jakarta,Member,Female,Electronic accessories,121940.00000000001,10,Ewallet,4.761904762
+864-24-7918,02/22/19,69,A,Jakarta,Member,Female,Sports and travel,171430.0,10,Cash,4.761904762
+777-67-2495,02/22/19,88,B,Bekasi,Normal,Male,Home and lifestyle,482790.0,3,Ewallet,4.761904762
+838-02-1821,02/22/19,227,C,Bogor,Member,Female,Home and lifestyle,89110.0,2,Credit card,4.761904762
+690-01-6631,02/22/19,97,B,Bekasi,Normal,Male,Fashion accessories,122429.99999999999,10,Ewallet,4.761904762
+347-56-2442,02/22/19,2,A,Jakarta,Normal,Male,Home and lifestyle,460739.99999999994,1,Cash,4.761904762
+743-88-1662,02/22/19,172,C,Bogor,Normal,Male,Sports and travel,668430.0,7,Ewallet,4.761904762
+831-64-0259,02/22/19,114,B,Bekasi,Normal,Female,Fashion accessories,278250.0,5,Ewallet,4.761904762
+837-55-7229,02/22/19,101,B,Bekasi,Normal,Female,Fashion accessories,332080.0,1,Credit card,4.761904762
+582-52-8065,02/22/19,108,B,Bekasi,Normal,Female,Fashion accessories,380170.0,9,Cash,4.761904762
+807-14-7833,02/22/19,73,A,Jakarta,Member,Female,Electronic accessories,121940.00000000001,10,Ewallet,4.761904762
+864-24-7918,02/22/19,72,A,Jakarta,Member,Female,Sports and travel,171430.0,10,Cash,4.761904762
+777-67-2495,02/22/19,92,B,Bekasi,Normal,Male,Home and lifestyle,482790.0,3,Ewallet,4.761904762
+838-02-1821,02/22/19,231,C,Bogor,Member,Female,Home and lifestyle,89110.0,2,Credit card,4.761904762
+690-01-6631,02/22/19,89,B,Bekasi,Normal,Male,Fashion accessories,122429.99999999999,10,Ewallet,4.761904762
+347-56-2442,02/22/19,3,A,Jakarta,Normal,Male,Home and lifestyle,460739.99999999994,1,Cash,4.761904762
+787-56-0757,02/23/19,236,C,Bogor,Member,Female,Food and beverages,562520.0,4,Credit card,4.761904762
+396-90-2219,02/23/19,108,B,Bekasi,Normal,Female,Electronic accessories,104720.0,8,Cash,4.761904762
+729-46-7422,02/23/19,171,C,Bogor,Normal,Male,Food and beverages,251230.0,1,Credit card,4.761904762
+503-07-0930,02/23/19,218,C,Bogor,Member,Male,Sports and travel,408730.0,7,Credit card,4.761904762
+695-09-5146,02/23/19,155,B,Bekasi,Member,Female,Food and beverages,691530.0,3,Ewallet,4.761904762
+190-14-3147,02/23/19,103,B,Bekasi,Normal,Female,Health and beauty,125789.99999999999,4,Ewallet,4.761904762
+274-05-5470,02/23/19,75,A,Jakarta,Member,Female,Food and beverages,514290.0,4,Cash,4.761904762
+831-81-6575,02/23/19,157,B,Bekasi,Member,Female,Electronic accessories,529130.0,9,Cash,4.761904762
+396-90-2219,02/23/19,111,B,Bekasi,Normal,Female,Electronic accessories,104720.0,8,Cash,4.761904762
+729-46-7422,02/23/19,175,C,Bogor,Normal,Male,Food and beverages,251230.0,1,Credit card,4.761904762
+503-07-0930,02/23/19,204,C,Bogor,Member,Male,Sports and travel,408730.0,7,Credit card,4.761904762
+695-09-5146,02/23/19,149,B,Bekasi,Member,Female,Food and beverages,691530.0,3,Ewallet,4.761904762
+190-14-3147,02/23/19,120,B,Bekasi,Normal,Female,Health and beauty,125789.99999999999,4,Ewallet,4.761904762
+274-05-5470,02/23/19,80,A,Jakarta,Member,Female,Food and beverages,514290.0,4,Cash,4.761904762
+831-81-6575,02/23/19,155,B,Bekasi,Member,Female,Electronic accessories,529130.0,9,Cash,4.761904762
+315-22-5665,02/24/19,182,C,Bogor,Normal,Female,Home and lifestyle,514920.0,10,Ewallet,4.761904762
+803-83-5989,02/24/19,164,C,Bogor,Normal,Male,Home and lifestyle,390110.0,6,Ewallet,4.761904762
+692-27-8933,02/24/19,114,B,Bekasi,Normal,Female,Sports and travel,405650.0,6,Cash,4.761904762
+740-11-5257,02/24/19,165,C,Bogor,Normal,Male,Electronic accessories,173180.0,10,Cash,4.761904762
+242-11-3142,02/24/19,128,B,Bekasi,Member,Male,Fashion accessories,586390.0,2,Cash,4.761904762
+516-77-6464,02/24/19,238,C,Bogor,Member,Female,Health and beauty,71120.0,5,Ewallet,4.761904762
+380-60-5336,02/24/19,22,A,Jakarta,Normal,Female,Electronic accessories,281820.0,10,Credit card,4.761904762
+186-43-8965,02/24/19,63,A,Jakarta,Member,Female,Home and lifestyle,333760.0,2,Credit card,4.761904762
+365-16-4334,02/24/19,114,B,Bekasi,Normal,Female,Food and beverages,185010.0,8,Ewallet,4.761904762
+692-27-8933,02/24/19,105,B,Bekasi,Normal,Female,Sports and travel,405650.0,6,Cash,4.761904762
+740-11-5257,02/24/19,176,C,Bogor,Normal,Male,Electronic accessories,173180.0,10,Cash,4.761904762
+242-11-3142,02/24/19,131,B,Bekasi,Member,Male,Fashion accessories,586390.0,2,Cash,4.761904762
+516-77-6464,02/24/19,225,C,Bogor,Member,Female,Health and beauty,71120.0,5,Ewallet,4.761904762
+380-60-5336,02/24/19,35,A,Jakarta,Normal,Female,Electronic accessories,281820.0,10,Credit card,4.761904762
+186-43-8965,02/24/19,62,A,Jakarta,Member,Female,Home and lifestyle,333760.0,2,Credit card,4.761904762
+365-16-4334,02/24/19,110,B,Bekasi,Normal,Female,Food and beverages,185010.0,8,Ewallet,4.761904762
+355-53-5943,02/25/19,66,A,Jakarta,Member,Female,Electronic accessories,481880.0,6,Ewallet,4.761904762
+300-71-4605,02/25/19,203,C,Bogor,Member,Male,Electronic accessories,602280.0,5,Ewallet,4.761904762
+871-79-8483,02/25/19,81,B,Bekasi,Normal,Male,Fashion accessories,658910.0,5,Credit card,4.761904762
+275-28-0149,02/25/19,15,A,Jakarta,Normal,Male,Sports and travel,445830.0,1,Cash,4.761904762
+505-02-0892,02/25/19,138,B,Bekasi,Member,Male,Health and beauty,297990.0,8,Ewallet,4.761904762
+735-06-4124,02/25/19,166,C,Bogor,Normal,Male,Food and beverages,340270.0,1,Cash,4.761904762
+502-05-1910,02/25/19,13,A,Jakarta,Normal,Male,Health and beauty,456260.00000000006,3,Credit card,4.761904762
+511-54-3087,02/25/19,94,B,Bekasi,Normal,Male,Sports and travel,619150.0,1,Credit card,4.761904762
+719-89-8991,02/25/19,65,A,Jakarta,Member,Female,Sports and travel,639870.0,5,Ewallet,4.761904762
+308-81-0538,02/25/19,37,A,Jakarta,Normal,Female,Fashion accessories,511350.0,4,Credit card,4.761904762
+834-83-1826,02/25/19,158,B,Bekasi,Member,Female,Home and lifestyle,574280.0,5,Credit card,4.761904762
+636-17-0325,02/25/19,98,B,Bekasi,Normal,Male,Health and beauty,437990.0,4,Cash,4.761904762
+866-70-2814,02/25/19,111,B,Bekasi,Normal,Female,Electronic accessories,369530.0,10,Ewallet,4.761904762
+608-05-3804,02/25/19,128,B,Bekasi,Member,Male,Electronic accessories,278250.0,1,Cash,4.761904762
+459-45-2396,02/25/19,70,A,Jakarta,Member,Female,Food and beverages,697200.0,3,Cash,4.761904762
+574-80-1489,02/25/19,158,B,Bekasi,Member,Female,Food and beverages,439950.0,4,Ewallet,4.761904762
+735-06-4124,02/25/19,166,C,Bogor,Normal,Male,Food and beverages,340270.0,1,Cash,4.761904762
+502-05-1910,02/25/19,5,A,Jakarta,Normal,Male,Health and beauty,456260.00000000006,3,Credit card,4.761904762
+511-54-3087,02/25/19,86,B,Bekasi,Normal,Male,Sports and travel,619150.0,1,Credit card,4.761904762
+719-89-8991,02/25/19,68,A,Jakarta,Member,Female,Sports and travel,639870.0,5,Ewallet,4.761904762
+308-81-0538,02/25/19,35,A,Jakarta,Normal,Female,Fashion accessories,511350.0,4,Credit card,4.761904762
+834-83-1826,02/25/19,145,B,Bekasi,Member,Female,Home and lifestyle,574280.0,5,Credit card,4.761904762
+636-17-0325,02/25/19,91,B,Bekasi,Normal,Male,Health and beauty,437990.0,4,Cash,4.761904762
+866-70-2814,02/25/19,119,B,Bekasi,Normal,Female,Electronic accessories,369530.0,10,Ewallet,4.761904762
+608-05-3804,02/25/19,139,B,Bekasi,Member,Male,Electronic accessories,278250.0,1,Cash,4.761904762
+459-45-2396,02/25/19,68,A,Jakarta,Member,Female,Food and beverages,697200.0,3,Cash,4.761904762
+574-80-1489,02/25/19,151,B,Bekasi,Member,Female,Food and beverages,439950.0,4,Ewallet,4.761904762
+466-61-5506,02/26/19,159,B,Bekasi,Member,Female,Electronic accessories,634900.0,6,Cash,4.761904762
+154-74-7179,02/26/19,99,B,Bekasi,Normal,Male,Sports and travel,381150.0,1,Ewallet,4.761904762
+477-24-6490,02/26/19,108,B,Bekasi,Normal,Female,Health and beauty,697970.0,6,Ewallet,4.761904762
+649-11-3678,02/26/19,189,C,Bogor,Normal,Female,Food and beverages,160510.0,9,Cash,4.761904762
+437-53-3084,02/26/19,82,B,Bekasi,Normal,Male,Fashion accessories,699230.0,2,Ewallet,4.761904762
+491-38-3499,02/26/19,51,A,Jakarta,Member,Male,Fashion accessories,388150.0,1,Credit card,4.761904762
+707-32-7409,02/26/19,145,B,Bekasi,Member,Female,Sports and travel,668780.0,4,Ewallet,4.761904762
+702-72-0487,02/26/19,23,A,Jakarta,Normal,Female,Electronic accessories,326270.0,2,Credit card,4.761904762
+518-71-6847,02/26/19,135,B,Bekasi,Member,Male,Food and beverages,186200.0,6,Ewallet,4.761904762
+466-61-5506,02/26/19,143,B,Bekasi,Member,Female,Electronic accessories,634900.0,6,Cash,4.761904762
+154-74-7179,02/26/19,91,B,Bekasi,Normal,Male,Sports and travel,381150.0,1,Ewallet,4.761904762
+477-24-6490,02/26/19,119,B,Bekasi,Normal,Female,Health and beauty,697970.0,6,Ewallet,4.761904762
+649-11-3678,02/26/19,190,C,Bogor,Normal,Female,Food and beverages,160510.0,9,Cash,4.761904762
+437-53-3084,02/26/19,96,B,Bekasi,Normal,Male,Fashion accessories,699230.0,2,Ewallet,4.761904762
+491-38-3499,02/26/19,47,A,Jakarta,Member,Male,Fashion accessories,388150.0,1,Credit card,4.761904762
+707-32-7409,02/26/19,146,B,Bekasi,Member,Female,Sports and travel,668780.0,4,Ewallet,4.761904762
+702-72-0487,02/26/19,23,A,Jakarta,Normal,Female,Electronic accessories,326270.0,2,Credit card,4.761904762
+518-71-6847,02/26/19,126,B,Bekasi,Member,Male,Food and beverages,186200.0,6,Ewallet,4.761904762
+370-41-7321,02/27/19,131,B,Bekasi,Member,Male,Health and beauty,396830.0,9,Credit card,4.761904762
+318-68-5053,02/27/19,118,B,Bekasi,Normal,Female,Health and beauty,538930.0,6,Cash,4.761904762
+135-84-8019,02/27/19,31,A,Jakarta,Normal,Female,Fashion accessories,545510.0,9,Ewallet,4.761904762
+400-45-1220,02/27/19,104,B,Bekasi,Normal,Female,Health and beauty,94500.0,10,Credit card,4.761904762
+605-72-4132,02/27/19,193,C,Bogor,Normal,Female,Food and beverages,661290.0,8,Cash,4.761904762
+741-73-3559,02/27/19,89,B,Bekasi,Normal,Male,Sports and travel,470890.0,5,Cash,4.761904762
+665-63-9737,02/27/19,94,B,Bekasi,Normal,Male,Fashion accessories,366940.0,3,Ewallet,4.761904762
+250-81-7186,02/27/19,194,C,Bogor,Normal,Female,Electronic accessories,697830.0,1,Credit card,4.761904762
+105-10-6182,02/27/19,48,A,Jakarta,Member,Male,Fashion accessories,150360.0,2,Ewallet,4.761904762
+191-29-0321,02/27/19,149,B,Bekasi,Member,Female,Fashion accessories,138390.0,10,Credit card,4.761904762
+250-17-5703,02/27/19,54,A,Jakarta,Member,Male,Food and beverages,131950.0,10,Ewallet,4.761904762
+759-98-4285,02/27/19,233,C,Bogor,Member,Female,Health and beauty,601090.0,7,Credit card,4.761904762
+263-12-5321,02/27/19,55,A,Jakarta,Member,Male,Electronic accessories,648200.0,7,Credit card,4.761904762
+243-55-8457,02/27/19,27,A,Jakarta,Normal,Female,Food and beverages,521080.0,10,Ewallet,4.761904762
+135-84-8019,02/27/19,22,A,Jakarta,Normal,Female,Fashion accessories,545510.0,9,Ewallet,4.761904762
+400-45-1220,02/27/19,114,B,Bekasi,Normal,Female,Health and beauty,94500.0,10,Credit card,4.761904762
+605-72-4132,02/27/19,190,C,Bogor,Normal,Female,Food and beverages,661290.0,8,Cash,4.761904762
+741-73-3559,02/27/19,97,B,Bekasi,Normal,Male,Sports and travel,470890.0,5,Cash,4.761904762
+665-63-9737,02/27/19,90,B,Bekasi,Normal,Male,Fashion accessories,366940.0,3,Ewallet,4.761904762
+250-81-7186,02/27/19,194,C,Bogor,Normal,Female,Electronic accessories,697830.0,1,Credit card,4.761904762
+105-10-6182,02/27/19,54,A,Jakarta,Member,Male,Fashion accessories,150360.0,2,Ewallet,4.761904762
+191-29-0321,02/27/19,142,B,Bekasi,Member,Female,Fashion accessories,138390.0,10,Credit card,4.761904762
+250-17-5703,02/27/19,49,A,Jakarta,Member,Male,Food and beverages,131950.0,10,Ewallet,4.761904762
+759-98-4285,02/27/19,228,C,Bogor,Member,Female,Health and beauty,601090.0,7,Credit card,4.761904762
+263-12-5321,02/27/19,44,A,Jakarta,Member,Male,Electronic accessories,648200.0,7,Credit card,4.761904762
+243-55-8457,02/27/19,22,A,Jakarta,Normal,Female,Food and beverages,521080.0,10,Ewallet,4.761904762
+399-46-5918,02/28/19,184,C,Bogor,Normal,Female,Electronic accessories,601860.0,8,Cash,4.761904762
+142-72-4741,02/28/19,206,C,Bogor,Member,Male,Fashion accessories,652400.0,2,Credit card,4.761904762
+709-58-4068,02/28/19,117,B,Bekasi,Normal,Female,Fashion accessories,287630.0,10,Cash,4.761904762
+786-94-2700,02/28/19,45,A,Jakarta,Member,Male,Food and beverages,564340.0,6,Cash,4.761904762
+635-28-5728,02/28/19,1,A,Jakarta,Normal,Male,Health and beauty,392000.0,3,Ewallet,4.761904762
+291-59-1384,02/28/19,96,B,Bekasi,Normal,Male,Electronic accessories,422100.0,1,Cash,4.761904762
+142-72-4741,02/28/19,220,C,Bogor,Member,Male,Fashion accessories,652400.0,2,Credit card,4.761904762
+709-58-4068,02/28/19,120,B,Bekasi,Normal,Female,Fashion accessories,287630.0,10,Cash,4.761904762
+786-94-2700,02/28/19,44,A,Jakarta,Member,Male,Food and beverages,564340.0,6,Cash,4.761904762
+635-28-5728,02/28/19,17,A,Jakarta,Normal,Male,Health and beauty,392000.0,3,Ewallet,4.761904762
+291-59-1384,02/28/19,93,B,Bekasi,Normal,Male,Electronic accessories,422100.0,1,Cash,4.761904762
+189-98-2939,03/01/19,174,C,Bogor,Normal,Male,Fashion accessories,549850.0,9,Cash,4.761904762
+453-63-6187,03/01/19,94,B,Bekasi,Normal,Male,Electronic accessories,192500.0,3,Ewallet,4.761904762
+153-58-4872,03/01/19,221,C,Bogor,Member,Female,Food and beverages,524230.0,4,Ewallet,4.761904762
+220-28-1851,03/01/19,19,A,Jakarta,Normal,Male,Home and lifestyle,243109.99999999997,2,Ewallet,4.761904762
+339-96-8318,03/01/19,122,B,Bekasi,Member,Male,Fashion accessories,569170.0,7,Ewallet,4.761904762
+207-73-1363,03/01/19,88,B,Bekasi,Normal,Male,Health and beauty,486570.00000000006,2,Ewallet,4.761904762
+470-31-3286,03/01/19,97,B,Bekasi,Normal,Male,Health and beauty,103740.0,3,Credit card,4.761904762
+811-03-8790,03/01/19,37,A,Jakarta,Normal,Female,Electronic accessories,318360.0,10,Credit card,4.761904762
+247-11-2470,03/01/19,63,A,Jakarta,Member,Female,Fashion accessories,156240.0,4,Credit card,4.761904762
+238-45-6950,03/01/19,132,B,Bekasi,Member,Male,Food and beverages,376040.0,1,Ewallet,4.761904762
+453-63-6187,03/01/19,90,B,Bekasi,Normal,Male,Electronic accessories,192500.0,3,Ewallet,4.761904762
+153-58-4872,03/01/19,226,C,Bogor,Member,Female,Food and beverages,524230.0,4,Ewallet,4.761904762
+220-28-1851,03/01/19,12,A,Jakarta,Normal,Male,Home and lifestyle,243109.99999999997,2,Ewallet,4.761904762
+339-96-8318,03/01/19,132,B,Bekasi,Member,Male,Fashion accessories,569170.0,7,Ewallet,4.761904762
+207-73-1363,03/01/19,86,B,Bekasi,Normal,Male,Health and beauty,486570.00000000006,2,Ewallet,4.761904762
+470-31-3286,03/01/19,85,B,Bekasi,Normal,Male,Health and beauty,103740.0,3,Credit card,4.761904762
+811-03-8790,03/01/19,26,A,Jakarta,Normal,Female,Electronic accessories,318360.0,10,Credit card,4.761904762
+247-11-2470,03/01/19,61,A,Jakarta,Member,Female,Fashion accessories,156240.0,4,Credit card,4.761904762
+238-45-6950,03/01/19,133,B,Bekasi,Member,Male,Food and beverages,376040.0,1,Ewallet,4.761904762
+549-59-1358,03/02/19,44,A,Jakarta,Member,Male,Sports and travel,620410.0,3,Ewallet,4.761904762
+225-98-1496,03/02/19,197,C,Bogor,Normal,Female,Fashion accessories,189140.0,3,Credit card,4.761904762
+817-69-8206,03/02/19,105,B,Bekasi,Normal,Female,Electronic accessories,698110.0,9,Credit card,4.761904762
+346-84-3103,03/02/19,143,B,Bekasi,Member,Female,Electronic accessories,92540.0,5,Cash,4.761904762
+883-17-4236,03/02/19,188,C,Bogor,Normal,Female,Sports and travel,100730.0,2,Credit card,4.761904762
+565-67-6697,03/02/19,122,B,Bekasi,Member,Male,Home and lifestyle,189000.0,9,Cash,4.761904762
+878-30-2331,03/02/19,230,C,Bogor,Member,Female,Sports and travel,381850.0,10,Credit card,4.761904762
+408-26-9866,03/02/19,191,C,Bogor,Normal,Female,Sports and travel,517860.0,7,Ewallet,4.761904762
+576-31-4774,03/02/19,106,B,Bekasi,Normal,Female,Health and beauty,513870.0,3,Ewallet,4.761904762
+640-48-5028,03/02/19,160,B,Bekasi,Member,Female,Home and lifestyle,618730.0,9,Cash,4.761904762
+860-73-6466,03/02/19,68,A,Jakarta,Member,Female,Sports and travel,276290.0,2,Credit card,4.761904762
+607-76-6216,03/02/19,226,C,Bogor,Member,Female,Fashion accessories,647430.0,5,Credit card,4.761904762
+725-54-0677,03/02/19,204,C,Bogor,Member,Male,Health and beauty,599200.0,7,Cash,4.761904762
+636-98-3364,03/02/19,156,B,Bekasi,Member,Female,Electronic accessories,183820.0,3,Ewallet,4.761904762
+825-94-5922,03/02/19,81,B,Bekasi,Normal,Male,Sports and travel,177170.0,2,Ewallet,4.761904762
+720-72-2436,03/02/19,19,A,Jakarta,Normal,Male,Food and beverages,465640.0,4,Ewallet,4.761904762
+172-42-8274,03/02/19,101,B,Bekasi,Normal,Female,Electronic accessories,267890.0,2,Credit card,4.761904762
+303-96-2227,03/02/19,110,B,Bekasi,Normal,Female,Home and lifestyle,681660.0,10,Ewallet,4.761904762
+817-69-8206,03/02/19,116,B,Bekasi,Normal,Female,Electronic accessories,698110.0,9,Credit card,4.761904762
+346-84-3103,03/02/19,144,B,Bekasi,Member,Female,Electronic accessories,92540.0,5,Cash,4.761904762
+883-17-4236,03/02/19,197,C,Bogor,Normal,Female,Sports and travel,100730.0,2,Credit card,4.761904762
+565-67-6697,03/02/19,122,B,Bekasi,Member,Male,Home and lifestyle,189000.0,9,Cash,4.761904762
+878-30-2331,03/02/19,233,C,Bogor,Member,Female,Sports and travel,381850.0,10,Credit card,4.761904762
+408-26-9866,03/02/19,186,C,Bogor,Normal,Female,Sports and travel,517860.0,7,Ewallet,4.761904762
+576-31-4774,03/02/19,118,B,Bekasi,Normal,Female,Health and beauty,513870.0,3,Ewallet,4.761904762
+640-48-5028,03/02/19,160,B,Bekasi,Member,Female,Home and lifestyle,618730.0,9,Cash,4.761904762
+860-73-6466,03/02/19,63,A,Jakarta,Member,Female,Sports and travel,276290.0,2,Credit card,4.761904762
+607-76-6216,03/02/19,228,C,Bogor,Member,Female,Fashion accessories,647430.0,5,Credit card,4.761904762
+725-54-0677,03/02/19,211,C,Bogor,Member,Male,Health and beauty,599200.0,7,Cash,4.761904762
+636-98-3364,03/02/19,151,B,Bekasi,Member,Female,Electronic accessories,183820.0,3,Ewallet,4.761904762
+825-94-5922,03/02/19,91,B,Bekasi,Normal,Male,Sports and travel,177170.0,2,Ewallet,4.761904762
+720-72-2436,03/02/19,3,A,Jakarta,Normal,Male,Food and beverages,465640.0,4,Ewallet,4.761904762
+172-42-8274,03/02/19,111,B,Bekasi,Normal,Female,Electronic accessories,267890.0,2,Credit card,4.761904762
+303-96-2227,03/02/19,109,B,Bekasi,Normal,Female,Home and lifestyle,681660.0,10,Ewallet,4.761904762
+631-41-3108,03/03/19,18,A,Jakarta,Normal,Male,Home and lifestyle,324310.0,7,Credit card,4.761904762
+777-82-7220,03/03/19,129,B,Bekasi,Member,Male,Home and lifestyle,210840.0,8,Cash,4.761904762
+861-77-0145,03/03/19,209,C,Bogor,Member,Male,Electronic accessories,573790.0,10,Cash,4.761904762
+733-33-4967,03/03/19,166,C,Bogor,Normal,Male,Electronic accessories,145950.0,8,Cash,4.761904762
+175-54-2529,03/03/19,44,A,Jakarta,Member,Male,Food and beverages,155190.0,8,Credit card,4.761904762
+305-14-0245,03/03/19,142,B,Bekasi,Member,Female,Home and lifestyle,661430.0,8,Ewallet,4.761904762
+211-05-0490,03/03/19,222,C,Bogor,Member,Female,Electronic accessories,363440.0,5,Cash,4.761904762
+568-88-3448,03/03/19,19,A,Jakarta,Normal,Male,Health and beauty,175000.0,1,Ewallet,4.761904762
+234-03-4040,03/03/19,153,B,Bekasi,Member,Female,Food and beverages,511350.0,10,Credit card,4.761904762
+302-15-2162,03/03/19,204,C,Bogor,Member,Male,Health and beauty,325710.0,6,Credit card,4.761904762
+610-46-4100,03/03/19,10,A,Jakarta,Normal,Male,Health and beauty,202650.0,7,Credit card,4.761904762
+468-99-7231,03/03/19,181,C,Bogor,Normal,Female,Home and lifestyle,308070.0,8,Cash,4.761904762
+651-96-5970,03/03/19,10,A,Jakarta,Normal,Male,Fashion accessories,324870.0,1,Credit card,4.761904762
+324-41-6833,03/03/19,224,C,Bogor,Member,Female,Electronic accessories,211400.0,8,Ewallet,4.761904762
+175-54-2529,03/03/19,60,A,Jakarta,Member,Male,Food and beverages,155190.0,8,Credit card,4.761904762
+305-14-0245,03/03/19,143,B,Bekasi,Member,Female,Home and lifestyle,661430.0,8,Ewallet,4.761904762
+211-05-0490,03/03/19,234,C,Bogor,Member,Female,Electronic accessories,363440.0,5,Cash,4.761904762
+568-88-3448,03/03/19,9,A,Jakarta,Normal,Male,Health and beauty,175000.0,1,Ewallet,4.761904762
+234-03-4040,03/03/19,146,B,Bekasi,Member,Female,Food and beverages,511350.0,10,Credit card,4.761904762
+302-15-2162,03/03/19,211,C,Bogor,Member,Male,Health and beauty,325710.0,6,Credit card,4.761904762
+610-46-4100,03/03/19,15,A,Jakarta,Normal,Male,Health and beauty,202650.0,7,Credit card,4.761904762
+468-99-7231,03/03/19,181,C,Bogor,Normal,Female,Home and lifestyle,308070.0,8,Cash,4.761904762
+651-96-5970,03/03/19,4,A,Jakarta,Normal,Male,Fashion accessories,324870.0,1,Credit card,4.761904762
+324-41-6833,03/03/19,223,C,Bogor,Member,Female,Electronic accessories,211400.0,8,Ewallet,4.761904762
+228-96-1411,03/04/19,238,C,Bogor,Member,Female,Food and beverages,690900.0,8,Cash,4.761904762
+586-25-0848,03/04/19,30,A,Jakarta,Normal,Female,Sports and travel,86380.0,7,Credit card,4.761904762
+667-92-0055,03/04/19,60,A,Jakarta,Member,Male,Health and beauty,698810.0,6,Ewallet,4.761904762
+320-49-6392,03/04/19,198,C,Bogor,Normal,Female,Electronic accessories,211680.0,1,Cash,4.761904762
+346-12-3257,03/04/19,139,B,Bekasi,Member,Male,Electronic accessories,134680.0,9,Cash,4.761904762
+256-08-8343,03/04/19,23,A,Jakarta,Normal,Female,Home and lifestyle,395710.0,4,Ewallet,4.761904762
+227-50-3718,03/04/19,13,A,Jakarta,Normal,Male,Health and beauty,102340.0,5,Cash,4.761904762
+689-05-1884,03/04/19,42,A,Jakarta,Member,Male,Health and beauty,340410.0,10,Cash,4.761904762
+759-29-9521,03/04/19,72,A,Jakarta,Member,Female,Fashion accessories,342720.0,9,Cash,4.761904762
+276-75-6884,03/04/19,26,A,Jakarta,Normal,Female,Health and beauty,480969.99999999994,3,Cash,4.761904762
+558-60-5016,03/04/19,23,A,Jakarta,Normal,Female,Home and lifestyle,233099.99999999997,9,Ewallet,4.761904762
+221-25-5073,03/04/19,27,A,Jakarta,Normal,Female,Food and beverages,522620.0,4,Cash,4.761904762
+586-25-0848,03/04/19,38,A,Jakarta,Normal,Female,Sports and travel,86380.0,7,Credit card,4.761904762
+667-92-0055,03/04/19,56,A,Jakarta,Member,Male,Health and beauty,698810.0,6,Ewallet,4.761904762
+320-49-6392,03/04/19,197,C,Bogor,Normal,Female,Electronic accessories,211680.0,1,Cash,4.761904762
+346-12-3257,03/04/19,140,B,Bekasi,Member,Male,Electronic accessories,134680.0,9,Cash,4.761904762
+256-08-8343,03/04/19,40,A,Jakarta,Normal,Female,Home and lifestyle,395710.0,4,Ewallet,4.761904762
+227-50-3718,03/04/19,11,A,Jakarta,Normal,Male,Health and beauty,102340.0,5,Cash,4.761904762
+689-05-1884,03/04/19,51,A,Jakarta,Member,Male,Health and beauty,340410.0,10,Cash,4.761904762
+759-29-9521,03/04/19,72,A,Jakarta,Member,Female,Fashion accessories,342720.0,9,Cash,4.761904762
+276-75-6884,03/04/19,35,A,Jakarta,Normal,Female,Health and beauty,480969.99999999994,3,Cash,4.761904762
+558-60-5016,03/04/19,34,A,Jakarta,Normal,Female,Home and lifestyle,233099.99999999997,9,Ewallet,4.761904762
+221-25-5073,03/04/19,35,A,Jakarta,Normal,Female,Food and beverages,522620.0,4,Cash,4.761904762
+371-85-5789,03/05/19,90,B,Bekasi,Normal,Male,Health and beauty,615860.0,3,Ewallet,4.761904762
+510-95-6347,03/05/19,158,B,Bekasi,Member,Female,Food and beverages,339640.0,3,Ewallet,4.761904762
+829-49-1914,03/05/19,230,C,Bogor,Member,Female,Food and beverages,548170.0,10,Ewallet,4.761904762
+730-50-9884,03/05/19,182,C,Bogor,Normal,Female,Sports and travel,581420.0,7,Ewallet,4.761904762
+733-01-9107,03/05/19,83,B,Bekasi,Normal,Male,Home and lifestyle,578900.0,6,Cash,4.761904762
+291-32-1427,03/05/19,131,B,Bekasi,Member,Male,Fashion accessories,153580.0,5,Ewallet,4.761904762
+895-66-0685,03/05/19,138,B,Bekasi,Member,Male,Food and beverages,126559.99999999999,3,Ewallet,4.761904762
+755-12-3214,03/05/19,240,C,Bogor,Member,Female,Fashion accessories,309540.0,5,Credit card,4.761904762
+848-42-2560,03/05/19,27,A,Jakarta,Normal,Female,Fashion accessories,573370.0,2,Cash,4.761904762
+433-75-6987,03/05/19,147,B,Bekasi,Member,Female,Health and beauty,391790.0,7,Ewallet,4.761904762
+793-10-3222,03/05/19,158,B,Bekasi,Member,Female,Health and beauty,287420.0,6,Credit card,4.761904762
+608-04-3797,03/05/19,144,B,Bekasi,Member,Female,Health and beauty,177240.0,8,Ewallet,4.761904762
+148-82-2527,03/05/19,237,C,Bogor,Member,Female,Home and lifestyle,84840.0,10,Credit card,4.761904762
+655-07-2265,03/05/19,7,A,Jakarta,Normal,Male,Electronic accessories,548170.0,3,Ewallet,4.761904762
+174-64-0215,03/05/19,82,B,Bekasi,Normal,Male,Sports and travel,488179.99999999994,10,Credit card,4.761904762
+593-14-4239,03/05/19,111,B,Bekasi,Normal,Female,Home and lifestyle,668220.0,8,Ewallet,4.761904762
+102-77-2261,03/05/19,206,C,Bogor,Member,Male,Health and beauty,457170.0,7,Credit card,4.761904762
+895-66-0685,03/05/19,125,B,Bekasi,Member,Male,Food and beverages,126559.99999999999,3,Ewallet,4.761904762
+755-12-3214,03/05/19,225,C,Bogor,Member,Female,Fashion accessories,309540.0,5,Credit card,4.761904762
+848-42-2560,03/05/19,39,A,Jakarta,Normal,Female,Fashion accessories,573370.0,2,Cash,4.761904762
+433-75-6987,03/05/19,146,B,Bekasi,Member,Female,Health and beauty,391790.0,7,Ewallet,4.761904762
+793-10-3222,03/05/19,160,B,Bekasi,Member,Female,Health and beauty,287420.0,6,Credit card,4.761904762
+608-04-3797,03/05/19,153,B,Bekasi,Member,Female,Health and beauty,177240.0,8,Ewallet,4.761904762
+148-82-2527,03/05/19,224,C,Bogor,Member,Female,Home and lifestyle,84840.0,10,Credit card,4.761904762
+655-07-2265,03/05/19,12,A,Jakarta,Normal,Male,Electronic accessories,548170.0,3,Ewallet,4.761904762
+174-64-0215,03/05/19,89,B,Bekasi,Normal,Male,Sports and travel,488179.99999999994,10,Credit card,4.761904762
+593-14-4239,03/05/19,105,B,Bekasi,Normal,Female,Home and lifestyle,668220.0,8,Ewallet,4.761904762
+102-77-2261,03/05/19,204,C,Bogor,Member,Male,Health and beauty,457170.0,7,Credit card,4.761904762
+199-75-8169,03/06/19,47,A,Jakarta,Member,Male,Sports and travel,110670.0,10,Credit card,4.761904762
+802-70-5316,03/06/19,64,A,Jakarta,Member,Female,Sports and travel,644910.0,6,Cash,4.761904762
+262-47-2794,03/06/19,130,B,Bekasi,Member,Male,Home and lifestyle,503020.0,8,Credit card,4.761904762
+468-01-2051,03/06/19,88,B,Bekasi,Normal,Male,Food and beverages,434560.0,7,Ewallet,4.761904762
+783-09-1637,03/06/19,109,B,Bekasi,Normal,Female,Sports and travel,472010.00000000006,5,Ewallet,4.761904762
+523-38-0215,03/06/19,178,C,Bogor,Normal,Male,Home and lifestyle,259000.0,1,Credit card,4.761904762
+254-31-0042,03/06/19,49,A,Jakarta,Member,Male,Electronic accessories,150500.0,9,Credit card,4.761904762
+885-17-6250,03/06/19,32,A,Jakarta,Normal,Female,Health and beauty,558180.0,1,Ewallet,4.761904762
+149-15-7606,03/06/19,133,B,Bekasi,Member,Male,Sports and travel,261240.0,9,Ewallet,4.761904762
+715-20-1673,03/06/19,84,B,Bekasi,Normal,Male,Electronic accessories,198660.0,5,Cash,4.761904762
+883-69-1285,03/06/19,121,B,Bekasi,Member,Male,Fashion accessories,349440.0,2,Credit card,4.761904762
+468-01-2051,03/06/19,86,B,Bekasi,Normal,Male,Food and beverages,434560.0,7,Ewallet,4.761904762
+783-09-1637,03/06/19,102,B,Bekasi,Normal,Female,Sports and travel,472010.00000000006,5,Ewallet,4.761904762
+523-38-0215,03/06/19,169,C,Bogor,Normal,Male,Home and lifestyle,259000.0,1,Credit card,4.761904762
+254-31-0042,03/06/19,59,A,Jakarta,Member,Male,Electronic accessories,150500.0,9,Credit card,4.761904762
+885-17-6250,03/06/19,27,A,Jakarta,Normal,Female,Health and beauty,558180.0,1,Ewallet,4.761904762
+149-15-7606,03/06/19,132,B,Bekasi,Member,Male,Sports and travel,261240.0,9,Ewallet,4.761904762
+715-20-1673,03/06/19,89,B,Bekasi,Normal,Male,Electronic accessories,198660.0,5,Cash,4.761904762
+883-69-1285,03/06/19,139,B,Bekasi,Member,Male,Fashion accessories,349440.0,2,Credit card,4.761904762
+242-55-6721,03/07/19,93,B,Bekasi,Normal,Male,Home and lifestyle,113120.0,2,Ewallet,4.761904762
+307-85-2293,03/07/19,92,B,Bekasi,Normal,Male,Home and lifestyle,351960.0,5,Ewallet,4.761904762
+821-07-3596,03/07/19,199,C,Bogor,Normal,Female,Fashion accessories,115150.0,4,Ewallet,4.761904762
+423-64-4619,03/07/19,68,A,Jakarta,Member,Female,Health and beauty,108850.0,9,Cash,4.761904762
+471-41-2823,03/07/19,165,C,Bogor,Normal,Male,Food and beverages,698530.0,2,Ewallet,4.761904762
+598-47-9715,03/07/19,168,C,Bogor,Normal,Male,Electronic accessories,588490.0,4,Ewallet,4.761904762
+643-38-7867,03/07/19,6,A,Jakarta,Normal,Male,Home and lifestyle,685580.0,1,Ewallet,4.761904762
+399-69-4630,03/07/19,176,C,Bogor,Normal,Male,Electronic accessories,155470.0,6,Credit card,4.761904762
+748-45-2862,03/07/19,69,A,Jakarta,Member,Female,Home and lifestyle,198170.0,4,Cash,4.761904762
+821-07-3596,03/07/19,183,C,Bogor,Normal,Female,Fashion accessories,115150.0,4,Ewallet,4.761904762
+423-64-4619,03/07/19,67,A,Jakarta,Member,Female,Health and beauty,108850.0,9,Cash,4.761904762
+471-41-2823,03/07/19,170,C,Bogor,Normal,Male,Food and beverages,698530.0,2,Ewallet,4.761904762
+598-47-9715,03/07/19,180,C,Bogor,Normal,Male,Electronic accessories,588490.0,4,Ewallet,4.761904762
+643-38-7867,03/07/19,15,A,Jakarta,Normal,Male,Home and lifestyle,685580.0,1,Ewallet,4.761904762
+399-69-4630,03/07/19,161,C,Bogor,Normal,Male,Electronic accessories,155470.0,6,Credit card,4.761904762
+748-45-2862,03/07/19,70,A,Jakarta,Member,Female,Home and lifestyle,198170.0,4,Cash,4.761904762
+226-31-3081,03/08/19,200,C,Bogor,Normal,Female,Electronic accessories,106960.0,5,Cash,4.761904762
+594-34-4444,03/08/19,11,A,Jakarta,Normal,Male,Electronic accessories,680120.0,1,Ewallet,4.761904762
+483-71-1164,03/08/19,192,C,Bogor,Normal,Female,Health and beauty,569100.0,6,Ewallet,4.761904762
+458-41-1477,03/08/19,189,C,Bogor,Normal,Female,Health and beauty,323820.0,6,Credit card,4.761904762
+563-91-7120,03/08/19,23,A,Jakarta,Normal,Female,Fashion accessories,432390.0,5,Cash,4.761904762
+632-90-0281,03/08/19,189,C,Bogor,Normal,Female,Fashion accessories,262850.0,10,Credit card,4.761904762
+325-77-6186,03/08/19,69,A,Jakarta,Member,Female,Home and lifestyle,634550.0,10,Ewallet,4.761904762
+574-57-9721,03/08/19,170,C,Bogor,Normal,Male,Food and beverages,302890.0,2,Ewallet,4.761904762
+345-08-4992,03/08/19,19,A,Jakarta,Normal,Male,Home and lifestyle,237930.0,6,Credit card,4.761904762
+549-96-4200,03/08/19,207,C,Bogor,Member,Male,Food and beverages,119280.0,4,Ewallet,4.761904762
+364-33-8584,03/08/19,151,B,Bekasi,Member,Female,Food and beverages,123410.0,5,Cash,4.761904762
+563-91-7120,03/08/19,25,A,Jakarta,Normal,Female,Fashion accessories,432390.0,5,Cash,4.761904762
+632-90-0281,03/08/19,183,C,Bogor,Normal,Female,Fashion accessories,262850.0,10,Credit card,4.761904762
+325-77-6186,03/08/19,73,A,Jakarta,Member,Female,Home and lifestyle,634550.0,10,Ewallet,4.761904762
+574-57-9721,03/08/19,165,C,Bogor,Normal,Male,Food and beverages,302890.0,2,Ewallet,4.761904762
+345-08-4992,03/08/19,20,A,Jakarta,Normal,Male,Home and lifestyle,237930.0,6,Credit card,4.761904762
+549-96-4200,03/08/19,214,C,Bogor,Member,Male,Food and beverages,119280.0,4,Ewallet,4.761904762
+364-33-8584,03/08/19,152,B,Bekasi,Member,Female,Food and beverages,123410.0,5,Cash,4.761904762
+529-56-3974,03/09/19,132,B,Bekasi,Member,Male,Electronic accessories,178570.0,4,Cash,4.761904762
+132-32-9879,03/09/19,141,B,Bekasi,Member,Female,Electronic accessories,657720.0,4,Cash,4.761904762
+841-35-6630,03/09/19,195,C,Bogor,Normal,Female,Electronic accessories,531370.0,6,Cash,4.761904762
+360-39-5055,03/09/19,220,C,Bogor,Member,Male,Sports and travel,342370.0,5,Cash,4.761904762
+219-22-9386,03/09/19,122,B,Bekasi,Member,Male,Sports and travel,699720.0,9,Credit card,4.761904762
+268-27-6179,03/09/19,151,B,Bekasi,Member,Female,Fashion accessories,395290.0,8,Ewallet,4.761904762
+157-13-5295,03/09/19,43,A,Jakarta,Member,Male,Health and beauty,363580.0,10,Ewallet,4.761904762
+815-11-1168,03/09/19,54,A,Jakarta,Member,Male,Food and beverages,698460.0,5,Cash,4.761904762
+308-47-4913,03/09/19,63,A,Jakarta,Member,Female,Sports and travel,365820.0,10,Credit card,4.761904762
+489-64-4354,03/09/19,161,C,Bogor,Normal,Male,Fashion accessories,113960.00000000001,1,Cash,4.761904762
+616-87-0016,03/09/19,97,B,Bekasi,Normal,Male,Fashion accessories,668780.0,7,Credit card,4.761904762
+127-47-6963,03/09/19,20,A,Jakarta,Normal,Male,Health and beauty,361970.0,4,Credit card,4.761904762
+277-35-5865,03/09/19,232,C,Bogor,Member,Female,Food and beverages,692790.0,9,Cash,4.761904762
+816-57-2053,03/09/19,1,A,Jakarta,Normal,Male,Sports and travel,426090.0,2,Ewallet,4.761904762
+299-29-0180,03/09/19,150,B,Bekasi,Member,Female,Home and lifestyle,365260.0,7,Cash,4.761904762
+652-43-6591,03/09/19,31,A,Jakarta,Normal,Female,Fashion accessories,681030.0,8,Credit card,4.761904762
+157-13-5295,03/09/19,46,A,Jakarta,Member,Male,Health and beauty,363580.0,10,Ewallet,4.761904762
+815-11-1168,03/09/19,53,A,Jakarta,Member,Male,Food and beverages,698460.0,5,Cash,4.761904762
+308-47-4913,03/09/19,77,A,Jakarta,Member,Female,Sports and travel,365820.0,10,Credit card,4.761904762
+489-64-4354,03/09/19,173,C,Bogor,Normal,Male,Fashion accessories,113960.00000000001,1,Cash,4.761904762
+616-87-0016,03/09/19,90,B,Bekasi,Normal,Male,Fashion accessories,668780.0,7,Credit card,4.761904762
+127-47-6963,03/09/19,2,A,Jakarta,Normal,Male,Health and beauty,361970.0,4,Credit card,4.761904762
+277-35-5865,03/09/19,228,C,Bogor,Member,Female,Food and beverages,692790.0,9,Cash,4.761904762
+816-57-2053,03/09/19,15,A,Jakarta,Normal,Male,Sports and travel,426090.0,2,Ewallet,4.761904762
+299-29-0180,03/09/19,160,B,Bekasi,Member,Female,Home and lifestyle,365260.0,7,Cash,4.761904762
+652-43-6591,03/09/19,25,A,Jakarta,Normal,Female,Fashion accessories,681030.0,8,Credit card,4.761904762
+189-17-4241,03/10/19,31,A,Jakarta,Normal,Female,Fashion accessories,613690.0,2,Credit card,4.761904762
+129-29-8530,03/10/19,51,A,Jakarta,Member,Male,Sports and travel,438340.0,5,Ewallet,4.761904762
+668-90-8900,03/10/19,40,A,Jakarta,Normal,Female,Home and lifestyle,655830.0,7,Credit card,4.761904762
+790-29-1172,03/10/19,113,B,Bekasi,Normal,Female,Food and beverages,401380.0,3,Credit card,4.761904762
+596-42-3999,03/10/19,100,B,Bekasi,Normal,Male,Food and beverages,127539.99999999999,7,Credit card,4.761904762
+696-90-2548,03/10/19,7,A,Jakarta,Normal,Male,Sports and travel,180880.0,3,Ewallet,4.761904762
+453-12-7053,03/10/19,169,C,Bogor,Normal,Male,Fashion accessories,320180.0,3,Credit card,4.761904762
+239-48-4278,03/10/19,52,A,Jakarta,Member,Male,Food and beverages,70910.0,7,Ewallet,4.761904762
+607-65-2441,03/10/19,211,C,Bogor,Member,Male,Health and beauty,573650.0,10,Credit card,4.761904762
+246-55-6923,03/10/19,231,C,Bogor,Member,Female,Home and lifestyle,250530.0,9,Credit card,4.761904762
+156-20-0370,03/10/19,106,B,Bekasi,Normal,Female,Electronic accessories,178150.0,1,Credit card,4.761904762
+745-74-0715,03/10/19,11,A,Jakarta,Normal,Male,Electronic accessories,406210.0,2,Ewallet,4.761904762
+790-29-1172,03/10/19,106,B,Bekasi,Normal,Female,Food and beverages,401380.0,3,Credit card,4.761904762
+596-42-3999,03/10/19,100,B,Bekasi,Normal,Male,Food and beverages,127539.99999999999,7,Credit card,4.761904762
+696-90-2548,03/10/19,1,A,Jakarta,Normal,Male,Sports and travel,180880.0,3,Ewallet,4.761904762
+453-12-7053,03/10/19,178,C,Bogor,Normal,Male,Fashion accessories,320180.0,3,Credit card,4.761904762
+239-48-4278,03/10/19,51,A,Jakarta,Member,Male,Food and beverages,70910.0,7,Ewallet,4.761904762
+607-65-2441,03/10/19,213,C,Bogor,Member,Male,Health and beauty,573650.0,10,Credit card,4.761904762
+246-55-6923,03/10/19,236,C,Bogor,Member,Female,Home and lifestyle,250530.0,9,Credit card,4.761904762
+156-20-0370,03/10/19,104,B,Bekasi,Normal,Female,Electronic accessories,178150.0,1,Credit card,4.761904762
+745-74-0715,03/10/19,5,A,Jakarta,Normal,Male,Electronic accessories,406210.0,2,Ewallet,4.761904762
+656-95-9349,03/11/19,70,A,Jakarta,Member,Female,Health and beauty,482510.00000000006,7,Credit card,4.761904762
+319-50-3348,03/11/19,119,B,Bekasi,Normal,Female,Home and lifestyle,282100.0,2,Ewallet,4.761904762
+584-86-7256,03/11/19,201,C,Bogor,Member,Male,Sports and travel,241920.00000000003,7,Credit card,4.761904762
+891-58-8335,03/11/19,145,B,Bekasi,Member,Female,Sports and travel,207270.0,7,Cash,4.761904762
+721-86-6247,03/11/19,28,A,Jakarta,Normal,Female,Home and lifestyle,443940.0,8,Ewallet,4.761904762
+448-81-5016,03/11/19,20,A,Jakarta,Normal,Male,Health and beauty,418390.0,2,Credit card,4.761904762
+704-20-4138,03/11/19,238,C,Bogor,Member,Female,Health and beauty,207690.0,7,Credit card,4.761904762
+689-16-9784,03/11/19,180,C,Bogor,Normal,Male,Food and beverages,327390.0,6,Cash,4.761904762
+892-05-6689,03/11/19,33,A,Jakarta,Normal,Female,Home and lifestyle,198240.0,5,Ewallet,4.761904762
+749-81-8133,03/11/19,29,A,Jakarta,Normal,Female,Fashion accessories,662690.0,4,Cash,4.761904762
+214-30-2776,03/11/19,153,B,Bekasi,Member,Female,Electronic accessories,241430.0,5,Credit card,4.761904762
+891-58-8335,03/11/19,147,B,Bekasi,Member,Female,Sports and travel,207270.0,7,Cash,4.761904762
+721-86-6247,03/11/19,25,A,Jakarta,Normal,Female,Home and lifestyle,443940.0,8,Ewallet,4.761904762
+448-81-5016,03/11/19,10,A,Jakarta,Normal,Male,Health and beauty,418390.0,2,Credit card,4.761904762
+704-20-4138,03/11/19,234,C,Bogor,Member,Female,Health and beauty,207690.0,7,Credit card,4.761904762
+689-16-9784,03/11/19,171,C,Bogor,Normal,Male,Food and beverages,327390.0,6,Cash,4.761904762
+892-05-6689,03/11/19,29,A,Jakarta,Normal,Female,Home and lifestyle,198240.0,5,Ewallet,4.761904762
+749-81-8133,03/11/19,38,A,Jakarta,Normal,Female,Fashion accessories,662690.0,4,Cash,4.761904762
+214-30-2776,03/11/19,147,B,Bekasi,Member,Female,Electronic accessories,241430.0,5,Credit card,4.761904762
+120-06-4233,03/12/19,178,C,Bogor,Normal,Male,Electronic accessories,214270.0,6,Cash,4.761904762
+152-08-9985,03/12/19,127,B,Bekasi,Member,Male,Health and beauty,450520.0,9,Credit card,4.761904762
+699-01-4164,03/12/19,161,C,Bogor,Normal,Male,Health and beauty,290500.0,4,Credit card,4.761904762
+545-46-3100,03/12/19,149,B,Bekasi,Member,Female,Electronic accessories,74130.0,3,Credit card,4.761904762
+253-12-6086,03/12/19,68,A,Jakarta,Member,Female,Sports and travel,688800.0,7,Credit card,4.761904762
+565-17-3836,03/12/19,80,A,Jakarta,Member,Female,Health and beauty,333690.0,4,Cash,4.761904762
+573-10-3877,03/12/19,132,B,Bekasi,Member,Male,Health and beauty,273070.0,1,Credit card,4.761904762
+276-54-0879,03/12/19,83,B,Bekasi,Normal,Male,Sports and travel,684180.0,4,Ewallet,4.761904762
+719-76-3868,03/12/19,212,C,Bogor,Member,Male,Food and beverages,659820.0,4,Cash,4.761904762
+651-61-0874,03/12/19,163,C,Bogor,Normal,Male,Home and lifestyle,323540.0,4,Credit card,4.761904762
+266-20-6657,03/12/19,207,C,Bogor,Member,Male,Food and beverages,385280.0,7,Ewallet,4.761904762
+427-45-9297,03/12/19,155,B,Bekasi,Member,Female,Home and lifestyle,285110.0,7,Ewallet,4.761904762
+699-01-4164,03/12/19,166,C,Bogor,Normal,Male,Health and beauty,290500.0,4,Credit card,4.761904762
+545-46-3100,03/12/19,150,B,Bekasi,Member,Female,Electronic accessories,74130.0,3,Credit card,4.761904762
+253-12-6086,03/12/19,70,A,Jakarta,Member,Female,Sports and travel,688800.0,7,Credit card,4.761904762
+565-17-3836,03/12/19,77,A,Jakarta,Member,Female,Health and beauty,333690.0,4,Cash,4.761904762
+573-10-3877,03/12/19,137,B,Bekasi,Member,Male,Health and beauty,273070.0,1,Credit card,4.761904762
+276-54-0879,03/12/19,89,B,Bekasi,Normal,Male,Sports and travel,684180.0,4,Ewallet,4.761904762
+719-76-3868,03/12/19,217,C,Bogor,Member,Male,Food and beverages,659820.0,4,Cash,4.761904762
+651-61-0874,03/12/19,176,C,Bogor,Normal,Male,Home and lifestyle,323540.0,4,Credit card,4.761904762
+266-20-6657,03/12/19,204,C,Bogor,Member,Male,Food and beverages,385280.0,7,Ewallet,4.761904762
+427-45-9297,03/12/19,152,B,Bekasi,Member,Female,Home and lifestyle,285110.0,7,Ewallet,4.761904762
+877-22-3308,03/13/19,56,A,Jakarta,Member,Male,Health and beauty,111090.0,10,Cash,4.761904762
+336-78-2147,03/13/19,218,C,Bogor,Member,Male,Home and lifestyle,447370.0,8,Credit card,4.761904762
+101-17-6199,03/13/19,8,A,Jakarta,Normal,Male,Food and beverages,320530.0,7,Credit card,4.761904762
+655-85-5130,03/13/19,141,B,Bekasi,Member,Female,Fashion accessories,268100.0,4,Cash,4.761904762
+585-03-5943,03/13/19,87,B,Bekasi,Normal,Male,Health and beauty,126770.0,10,Ewallet,4.761904762
+316-01-3952,03/13/19,32,A,Jakarta,Normal,Female,Food and beverages,379890.0,5,Ewallet,4.761904762
+686-41-0932,03/13/19,103,B,Bekasi,Normal,Female,Fashion accessories,242900.00000000003,2,Ewallet,4.761904762
+173-57-2300,03/13/19,206,C,Bogor,Member,Male,Sports and travel,510159.99999999994,2,Cash,4.761904762
+584-66-4073,03/13/19,177,C,Bogor,Normal,Male,Fashion accessories,395500.0,1,Ewallet,4.761904762
+137-74-8729,03/13/19,183,C,Bogor,Normal,Female,Fashion accessories,85330.0,8,Ewallet,4.761904762
+655-85-5130,03/13/19,157,B,Bekasi,Member,Female,Fashion accessories,268100.0,4,Cash,4.761904762
+585-03-5943,03/13/19,93,B,Bekasi,Normal,Male,Health and beauty,126770.0,10,Ewallet,4.761904762
+316-01-3952,03/13/19,32,A,Jakarta,Normal,Female,Food and beverages,379890.0,5,Ewallet,4.761904762
+686-41-0932,03/13/19,108,B,Bekasi,Normal,Female,Fashion accessories,242900.00000000003,2,Ewallet,4.761904762
+173-57-2300,03/13/19,220,C,Bogor,Member,Male,Sports and travel,510159.99999999994,2,Cash,4.761904762
+584-66-4073,03/13/19,163,C,Bogor,Normal,Male,Fashion accessories,395500.0,1,Ewallet,4.761904762
+137-74-8729,03/13/19,195,C,Bogor,Normal,Female,Fashion accessories,85330.0,8,Ewallet,4.761904762
+808-65-0703,03/14/19,162,C,Bogor,Normal,Male,Home and lifestyle,248290.0,4,Credit card,4.761904762
+558-80-4082,03/14/19,169,C,Bogor,Normal,Male,Electronic accessories,194950.0,7,Ewallet,4.761904762
+442-48-3607,03/14/19,58,A,Jakarta,Member,Male,Food and beverages,164360.0,2,Credit card,4.761904762
+115-99-4379,03/14/19,148,B,Bekasi,Member,Female,Fashion accessories,383110.0,7,Credit card,4.761904762
+122-61-9553,03/14/19,181,C,Bogor,Normal,Female,Electronic accessories,359240.0,9,Cash,4.761904762
+730-70-9830,03/14/19,189,C,Bogor,Normal,Female,Home and lifestyle,490770.0,6,Ewallet,4.761904762
+189-52-0236,03/14/19,9,A,Jakarta,Normal,Male,Electronic accessories,696850.0,7,Cash,4.761904762
+174-75-0888,03/14/19,99,B,Bekasi,Normal,Male,Electronic accessories,151060.0,9,Cash,4.761904762
+379-17-6588,03/14/19,169,C,Bogor,Normal,Male,Fashion accessories,417270.0,10,Cash,4.761904762
+373-09-4567,03/14/19,168,C,Bogor,Normal,Male,Food and beverages,542920.0,10,Ewallet,4.761904762
+840-19-2096,03/14/19,215,C,Bogor,Member,Male,Electronic accessories,615370.0,5,Ewallet,4.761904762
+628-90-8624,03/14/19,139,B,Bekasi,Member,Male,Health and beauty,578060.0,10,Cash,4.761904762
+169-52-4504,03/14/19,28,A,Jakarta,Normal,Female,Electronic accessories,109830.0,3,Credit card,4.761904762
+210-30-7976,03/14/19,145,B,Bekasi,Member,Female,Fashion accessories,156240.0,4,Ewallet,4.761904762
+499-27-7781,03/14/19,117,B,Bekasi,Normal,Female,Food and beverages,372470.0,8,Ewallet,4.761904762
+722-13-2115,03/14/19,201,C,Bogor,Member,Male,Sports and travel,299950.0,1,Credit card,4.761904762
+457-12-0244,03/14/19,221,C,Bogor,Member,Female,Sports and travel,246540.0,6,Ewallet,4.761904762
+139-32-4183,03/14/19,72,A,Jakarta,Member,Female,Sports and travel,682360.0,9,Ewallet,4.761904762
+808-65-0703,03/14/19,169,C,Bogor,Normal,Male,Home and lifestyle,248290.0,4,Credit card,4.761904762
+558-80-4082,03/14/19,180,C,Bogor,Normal,Male,Electronic accessories,194950.0,7,Ewallet,4.761904762
+442-48-3607,03/14/19,46,A,Jakarta,Member,Male,Food and beverages,164360.0,2,Credit card,4.761904762
+115-99-4379,03/14/19,157,B,Bekasi,Member,Female,Fashion accessories,383110.0,7,Credit card,4.761904762
+122-61-9553,03/14/19,193,C,Bogor,Normal,Female,Electronic accessories,359240.0,9,Cash,4.761904762
+730-70-9830,03/14/19,195,C,Bogor,Normal,Female,Home and lifestyle,490770.0,6,Ewallet,4.761904762
+189-52-0236,03/14/19,14,A,Jakarta,Normal,Male,Electronic accessories,696850.0,7,Cash,4.761904762
+174-75-0888,03/14/19,89,B,Bekasi,Normal,Male,Electronic accessories,151060.0,9,Cash,4.761904762
+379-17-6588,03/14/19,163,C,Bogor,Normal,Male,Fashion accessories,417270.0,10,Cash,4.761904762
+373-09-4567,03/14/19,163,C,Bogor,Normal,Male,Food and beverages,542920.0,10,Ewallet,4.761904762
+840-19-2096,03/14/19,205,C,Bogor,Member,Male,Electronic accessories,615370.0,5,Ewallet,4.761904762
+628-90-8624,03/14/19,130,B,Bekasi,Member,Male,Health and beauty,578060.0,10,Cash,4.761904762
+169-52-4504,03/14/19,27,A,Jakarta,Normal,Female,Electronic accessories,109830.0,3,Credit card,4.761904762
+210-30-7976,03/14/19,157,B,Bekasi,Member,Female,Fashion accessories,156240.0,4,Ewallet,4.761904762
+499-27-7781,03/14/19,114,B,Bekasi,Normal,Female,Food and beverages,372470.0,8,Ewallet,4.761904762
+722-13-2115,03/14/19,219,C,Bogor,Member,Male,Sports and travel,299950.0,1,Credit card,4.761904762
+457-12-0244,03/14/19,231,C,Bogor,Member,Female,Sports and travel,246540.0,6,Ewallet,4.761904762
+139-32-4183,03/14/19,65,A,Jakarta,Member,Female,Sports and travel,682360.0,9,Ewallet,4.761904762
+273-16-6619,03/15/19,90,B,Bekasi,Normal,Male,Home and lifestyle,232400.00000000003,2,Credit card,4.761904762
+848-62-7243,03/15/19,19,A,Jakarta,Normal,Male,Health and beauty,174230.0,9,Cash,4.761904762
+595-11-5460,03/15/19,9,A,Jakarta,Normal,Male,Health and beauty,676060.0,2,Credit card,4.761904762
+542-41-0513,03/15/19,142,B,Bekasi,Member,Female,Electronic accessories,402430.0,4,Cash,4.761904762
+760-54-1821,03/15/19,99,B,Bekasi,Normal,Male,Home and lifestyle,95130.0,9,Cash,4.761904762
+510-09-5628,03/15/19,72,A,Jakarta,Member,Female,Fashion accessories,137620.0,10,Credit card,4.761904762
+585-11-6748,03/15/19,133,B,Bekasi,Member,Male,Sports and travel,677600.0,3,Cash,4.761904762
+605-83-1050,03/15/19,94,B,Bekasi,Normal,Male,Fashion accessories,190260.0,2,Ewallet,4.761904762
+359-94-5395,03/15/19,81,B,Bekasi,Normal,Male,Health and beauty,649460.0,1,Credit card,4.761904762
+565-91-4567,03/15/19,100,B,Bekasi,Normal,Male,Health and beauty,75250.0,8,Ewallet,4.761904762
+361-59-0574,03/15/19,134,B,Bekasi,Member,Male,Sports and travel,633710.0,8,Credit card,4.761904762
+154-87-7367,03/15/19,161,C,Bogor,Normal,Male,Home and lifestyle,456820.00000000006,8,Ewallet,4.761904762
+542-41-0513,03/15/19,152,B,Bekasi,Member,Female,Electronic accessories,402430.0,4,Cash,4.761904762
+760-54-1821,03/15/19,95,B,Bekasi,Normal,Male,Home and lifestyle,95130.0,9,Cash,4.761904762
+510-09-5628,03/15/19,80,A,Jakarta,Member,Female,Fashion accessories,137620.0,10,Credit card,4.761904762
+585-11-6748,03/15/19,128,B,Bekasi,Member,Male,Sports and travel,677600.0,3,Cash,4.761904762
+605-83-1050,03/15/19,98,B,Bekasi,Normal,Male,Fashion accessories,190260.0,2,Ewallet,4.761904762
+359-94-5395,03/15/19,89,B,Bekasi,Normal,Male,Health and beauty,649460.0,1,Credit card,4.761904762
+565-91-4567,03/15/19,81,B,Bekasi,Normal,Male,Health and beauty,75250.0,8,Ewallet,4.761904762
+361-59-0574,03/15/19,131,B,Bekasi,Member,Male,Sports and travel,633710.0,8,Credit card,4.761904762
+154-87-7367,03/15/19,172,C,Bogor,Normal,Male,Home and lifestyle,456820.00000000006,8,Ewallet,4.761904762
+617-15-4209,03/16/19,202,C,Bogor,Member,Male,Health and beauty,107590.0,2,Cash,4.761904762
+575-30-8091,03/16/19,13,A,Jakarta,Normal,Male,Sports and travel,507500.0,8,Ewallet,4.761904762
+286-43-6208,03/16/19,185,C,Bogor,Normal,Female,Food and beverages,614600.0,9,Cash,4.761904762
+290-68-2984,03/16/19,9,A,Jakarta,Normal,Male,Home and lifestyle,166250.0,4,Cash,4.761904762
+578-80-7669,03/16/19,99,B,Bekasi,Normal,Male,Sports and travel,524790.0,1,Cash,4.761904762
+727-17-0390,03/16/19,37,A,Jakarta,Normal,Female,Food and beverages,445270.0,5,Ewallet,4.761904762
+701-69-8742,03/16/19,88,B,Bekasi,Normal,Male,Sports and travel,240589.99999999997,10,Ewallet,4.761904762
+210-74-9613,03/16/19,162,C,Bogor,Normal,Male,Fashion accessories,680820.0,4,Ewallet,4.761904762
+711-31-1234,03/16/19,115,B,Bekasi,Normal,Female,Electronic accessories,669480.0,4,Cash,4.761904762
+286-43-6208,03/16/19,183,C,Bogor,Normal,Female,Food and beverages,614600.0,9,Cash,4.761904762
+290-68-2984,03/16/19,14,A,Jakarta,Normal,Male,Home and lifestyle,166250.0,4,Cash,4.761904762
+578-80-7669,03/16/19,99,B,Bekasi,Normal,Male,Sports and travel,524790.0,1,Cash,4.761904762
+727-17-0390,03/16/19,26,A,Jakarta,Normal,Female,Food and beverages,445270.0,5,Ewallet,4.761904762
+701-69-8742,03/16/19,92,B,Bekasi,Normal,Male,Sports and travel,240589.99999999997,10,Ewallet,4.761904762
+210-74-9613,03/16/19,176,C,Bogor,Normal,Male,Fashion accessories,680820.0,4,Ewallet,4.761904762
+711-31-1234,03/16/19,102,B,Bekasi,Normal,Female,Electronic accessories,669480.0,4,Cash,4.761904762
+662-47-5456,03/17/19,201,C,Bogor,Member,Male,Fashion accessories,246329.99999999997,10,Credit card,4.761904762
+320-32-8842,03/17/19,240,C,Bogor,Member,Female,Food and beverages,158340.0,1,Cash,4.761904762
+642-30-6693,03/17/19,120,B,Bekasi,Normal,Female,Sports and travel,381570.0,6,Ewallet,4.761904762
+220-68-6701,03/17/19,24,A,Jakarta,Normal,Female,Home and lifestyle,542290.0,4,Cash,4.761904762
+152-03-4217,03/17/19,120,B,Bekasi,Normal,Female,Home and lifestyle,78960.0,9,Credit card,4.761904762
+880-46-5796,03/17/19,42,A,Jakarta,Member,Male,Sports and travel,538440.0,10,Ewallet,4.761904762
+662-47-5456,03/17/19,210,C,Bogor,Member,Male,Fashion accessories,246329.99999999997,10,Credit card,4.761904762
+320-32-8842,03/17/19,237,C,Bogor,Member,Female,Food and beverages,158340.0,1,Cash,4.761904762
+642-30-6693,03/17/19,119,B,Bekasi,Normal,Female,Sports and travel,381570.0,6,Ewallet,4.761904762
+220-68-6701,03/17/19,22,A,Jakarta,Normal,Female,Home and lifestyle,542290.0,4,Cash,4.761904762
+152-03-4217,03/17/19,109,B,Bekasi,Normal,Female,Home and lifestyle,78960.0,9,Credit card,4.761904762
+880-46-5796,03/17/19,44,A,Jakarta,Member,Male,Sports and travel,538440.0,10,Ewallet,4.761904762
+263-87-5680,03/18/19,238,C,Bogor,Member,Female,Home and lifestyle,199710.0,10,Ewallet,4.761904762
+439-54-7422,03/18/19,26,A,Jakarta,Normal,Female,Electronic accessories,358330.0,4,Credit card,4.761904762
+485-30-8700,03/18/19,26,A,Jakarta,Normal,Female,Sports and travel,232820.0,5,Credit card,4.761904762
+413-20-6708,03/18/19,224,C,Bogor,Member,Female,Fashion accessories,360290.0,1,Ewallet,4.761904762
+420-04-7590,03/18/19,99,B,Bekasi,Normal,Male,Home and lifestyle,697900.0,3,Ewallet,4.761904762
+776-68-1096,03/18/19,96,B,Bekasi,Normal,Male,Home and lifestyle,308840.0,3,Credit card,4.761904762
+256-58-3609,03/18/19,205,C,Bogor,Member,Male,Fashion accessories,643860.0,1,Cash,4.761904762
+263-87-5680,03/18/19,237,C,Bogor,Member,Female,Home and lifestyle,199710.0,10,Ewallet,4.761904762
+439-54-7422,03/18/19,30,A,Jakarta,Normal,Female,Electronic accessories,358330.0,4,Credit card,4.761904762
+485-30-8700,03/18/19,35,A,Jakarta,Normal,Female,Sports and travel,232820.0,5,Credit card,4.761904762
+413-20-6708,03/18/19,225,C,Bogor,Member,Female,Fashion accessories,360290.0,1,Ewallet,4.761904762
+420-04-7590,03/18/19,91,B,Bekasi,Normal,Male,Home and lifestyle,697900.0,3,Ewallet,4.761904762
+776-68-1096,03/18/19,88,B,Bekasi,Normal,Male,Home and lifestyle,308840.0,3,Credit card,4.761904762
+256-58-3609,03/18/19,205,C,Bogor,Member,Male,Fashion accessories,643860.0,1,Cash,4.761904762
+574-22-5561,03/19/19,240,C,Bogor,Member,Female,Fashion accessories,578410.0,10,Ewallet,4.761904762
+716-39-1409,03/19/19,90,B,Bekasi,Normal,Male,Health and beauty,212450.0,7,Cash,4.761904762
+568-90-5112,03/19/19,163,C,Bogor,Normal,Male,Health and beauty,462980.0,4,Credit card,4.761904762
+831-07-6050,03/19/19,7,A,Jakarta,Normal,Male,Electronic accessories,228970.0,5,Credit card,4.761904762
+850-41-9669,03/19/19,33,A,Jakarta,Normal,Female,Electronic accessories,525420.0,9,Ewallet,4.761904762
+898-04-2717,03/19/19,9,A,Jakarta,Normal,Male,Fashion accessories,534800.0,9,Ewallet,4.761904762
+462-78-5240,03/19/19,190,C,Bogor,Normal,Female,Electronic accessories,186270.0,2,Cash,4.761904762
+301-81-8610,03/19/19,138,B,Bekasi,Member,Male,Fashion accessories,177940.0,8,Credit card,4.761904762
+751-69-0068,03/19/19,164,C,Bogor,Normal,Male,Sports and travel,694680.0,9,Ewallet,4.761904762
+701-23-5550,03/19/19,123,B,Bekasi,Member,Male,Home and lifestyle,271670.0,4,Ewallet,4.761904762
+318-81-2368,03/19/19,197,C,Bogor,Normal,Female,Electronic accessories,323400.0,1,Cash,4.761904762
+155-45-3814,03/19/19,233,C,Bogor,Member,Female,Electronic accessories,619850.0,8,Ewallet,4.761904762
+728-88-7867,03/19/19,224,C,Bogor,Member,Female,Home and lifestyle,528710.0,4,Ewallet,4.761904762
+737-88-5876,03/19/19,46,A,Jakarta,Member,Male,Home and lifestyle,163030.0,4,Credit card,4.761904762
+548-48-3156,03/19/19,80,A,Jakarta,Member,Female,Food and beverages,583380.0,2,Cash,4.761904762
+593-08-5916,03/19/19,35,A,Jakarta,Normal,Female,Fashion accessories,108500.0,1,Credit card,4.761904762
+831-07-6050,03/19/19,6,A,Jakarta,Normal,Male,Electronic accessories,228970.0,5,Credit card,4.761904762
+850-41-9669,03/19/19,33,A,Jakarta,Normal,Female,Electronic accessories,525420.0,9,Ewallet,4.761904762
+898-04-2717,03/19/19,16,A,Jakarta,Normal,Male,Fashion accessories,534800.0,9,Ewallet,4.761904762
+462-78-5240,03/19/19,186,C,Bogor,Normal,Female,Electronic accessories,186270.0,2,Cash,4.761904762
+301-81-8610,03/19/19,129,B,Bekasi,Member,Male,Fashion accessories,177940.0,8,Credit card,4.761904762
+751-69-0068,03/19/19,179,C,Bogor,Normal,Male,Sports and travel,694680.0,9,Ewallet,4.761904762
+701-23-5550,03/19/19,139,B,Bekasi,Member,Male,Home and lifestyle,271670.0,4,Ewallet,4.761904762
+318-81-2368,03/19/19,189,C,Bogor,Normal,Female,Electronic accessories,323400.0,1,Cash,4.761904762
+155-45-3814,03/19/19,226,C,Bogor,Member,Female,Electronic accessories,619850.0,8,Ewallet,4.761904762
+728-88-7867,03/19/19,224,C,Bogor,Member,Female,Home and lifestyle,528710.0,4,Ewallet,4.761904762
+737-88-5876,03/19/19,53,A,Jakarta,Member,Male,Home and lifestyle,163030.0,4,Credit card,4.761904762
+548-48-3156,03/19/19,70,A,Jakarta,Member,Female,Food and beverages,583380.0,2,Cash,4.761904762
+593-08-5916,03/19/19,40,A,Jakarta,Normal,Female,Fashion accessories,108500.0,1,Credit card,4.761904762
+142-63-6033,03/20/19,94,B,Bekasi,Normal,Male,Home and lifestyle,646520.0,5,Ewallet,4.761904762
+213-72-6612,03/20/19,7,A,Jakarta,Normal,Male,Food and beverages,302750.0,2,Cash,4.761904762
+537-72-0426,03/20/19,210,C,Bogor,Member,Male,Fashion accessories,496929.99999999994,10,Cash,4.761904762
+828-61-5674,03/20/19,57,A,Jakarta,Member,Male,Sports and travel,308140.0,10,Credit card,4.761904762
+650-98-6268,03/20/19,150,B,Bekasi,Member,Female,Food and beverages,146090.0,3,Credit card,4.761904762
+632-32-4574,03/20/19,96,B,Bekasi,Normal,Male,Sports and travel,531440.0,8,Cash,4.761904762
+451-28-5717,03/20/19,232,C,Bogor,Member,Female,Home and lifestyle,582190.0,6,Cash,4.761904762
+760-90-2357,03/20/19,51,A,Jakarta,Member,Male,Electronic accessories,521570.00000000006,6,Ewallet,4.761904762
+514-37-2845,03/20/19,98,B,Bekasi,Normal,Male,Fashion accessories,694750.0,2,Cash,4.761904762
+509-29-3912,03/20/19,66,A,Jakarta,Member,Female,Sports and travel,271040.0,9,Ewallet,4.761904762
+436-54-4512,03/20/19,64,A,Jakarta,Member,Female,Food and beverages,641270.0,1,Cash,4.761904762
+182-88-2763,03/20/19,134,B,Bekasi,Member,Male,Food and beverages,559370.0,3,Credit card,4.761904762
+574-31-8277,03/20/19,132,B,Bekasi,Member,Male,Fashion accessories,235410.00000000003,1,Cash,4.761904762
+805-86-0265,03/20/19,18,A,Jakarta,Normal,Male,Home and lifestyle,657720.0,9,Cash,4.761904762
+102-06-2002,03/20/19,215,C,Bogor,Member,Male,Sports and travel,176750.0,5,Cash,4.761904762
+142-63-6033,03/20/19,99,B,Bekasi,Normal,Male,Home and lifestyle,646520.0,5,Ewallet,4.761904762
+213-72-6612,03/20/19,13,A,Jakarta,Normal,Male,Food and beverages,302750.0,2,Cash,4.761904762
+537-72-0426,03/20/19,203,C,Bogor,Member,Male,Fashion accessories,496929.99999999994,10,Cash,4.761904762
+828-61-5674,03/20/19,55,A,Jakarta,Member,Male,Sports and travel,308140.0,10,Credit card,4.761904762
+650-98-6268,03/20/19,143,B,Bekasi,Member,Female,Food and beverages,146090.0,3,Credit card,4.761904762
+632-32-4574,03/20/19,88,B,Bekasi,Normal,Male,Sports and travel,531440.0,8,Cash,4.761904762
+451-28-5717,03/20/19,227,C,Bogor,Member,Female,Home and lifestyle,582190.0,6,Cash,4.761904762
+760-90-2357,03/20/19,54,A,Jakarta,Member,Male,Electronic accessories,521570.00000000006,6,Ewallet,4.761904762
+514-37-2845,03/20/19,81,B,Bekasi,Normal,Male,Fashion accessories,694750.0,2,Cash,4.761904762
+509-29-3912,03/20/19,64,A,Jakarta,Member,Female,Sports and travel,271040.0,9,Ewallet,4.761904762
+436-54-4512,03/20/19,74,A,Jakarta,Member,Female,Food and beverages,641270.0,1,Cash,4.761904762
+182-88-2763,03/20/19,137,B,Bekasi,Member,Male,Food and beverages,559370.0,3,Credit card,4.761904762
+574-31-8277,03/20/19,139,B,Bekasi,Member,Male,Fashion accessories,235410.00000000003,1,Cash,4.761904762
+805-86-0265,03/20/19,9,A,Jakarta,Normal,Male,Home and lifestyle,657720.0,9,Cash,4.761904762
+102-06-2002,03/20/19,205,C,Bogor,Member,Male,Sports and travel,176750.0,5,Cash,4.761904762
+827-26-2100,03/21/19,52,A,Jakarta,Member,Male,Home and lifestyle,236880.00000000003,9,Ewallet,4.761904762
+512-98-1403,03/21/19,78,A,Jakarta,Member,Female,Electronic accessories,185360.0,3,Ewallet,4.761904762
+527-09-6272,03/21/19,71,A,Jakarta,Member,Female,Electronic accessories,199150.0,5,Credit card,4.761904762
+438-01-4015,03/21/19,151,B,Bekasi,Member,Female,Sports and travel,346430.0,4,Ewallet,4.761904762
+448-61-3783,03/21/19,23,A,Jakarta,Normal,Female,Electronic accessories,630140.0,8,Credit card,4.761904762
+500-02-2261,03/21/19,200,C,Bogor,Normal,Female,Food and beverages,401030.0,6,Ewallet,4.761904762
+827-26-2100,03/21/19,41,A,Jakarta,Member,Male,Home and lifestyle,236880.00000000003,9,Ewallet,4.761904762
+512-98-1403,03/21/19,71,A,Jakarta,Member,Female,Electronic accessories,185360.0,3,Ewallet,4.761904762
+527-09-6272,03/21/19,72,A,Jakarta,Member,Female,Electronic accessories,199150.0,5,Credit card,4.761904762
+438-01-4015,03/21/19,154,B,Bekasi,Member,Female,Sports and travel,346430.0,4,Ewallet,4.761904762
+448-61-3783,03/21/19,26,A,Jakarta,Normal,Female,Electronic accessories,630140.0,8,Credit card,4.761904762
+500-02-2261,03/21/19,181,C,Bogor,Normal,Female,Food and beverages,401030.0,6,Ewallet,4.761904762
+227-03-5010,03/22/19,76,A,Jakarta,Member,Female,Home and lifestyle,368130.0,8,Credit card,4.761904762
+616-24-2851,03/22/19,151,B,Bekasi,Member,Female,Fashion accessories,125090.0,4,Ewallet,4.761904762
+630-74-5166,03/22/19,20,A,Jakarta,Normal,Male,Sports and travel,434910.0,6,Cash,4.761904762
+802-43-8934,03/22/19,20,A,Jakarta,Normal,Male,Home and lifestyle,127960.00000000001,1,Credit card,4.761904762
+472-15-9636,03/22/19,20,A,Jakarta,Normal,Male,Home and lifestyle,356510.0,8,Ewallet,4.761904762
+394-30-3170,03/22/19,155,B,Bekasi,Member,Female,Sports and travel,619010.0,8,Credit card,4.761904762
+554-53-3790,03/22/19,90,B,Bekasi,Normal,Male,Sports and travel,259140.00000000003,6,Cash,4.761904762
+550-84-8664,03/22/19,4,A,Jakarta,Normal,Male,Sports and travel,601370.0,5,Credit card,4.761904762
+674-56-6360,03/22/19,15,A,Jakarta,Normal,Male,Electronic accessories,666050.0,1,Cash,4.761904762
+886-18-2897,03/22/19,23,A,Jakarta,Normal,Female,Food and beverages,395920.0,5,Credit card,4.761904762
+802-43-8934,03/22/19,19,A,Jakarta,Normal,Male,Home and lifestyle,127960.00000000001,1,Credit card,4.761904762
+472-15-9636,03/22/19,14,A,Jakarta,Normal,Male,Home and lifestyle,356510.0,8,Ewallet,4.761904762
+394-30-3170,03/22/19,153,B,Bekasi,Member,Female,Sports and travel,619010.0,8,Credit card,4.761904762
+554-53-3790,03/22/19,93,B,Bekasi,Normal,Male,Sports and travel,259140.00000000003,6,Cash,4.761904762
+550-84-8664,03/22/19,15,A,Jakarta,Normal,Male,Sports and travel,601370.0,5,Credit card,4.761904762
+674-56-6360,03/22/19,20,A,Jakarta,Normal,Male,Electronic accessories,666050.0,1,Cash,4.761904762
+886-18-2897,03/22/19,28,A,Jakarta,Normal,Female,Food and beverages,395920.0,5,Credit card,4.761904762
+333-73-7901,03/23/19,198,C,Bogor,Normal,Female,Health and beauty,384440.0,8,Ewallet,4.761904762
+865-92-6136,03/23/19,7,A,Jakarta,Normal,Male,Food and beverages,369250.0,3,Ewallet,4.761904762
+608-96-3517,03/23/19,145,B,Bekasi,Member,Female,Fashion accessories,640780.0,4,Credit card,4.761904762
+407-63-8975,03/23/19,13,A,Jakarta,Normal,Male,Food and beverages,517159.99999999994,6,Ewallet,4.761904762
+851-28-6367,03/23/19,51,A,Jakarta,Member,Male,Sports and travel,108500.0,10,Ewallet,4.761904762
+856-22-8149,03/23/19,33,A,Jakarta,Normal,Female,Home and lifestyle,177030.0,1,Ewallet,4.761904762
+795-49-7276,03/23/19,16,A,Jakarta,Normal,Male,Fashion accessories,260050.0,4,Ewallet,4.761904762
+386-27-7606,03/23/19,226,C,Bogor,Member,Female,Home and lifestyle,568400.0,7,Credit card,4.761904762
+733-29-1227,03/23/19,168,C,Bogor,Normal,Male,Home and lifestyle,389270.0,7,Cash,4.761904762
+474-33-8305,03/23/19,204,C,Bogor,Member,Male,Fashion accessories,471730.0,7,Ewallet,4.761904762
+884-80-6021,03/23/19,72,A,Jakarta,Member,Female,Electronic accessories,514290.0,10,Ewallet,4.761904762
+407-63-8975,03/23/19,11,A,Jakarta,Normal,Male,Food and beverages,517159.99999999994,6,Ewallet,4.761904762
+851-28-6367,03/23/19,41,A,Jakarta,Member,Male,Sports and travel,108500.0,10,Ewallet,4.761904762
+856-22-8149,03/23/19,28,A,Jakarta,Normal,Female,Home and lifestyle,177030.0,1,Ewallet,4.761904762
+795-49-7276,03/23/19,11,A,Jakarta,Normal,Male,Fashion accessories,260050.0,4,Ewallet,4.761904762
+386-27-7606,03/23/19,232,C,Bogor,Member,Female,Home and lifestyle,568400.0,7,Credit card,4.761904762
+733-29-1227,03/23/19,166,C,Bogor,Normal,Male,Home and lifestyle,389270.0,7,Cash,4.761904762
+474-33-8305,03/23/19,218,C,Bogor,Member,Male,Fashion accessories,471730.0,7,Ewallet,4.761904762
+884-80-6021,03/23/19,74,A,Jakarta,Member,Female,Electronic accessories,514290.0,10,Ewallet,4.761904762
+588-01-7461,03/24/19,199,C,Bogor,Normal,Female,Food and beverages,237859.99999999997,9,Cash,4.761904762
+560-30-5617,03/24/19,111,B,Bekasi,Normal,Female,Sports and travel,173390.0,5,Cash,4.761904762
+593-95-4461,03/24/19,214,C,Bogor,Member,Male,Home and lifestyle,524020.0,1,Cash,4.761904762
+835-16-0096,03/24/19,217,C,Bogor,Member,Male,Sports and travel,102900.0,5,Ewallet,4.761904762
+468-88-0009,03/24/19,45,A,Jakarta,Member,Male,Home and lifestyle,461580.0,4,Cash,4.761904762
+334-64-2006,03/24/19,75,A,Jakarta,Member,Female,Home and lifestyle,492239.99999999994,2,Ewallet,4.761904762
+725-67-2480,03/24/19,151,B,Bekasi,Member,Female,Fashion accessories,411250.0,6,Credit card,4.761904762
+538-22-0304,03/24/19,163,C,Bogor,Normal,Male,Electronic accessories,454650.0,10,Cash,4.761904762
+118-62-1812,03/24/19,235,C,Bogor,Member,Female,Home and lifestyle,548660.0,4,Cash,4.761904762
+851-98-3555,03/24/19,118,B,Bekasi,Normal,Female,Health and beauty,580160.0,5,Credit card,4.761904762
+641-62-7288,03/24/19,100,B,Bekasi,Normal,Male,Home and lifestyle,699440.0,6,Ewallet,4.761904762
+560-30-5617,03/24/19,106,B,Bekasi,Normal,Female,Sports and travel,173390.0,5,Cash,4.761904762
+593-95-4461,03/24/19,212,C,Bogor,Member,Male,Home and lifestyle,524020.0,1,Cash,4.761904762
+835-16-0096,03/24/19,204,C,Bogor,Member,Male,Sports and travel,102900.0,5,Ewallet,4.761904762
+468-88-0009,03/24/19,54,A,Jakarta,Member,Male,Home and lifestyle,461580.0,4,Cash,4.761904762
+334-64-2006,03/24/19,61,A,Jakarta,Member,Female,Home and lifestyle,492239.99999999994,2,Ewallet,4.761904762
+725-67-2480,03/24/19,157,B,Bekasi,Member,Female,Fashion accessories,411250.0,6,Credit card,4.761904762
+538-22-0304,03/24/19,162,C,Bogor,Normal,Male,Electronic accessories,454650.0,10,Cash,4.761904762
+118-62-1812,03/24/19,231,C,Bogor,Member,Female,Home and lifestyle,548660.0,4,Cash,4.761904762
+851-98-3555,03/24/19,117,B,Bekasi,Normal,Female,Health and beauty,580160.0,5,Credit card,4.761904762
+641-62-7288,03/24/19,93,B,Bekasi,Normal,Male,Home and lifestyle,699440.0,6,Ewallet,4.761904762
+699-14-3026,03/25/19,170,C,Bogor,Normal,Male,Electronic accessories,597730.0,7,Ewallet,4.761904762
+362-58-8315,03/25/19,161,C,Bogor,Normal,Male,Fashion accessories,535640.0,5,Cash,4.761904762
+340-66-0321,03/25/19,41,A,Jakarta,Member,Male,Electronic accessories,254520.0,4,Cash,4.761904762
+110-05-6330,03/25/19,196,C,Bogor,Normal,Female,Food and beverages,276010.0,6,Credit card,4.761904762
+282-35-2475,03/25/19,111,B,Bekasi,Normal,Female,Sports and travel,653170.0,2,Cash,4.761904762
+134-75-2619,03/25/19,42,A,Jakarta,Member,Male,Electronic accessories,135240.0,7,Cash,4.761904762
+156-95-3964,03/25/19,39,A,Jakarta,Normal,Female,Food and beverages,387730.0,4,Ewallet,4.761904762
+366-43-6862,03/25/19,87,B,Bekasi,Normal,Male,Electronic accessories,370230.0,4,Ewallet,4.761904762
+605-03-2706,03/25/19,25,A,Jakarta,Normal,Female,Health and beauty,110600.0,3,Cash,4.761904762
+340-66-0321,03/25/19,47,A,Jakarta,Member,Male,Electronic accessories,254520.0,4,Cash,4.761904762
+110-05-6330,03/25/19,190,C,Bogor,Normal,Female,Food and beverages,276010.0,6,Credit card,4.761904762
+282-35-2475,03/25/19,120,B,Bekasi,Normal,Female,Sports and travel,653170.0,2,Cash,4.761904762
+134-75-2619,03/25/19,60,A,Jakarta,Member,Male,Electronic accessories,135240.0,7,Cash,4.761904762
+156-95-3964,03/25/19,22,A,Jakarta,Normal,Female,Food and beverages,387730.0,4,Ewallet,4.761904762
+366-43-6862,03/25/19,99,B,Bekasi,Normal,Male,Electronic accessories,370230.0,4,Ewallet,4.761904762
+605-03-2706,03/25/19,21,A,Jakarta,Normal,Female,Health and beauty,110600.0,3,Cash,4.761904762
+163-56-7055,03/26/19,201,C,Bogor,Member,Male,Fashion accessories,340970.0,1,Cash,4.761904762
+848-24-9445,03/26/19,206,C,Bogor,Member,Male,Health and beauty,305900.0,2,Cash,4.761904762
+411-77-0180,03/26/19,60,A,Jakarta,Member,Male,Electronic accessories,505400.0,7,Ewallet,4.761904762
+449-27-2918,03/26/19,145,B,Bekasi,Member,Female,Sports and travel,273840.0,1,Credit card,4.761904762
+734-91-1155,03/26/19,115,B,Bekasi,Normal,Female,Electronic accessories,319970.0,3,Credit card,4.761904762
+236-27-1144,03/26/19,185,C,Bogor,Normal,Female,Food and beverages,114169.99999999999,9,Ewallet,4.761904762
+797-88-0493,03/26/19,28,A,Jakarta,Normal,Female,Health and beauty,449890.0,4,Cash,4.761904762
+487-79-6868,03/26/19,160,B,Bekasi,Member,Female,Home and lifestyle,86030.0,9,Credit card,4.761904762
+587-73-4862,03/26/19,63,A,Jakarta,Member,Female,Health and beauty,74830.0,5,Ewallet,4.761904762
+760-53-9233,03/26/19,49,A,Jakarta,Member,Male,Fashion accessories,288960.0,3,Credit card,4.761904762
+807-34-3742,03/26/19,17,A,Jakarta,Normal,Male,Fashion accessories,366660.0,1,Cash,4.761904762
+595-94-9924,03/26/19,67,A,Jakarta,Member,Female,Health and beauty,194110.0,5,Credit card,4.761904762
+859-97-6048,03/26/19,218,C,Bogor,Member,Male,Electronic accessories,589750.0,2,Credit card,4.761904762
+848-24-9445,03/26/19,220,C,Bogor,Member,Male,Health and beauty,305900.0,2,Cash,4.761904762
+411-77-0180,03/26/19,47,A,Jakarta,Member,Male,Electronic accessories,505400.0,7,Ewallet,4.761904762
+449-27-2918,03/26/19,153,B,Bekasi,Member,Female,Sports and travel,273840.0,1,Credit card,4.761904762
+734-91-1155,03/26/19,119,B,Bekasi,Normal,Female,Electronic accessories,319970.0,3,Credit card,4.761904762
+236-27-1144,03/26/19,192,C,Bogor,Normal,Female,Food and beverages,114169.99999999999,9,Ewallet,4.761904762
+797-88-0493,03/26/19,27,A,Jakarta,Normal,Female,Health and beauty,449890.0,4,Cash,4.761904762
+487-79-6868,03/26/19,147,B,Bekasi,Member,Female,Home and lifestyle,86030.0,9,Credit card,4.761904762
+587-73-4862,03/26/19,80,A,Jakarta,Member,Female,Health and beauty,74830.0,5,Ewallet,4.761904762
+760-53-9233,03/26/19,58,A,Jakarta,Member,Male,Fashion accessories,288960.0,3,Credit card,4.761904762
+807-34-3742,03/26/19,10,A,Jakarta,Normal,Male,Fashion accessories,366660.0,1,Cash,4.761904762
+595-94-9924,03/26/19,64,A,Jakarta,Member,Female,Health and beauty,194110.0,5,Credit card,4.761904762
+859-97-6048,03/26/19,216,C,Bogor,Member,Male,Electronic accessories,589750.0,2,Credit card,4.761904762
+106-35-6779,03/27/19,58,A,Jakarta,Member,Male,Home and lifestyle,310380.0,2,Cash,4.761904762
+633-44-8566,03/27/19,49,A,Jakarta,Member,Male,Food and beverages,345660.0,7,Credit card,4.761904762
+238-49-0436,03/27/19,9,A,Jakarta,Normal,Male,Health and beauty,227220.0,8,Credit card,4.761904762
+423-57-2993,03/27/19,87,B,Bekasi,Normal,Male,Sports and travel,653730.0,6,Ewallet,4.761904762
+278-86-2735,03/27/19,37,A,Jakarta,Normal,Female,Food and beverages,366380.0,3,Cash,4.761904762
+794-32-2436,03/27/19,128,B,Bekasi,Member,Male,Electronic accessories,389690.0,2,Ewallet,4.761904762
+176-64-7711,03/27/19,93,B,Bekasi,Normal,Male,Food and beverages,226240.0,3,Credit card,4.761904762
+186-71-5196,03/27/19,69,A,Jakarta,Member,Female,Food and beverages,556780.0,2,Ewallet,4.761904762
+313-66-9943,03/27/19,142,B,Bekasi,Member,Female,Food and beverages,204050.0,3,Credit card,4.761904762
+702-83-5291,03/27/19,205,C,Bogor,Member,Male,Fashion accessories,698740.0,9,Cash,4.761904762
+278-86-2735,03/27/19,34,A,Jakarta,Normal,Female,Food and beverages,366380.0,3,Cash,4.761904762
+794-32-2436,03/27/19,138,B,Bekasi,Member,Male,Electronic accessories,389690.0,2,Ewallet,4.761904762
+176-64-7711,03/27/19,89,B,Bekasi,Normal,Male,Food and beverages,226240.0,3,Credit card,4.761904762
+186-71-5196,03/27/19,78,A,Jakarta,Member,Female,Food and beverages,556780.0,2,Ewallet,4.761904762
+313-66-9943,03/27/19,158,B,Bekasi,Member,Female,Food and beverages,204050.0,3,Credit card,4.761904762
+702-83-5291,03/27/19,207,C,Bogor,Member,Male,Fashion accessories,698740.0,9,Cash,4.761904762
+212-62-1842,03/28/19,20,A,Jakarta,Normal,Male,Food and beverages,407820.0,6,Cash,4.761904762
+573-58-9734,03/28/19,115,B,Bekasi,Normal,Female,Fashion accessories,212590.0,3,Ewallet,4.761904762
+633-09-3463,03/28/19,182,C,Bogor,Normal,Female,Electronic accessories,333550.0,3,Credit card,4.761904762
+531-80-1784,03/28/19,17,A,Jakarta,Normal,Male,Electronic accessories,182140.0,7,Cash,4.761904762
+266-76-6436,03/28/19,230,C,Bogor,Member,Female,Food and beverages,270200.0,3,Ewallet,4.761904762
+470-32-9057,03/28/19,52,A,Jakarta,Member,Male,Food and beverages,359380.0,5,Credit card,4.761904762
+544-32-5024,03/28/19,229,C,Bogor,Member,Female,Food and beverages,348530.0,4,Credit card,4.761904762
+420-97-3340,03/28/19,25,A,Jakarta,Normal,Female,Food and beverages,501760.00000000006,3,Credit card,4.761904762
+857-16-3520,03/28/19,61,A,Jakarta,Member,Female,Fashion accessories,500219.99999999994,7,Ewallet,4.761904762
+333-23-2632,03/28/19,50,A,Jakarta,Member,Male,Health and beauty,70560.0,7,Cash,4.761904762
+573-58-9734,03/28/19,105,B,Bekasi,Normal,Female,Fashion accessories,212590.0,3,Ewallet,4.761904762
+633-09-3463,03/28/19,183,C,Bogor,Normal,Female,Electronic accessories,333550.0,3,Credit card,4.761904762
+531-80-1784,03/28/19,9,A,Jakarta,Normal,Male,Electronic accessories,182140.0,7,Cash,4.761904762
+266-76-6436,03/28/19,235,C,Bogor,Member,Female,Food and beverages,270200.0,3,Ewallet,4.761904762
+470-32-9057,03/28/19,55,A,Jakarta,Member,Male,Food and beverages,359380.0,5,Credit card,4.761904762
+544-32-5024,03/28/19,239,C,Bogor,Member,Female,Food and beverages,348530.0,4,Credit card,4.761904762
+420-97-3340,03/28/19,34,A,Jakarta,Normal,Female,Food and beverages,501760.00000000006,3,Credit card,4.761904762
+857-16-3520,03/28/19,65,A,Jakarta,Member,Female,Fashion accessories,500219.99999999994,7,Ewallet,4.761904762
+333-23-2632,03/28/19,45,A,Jakarta,Member,Male,Health and beauty,70560.0,7,Cash,4.761904762
+829-34-3910,03/29/19,22,A,Jakarta,Normal,Female,Health and beauty,499659.99999999994,10,Cash,4.761904762
+766-85-7061,03/29/19,98,B,Bekasi,Normal,Male,Health and beauty,615090.0,10,Ewallet,4.761904762
+727-75-6477,03/29/19,165,C,Bogor,Normal,Male,Electronic accessories,201880.0,4,Cash,4.761904762
+291-21-5991,03/29/19,124,B,Bekasi,Member,Male,Health and beauty,429030.0,5,Cash,4.761904762
+425-85-2085,03/29/19,138,B,Bekasi,Member,Male,Health and beauty,384020.0,5,Ewallet,4.761904762
+218-59-9410,03/29/19,69,A,Jakarta,Member,Female,Home and lifestyle,506940.0,3,Ewallet,4.761904762
+186-79-9562,03/29/19,100,B,Bekasi,Normal,Male,Health and beauty,502390.0,7,Cash,4.761904762
+267-62-7380,03/29/19,208,C,Bogor,Member,Male,Electronic accessories,576380.0,10,Ewallet,4.761904762
+727-75-6477,03/29/19,166,C,Bogor,Normal,Male,Electronic accessories,201880.0,4,Cash,4.761904762
+291-21-5991,03/29/19,134,B,Bekasi,Member,Male,Health and beauty,429030.0,5,Cash,4.761904762
+425-85-2085,03/29/19,121,B,Bekasi,Member,Male,Health and beauty,384020.0,5,Ewallet,4.761904762
+218-59-9410,03/29/19,73,A,Jakarta,Member,Female,Home and lifestyle,506940.0,3,Ewallet,4.761904762
+186-79-9562,03/29/19,98,B,Bekasi,Normal,Male,Health and beauty,502390.0,7,Cash,4.761904762
+267-62-7380,03/29/19,205,C,Bogor,Member,Male,Electronic accessories,576380.0,10,Ewallet,4.761904762
+743-04-1105,03/30/19,122,B,Bekasi,Member,Male,Health and beauty,680540.0,9,Ewallet,4.761904762
+286-01-5402,03/30/19,39,A,Jakarta,Normal,Female,Sports and travel,281610.0,7,Cash,4.761904762
+731-59-7531,03/30/19,134,B,Bekasi,Member,Male,Health and beauty,507989.99999999994,8,Cash,4.761904762
+676-39-6028,03/30/19,77,A,Jakarta,Member,Female,Electronic accessories,451080.0,5,Cash,4.761904762
+131-15-8856,03/30/19,234,C,Bogor,Member,Female,Food and beverages,507640.0,8,Credit card,4.761904762
+778-89-7974,03/30/19,168,C,Bogor,Normal,Male,Health and beauty,491469.99999999994,6,Cash,4.761904762
+642-61-4706,03/30/19,124,B,Bekasi,Member,Male,Food and beverages,653800.0,2,Cash,4.761904762
+115-38-7388,03/30/19,229,C,Bogor,Member,Female,Fashion accessories,71260.0,8,Credit card,4.761904762
+291-55-6563,03/30/19,64,A,Jakarta,Member,Female,Home and lifestyle,240940.0,6,Ewallet,4.761904762
+361-85-2571,03/30/19,32,A,Jakarta,Normal,Female,Sports and travel,626360.0,5,Cash,4.761904762
+364-34-2972,03/30/19,216,C,Bogor,Member,Male,Electronic accessories,677740.0,3,Cash,4.761904762
+286-01-5402,03/30/19,34,A,Jakarta,Normal,Female,Sports and travel,281610.0,7,Cash,4.761904762
+731-59-7531,03/30/19,139,B,Bekasi,Member,Male,Health and beauty,507989.99999999994,8,Cash,4.761904762
+676-39-6028,03/30/19,70,A,Jakarta,Member,Female,Electronic accessories,451080.0,5,Cash,4.761904762
+131-15-8856,03/30/19,232,C,Bogor,Member,Female,Food and beverages,507640.0,8,Credit card,4.761904762
+778-89-7974,03/30/19,176,C,Bogor,Normal,Male,Health and beauty,491469.99999999994,6,Cash,4.761904762
+642-61-4706,03/30/19,139,B,Bekasi,Member,Male,Food and beverages,653800.0,2,Cash,4.761904762
+115-38-7388,03/30/19,224,C,Bogor,Member,Female,Fashion accessories,71260.0,8,Credit card,4.761904762
+291-55-6563,03/30/19,63,A,Jakarta,Member,Female,Home and lifestyle,240940.0,6,Ewallet,4.761904762
+361-85-2571,03/30/19,36,A,Jakarta,Normal,Female,Sports and travel,626360.0,5,Cash,4.761904762
+364-34-2972,03/30/19,216,C,Bogor,Member,Male,Electronic accessories,677740.0,3,Cash,4.761904762
