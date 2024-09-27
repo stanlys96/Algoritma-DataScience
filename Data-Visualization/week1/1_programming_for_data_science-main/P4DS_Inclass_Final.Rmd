@@ -49,11 +49,11 @@ Bagian abu-abu dari Rmarkdown adalah `chunk`. Chunk berguna untuk menulis **code
 
 ```{r}
 # code di sini
-
+walao <- "ASD"
 ```
 
 ```{r}
-
+walao
 ```
 
 Menggunakan sebuah shortcut: ctrl + alt + i/cmd + opt + i
@@ -358,7 +358,7 @@ Matrix merupakan struktur data yang memiliki 2 dimensi dan hanya bisa diisi deng
 
 ```{r}
 # tidak perlu fokus pada pembuatan object matrix
-mat <- matrix(data = 11:16, nrow = 3, ncol = 2)
+mat <- matrix(data = 11:16, nrow = 3, ncol = 2, byrow=FALSE)
 mat
 ```
 
@@ -486,6 +486,7 @@ Fungsi `nrow()` untuk mengetahui jumlah baris, sedangkan `ncol()` untuk mengetah
 
 ```{r}
 nrow(retail)
+ncol(retail)
 ```
 
 ---End of Day 2---
@@ -793,6 +794,7 @@ Kita sebagai seorang analyst bisa memanfatkan fungsi `table()` untuk mencari tah
 
 ```{r}
 table(retail$Segment)
+# unique(retail$Segment)
 ```
 
 Contoh kasus lain, untuk mencari tahu tipe pengiriman (`Ship.Mode`) apa yang paling banyak digunakan oleh `Segment` consumer?

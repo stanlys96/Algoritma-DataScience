@@ -47,7 +47,10 @@ Bagian abu-abu dari Rmarkdown adalah `chunk`. Chunk berguna untuk menulis **code
 
 ```{r}
 # code di sini
-
+walao <- "Algoritma"
+```
+```{r}
+walao
 ```
 
 ## Object
@@ -140,7 +143,9 @@ Gunakan komentar untuk memperjelas code yang diketikkan
 
 ```{r}
 # code here
-
+nama <- "Stanly"
+pekerjaan <- "Software Engineer"
+kota <- "Surabaya"
 ```
 
 ## Data Types
@@ -150,13 +155,16 @@ Sebelum membahas tentang tipe data apa saja yang terdapat di R. Ada 2 fungsi yan
 Fungsi `c()` -> combine nilai untuk menyimpan lebih dari satu nilai
 
 ```{r}
-
+nama
+pekerjaan
+kota
 ```
 
 Funcsi `class()` -> melihat tipe data pada sebuat object
 
 ```{r}
-
+tempat <- c("Bandung", "Jakarta", "Bogor")
+class(tempat)
 ```
 
 ### Character
@@ -179,7 +187,7 @@ Tipe data berisi angka yang dapat berupa angka kontinu (ada koma/pecahan), maupu
 
 ```{r}
 tinggi <- c(170.5, 165, 168.5)
-
+class(tinggi)
 ```
 
 Contoh lain data yang memiliki tipe *numeric*:
@@ -293,6 +301,9 @@ Matrix merupakan struktur data yang memiliki 2 dimensi dan hanya bisa diisi deng
 # tidak perlu fokus pada pembuatan object matrix
 mat <- matrix(data = 11:16, nrow = 3, ncol = 2)
 mat
+mat[1,2]
+mat[,2]
+mat[1:3,2]
 ```
 
 ### List
@@ -311,7 +322,10 @@ Data frame merupakan tipe data yang paling sering digunakan dalam pengolahan dat
 
 ```{r}
 # cara 1: dari vector
+nama <- c("Vic", "Dwi", "Arkana")
+umur <- c(29, 27, 25)
 
+data.frame(nama, umur)
 ```
 
 ```{r}
@@ -326,7 +340,7 @@ Data frame merupakan tipe data yang paling sering digunakan dalam pengolahan dat
 Kita akan menganalisis data `retail.csv` yang terdapat pada folder `data_input`. Gunakan fungsi `read.csv()` untuk membaca file CSV ke R, lalu simpanlah ke sebuah object dengan nama `retail`. 
 
 ```{r}
-
+retail <- read.csv("data_input/retail.csv")
 ```
 
 Deskripsi kolom:
