@@ -1,0 +1,123 @@
+---
+title: "Kuis P4DS-PS"
+author: "Team Algoritma"
+date: "6/6/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Kuis ini merupakan bagian dari proses penilaian *Algoritma Academy*. Selamat Anda sudah menyelesaikan materi *Programming for Data Science* dan *Practical Statistics*! Kami akan melakukan penilaian berupa kuis untuk menguji materi yang sudah dipelajari. Pengerjaan kuis diharapkan dapat dilakukan di dalam kelas, silakan hubungi tim instruktur kami jika Anda melewatkan kesempatan untuk mengambilnya di kelas.
+
+# Petunjuk
+
+Pada kuis ini, kita akan menggunakan dataset retail. Anda dapat menemukan file CSV yang disimpan dalam folder `datainput` dengan nama file `retail.csv`. Data ini merupakan catatan transaksi toko eceran (retail) yang memiliki beberapa variabel. Silakan lihat glosarium berikut sebagai petunjuk Anda:
+
+- `Order.ID`: Id Pemesanan.    
+- `Order.Date`: Tanggal Pemesanan.   
+- `Ship.Date`: Tanggal Pengiriman.    
+- `Ship.Mode`: Jenis Pengiriman.   
+- `Customer.ID`: Id Pelanggan.   
+- `Segment` : Segmen Pelanggan.   
+- `Product.ID`: Id Produk.    
+- `Category` : Kategori Produk; memilki 3 jenis/*levels* ("Furniture", "Office Supplies", "Technology").    
+- `Sub.Category`: Kategori produk yang lebih spesifik.    
+- `Product.Name`: Nama produk yang terjual.    
+- `Sales`: Penghasilan yang didapatkan setiap penjualan.
+- `Quantity`: Jumlah barang yang terjual.    
+- `Discount`: Besarnya diskon yang diberikan untuk setiap penjualan.    
+- `Profit`: Keuntungan yang didapatkan perusahaan untuk setiap penjualan.    
+
+```{r}
+# baca dan periksa data disini
+
+
+```
+
+Kami akan membagi kuis ini menjadi 2 bagian utama : *Programming for Data Science* dan *Practical Statistics*, masing-masing bagian menguji pengetahuan yang telah dipelajari dalam 2 materi tersebut.
+
+## Programming for Data Science
+
+1. Diantara data transaksi retail di atas, terdapat beberapa barang yang terjual dengan jumlah barang lebih dari 5. Namun kita lebih tertarik untuk mengetahui berapa banyak transaksi yang menghasilkan keuntungan di atas rata-rata namun hanya terjual dengan jumlah barang yang kurang dari 5. Gunakan *conditional subsetting* untuk mengetahui jumlah transaksi dengan kondisi tersebut!
+  - [ ] 1380
+  - [ ] 1793
+  - [ ] 2551
+  - [ ] 758
+  
+```{r}
+# code Here
+
+
+```
+
+2. Jika Anda melihat kolom `Ship.Mode`, Anda akan melihat ada beberapa jenis pengiriman. Di antara semua segmen pelanggan, segmen mana yang paling banyak menggunakan jenis pengiriman *First Class*?
+  - [ ] Consumer
+  - [ ] Corporate
+  - [ ] Home Office
+  
+```{r}
+# code here
+
+```
+
+3. Jika kita menganalisis subkategori dari kategori Peralatan Kantor (*Office Supplies*), manakah yang merupakan 3 subkategori terpopuler, dengan mempertimbangkan jumlah barang yang terjual dari setiap subkategori?
+  - [ ] Binder, Paper, Storage
+  - [ ] Appliances, Art, Binder
+  - [ ] Supplies, Envelopes, Fasteners
+  - [ ] Paper, Binder, Art
+  
+```{r}
+# code here
+
+```
+
+
+## Practical Statistics
+
+4. Dalam statistik deskriptif, ada dua ukuran utama yang biasa digunakan untuk mendeskripsikan distribusi data: ukuran pemusatan dan ukuran persebaran. Pengukuran statistik mana yang dapat digunakan untuk menggambarkan ukuran persebaran? 
+  - [ ] Probability
+  - [ ] Mean
+  - [ ] Standard Deviation
+  - [ ] Correlation
+  
+5. Temukan korelasi antara Penjualan (*Sales*) dan Laba (*Profit*) dari transaksi yang ada menggunakan fungsi `cor ()`. Berdasarkan korelasi antara keduanya, manakah dari pernyataan berikut yang benar?
+  - [ ] Saat Sales meningkat, maka Profit menurun
+  - [ ] Saat Sales menurun, maka Profit menurun
+  - [ ] Saat Sales meningkat, maka Profit tetap/tidak berubah
+
+*Referensi Opsi Bahasa Inggris:*
+  - [ ] As the Sales increase, the Profit gained decreases
+  - [ ] As the Sales decreases, the Profit gained decreases
+  - [ ] As the Sales increase, the Profit is fixed
+  
+```{r}
+# code here
+
+
+```
+
+6. Pertimbangkan kasus ini: Sebuah perusahaan retail ingin menerapkan promosi untuk meningkatkan jumlah penjualan yang selalu dievaluasi tiap bulan. Berdasarkan catatan historis, kita mengetahui bahwa populasi **penjualan bulanan** memiliki rata-rata 47.858,35 dengan standar deviasi 25.195 dan berdistribusi normal. Setelah promosi diterapkan selama sebulan (dengan menggunakan n=1), perusahaan mendapatkan jumlah penjualan sebanyak 81.777. Dengan menggunakan selang kepercayaan 95%, lakukan uji signifikansi menggunakan *z-test* untuk mengetahui apakah promosi yang dilakukan memengaruhi jumlah penjualan secara signifikan. Apa kesimpulan yang dapat diambil, berdasarkan informasi yang diberikan? 
+  - [ ] Gagal tolak hipotesis nol (H0), promosi tidak memberikan pengaruh yang signifikan terhadap jumlah penjualan
+  - [ ] Gagal tolak hipotesis nol (H0), promosi memberikan pengaruh yang signifikan terhadap jumlah penjualan
+  - [ ] Tolak hipotesis nol (H0), promosi memberikan pengaruh yang signifikan terhadap jumlah penjualan
+  - [ ] Tolak hipotesis nol (H0), promosi tidak memberikan pengaruh yang signifikan terhadap jumlah penjualan
+
+*Referensi Opsi Bahasa Inggris:*
+  - [ ] Fail to reject the null hypothesis, the promo does not have a statistically significant impact
+  - [ ] Fail to reject the null hypothesis, the promo has a statistically significant impact
+  - [ ] Reject the null hypothesis, the promo has a statistically significant impact 
+  - [ ] Reject the null hypothesis, the promo does not have a statistically significant impact
+
+I. Hipotesis
+
+H0: Sales = 47858.35 (Promosi tidak mempengaruhi jumlah penjualan)
+H1: Sales > 47858.35 (Promosi mempengaruhi jumlah penjualan)
+
+II. Statistik
+
+```{r}
+# code Here
+
+```
