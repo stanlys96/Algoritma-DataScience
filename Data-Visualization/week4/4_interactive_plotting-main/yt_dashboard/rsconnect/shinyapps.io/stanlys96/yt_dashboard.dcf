@@ -1,0 +1,12 @@
+name: yt_dashboard
+title: yt_dashboard
+username: stanlys96
+account: stanlys96
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13000752
+bundleId: 9216171
+url: https://stanlys96.shinyapps.io/yt_dashboard/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
