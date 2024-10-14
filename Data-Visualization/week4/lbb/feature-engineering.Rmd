@@ -1,0 +1,79 @@
+```{r}
+library(shiny)
+library(shinydashboard)
+
+# import library
+library(dplyr)
+library(ggplot2)
+library(scales)
+library(glue)
+library(plotly)
+library(lubridate)
+options(scipen = 100)
+```
+
+
+```{r}
+supermarket <- read.csv("supermarket.csv", stringsAsFactors = TRUE, encoding = "latin1")
+head(supermarket)
+```
+
+
+```{r}
+supermarket %>% group_by(Product.line) %>% summarise(avg_sales = mean(Total)) %>% ungroup() %>% arrange(desc(avg_sales))
+```
+
+```{r}
+supermarket %>% group_by(Gender) %>% summarise(avg_sales = mean(Total)) %>% ungroup() %>% arrange(desc(avg_sales))
+```
+```{r}
+supermarket %>% group_by(Branch) %>% summarise(avg_sales = mean(Total)) %>% ungroup() %>% arrange(desc(avg_sales))
+```
+```{r}
+supermarket %>% group_by(Payment) %>% summarise(avg_sales = mean(Total)) %>% ungroup() %>% arrange(desc(avg_sales))
+```
+
+```{r}
+supermarket$Date <- as.Date(supermarket$Date, format = "%m/%d/%Y")
+supermarket$Month <- format(supermarket$Date, "%B")
+supermarket$Month <- factor(supermarket$Month, levels = month.name)
+
+supermarket <- supermarket %>% mutate(Week = week(Date))
+
+week_group <- supermarket %>% group_by(Week) %>% summarise(total = sum(Total)) %>% ungroup()
+week_group
+```
+```{r}
+weekly_group <- data %>%
+  group_by(Year, Month, Week) %>%
+  summarise(total = sum(Total)) %>%
+  ungroup()
+```
+
+```{r}
+summary(supermarket)
+```
+
+
+```{r}
+# Assuming month_group contains the Month and Total columns
+library(ggplot2)
+
+# Convert Month to a factor with correct month order
+month_group$Month <- factor(month_group$Month, levels = month.name)
+
+# Create the line plot
+plot3 <- ggplot(week_group, aes(x = Week, y = total, group = 1)) +
+  geom_line(col = "red") +   # Add a red line
+  geom_point() +             # Optionally, add points at each month
+  scale_y_continuous(labels = scales::comma, limits = c(0, NA)) +  
+  scale_x_continuous(breaks = seq(1,nrow(week_group),1)) + # Format y-axis with commas
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))  # Rotate x-axis labels
+
+# Display the plot
+plot3
+```
+```{r}
+nrow(week_group)
+```
+
