@@ -20,6 +20,7 @@ Read the dataset and save it into an object named `youtube`:
 
 ```{r}
 # your code here
+youtube <- read.csv("youtube.csv")
 ```
 
 Say you are working as a trend analyst consultant for a YouTube channel. You are trying to capture the top rating YouTube channels listed under the **Music** category. The metrics you are using to rate each channel is the ratio between likes and views (likes ratio).
@@ -29,10 +30,10 @@ Take the top 10 YouTube channels based on the highest likes ratio by completing 
 ```{r}
 library(dplyr)
 youtube %>% 
-   ___(category_id == "Music") %>% 
+   filter(category_id == "Music") %>% 
    group_by(channel_title) %>% 
-   ___(likes_ratio = mean(likes/views)) %>% 
-   ___(desc(likes_ratio)) %>% 
+   summarise(likes_ratio = mean(likes/views)) %>% 
+   arrange(desc(likes_ratio)) %>% 
    head(10)
 ```
 ___

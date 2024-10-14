@@ -43,12 +43,6 @@ supermarket <- supermarket %>% mutate(Week = week(Date))
 week_group <- supermarket %>% group_by(Week) %>% summarise(total = sum(Total)) %>% ungroup()
 week_group
 ```
-```{r}
-weekly_group <- data %>%
-  group_by(Year, Month, Week) %>%
-  summarise(total = sum(Total)) %>%
-  ungroup()
-```
 
 ```{r}
 summary(supermarket)
@@ -58,9 +52,6 @@ summary(supermarket)
 ```{r}
 # Assuming month_group contains the Month and Total columns
 library(ggplot2)
-
-# Convert Month to a factor with correct month order
-month_group$Month <- factor(month_group$Month, levels = month.name)
 
 # Create the line plot
 plot3 <- ggplot(week_group, aes(x = Week, y = total, group = 1)) +
@@ -73,7 +64,25 @@ plot3 <- ggplot(week_group, aes(x = Week, y = total, group = 1)) +
 # Display the plot
 plot3
 ```
+
 ```{r}
 nrow(week_group)
+```
+
+```{r}
+supermarket_filter <- supermarket %>%
+      filter(City == "Yangon") %>% 
+      group_by(Week) %>% 
+      summarise(total = sum(Total))
+
+plot4 <- ggplot(supermarket_filter, aes(x = Week, y = total, group = 1)) +
+  geom_line(col = "red") +   # Add a red line
+  geom_point() +             # Optionally, add points at each month
+  scale_y_continuous(labels = scales::comma, limits = c(0, NA)) +  
+  scale_x_continuous(breaks = seq(1,nrow(supermarket_filter),1)) + # Format y-axis with commas
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))  # Rotate x-axis labels
+
+# Display the plot
+plot4
 ```
 

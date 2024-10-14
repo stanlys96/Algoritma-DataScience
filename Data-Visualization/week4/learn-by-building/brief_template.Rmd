@@ -1,0 +1,107 @@
+---
+title: "Briefing DV capstone"
+author: "Stanly Sukmajaya"
+date: "`r Sys.Date()`"
+output: 
+ html_document:
+   toc: true
+   toc_float: true
+   highlight: zenburn
+   df_print: paged
+   theme: flatly
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+File ini berisi template untuk mejawab pertanyaan 5W+1H saat briefing Capstone Data Visualization sebagai langkah awal sebelum membuat d ashboard. Silakan Bapak/Ibu mengisi jawaban di bawah. 
+
+File ini tidak akan dinilai namun Bapak/Ibu **WAJIB** disubmit ke dalam classroom pada hari H briefing Capstone Data Visualization.
+
+# What
+
+Tentukan tujuan atau informasi yang ingin ditampilkan dalam dashboard.
+
+**Jawab**
+
+Tujuan yang ingin dicapai atau informasi yang ingin disampaikan:
+
+- Total sales per branch
+- Payment method with the most use
+- Top 10 total sales per city
+- Overtime sales between genders
+
+# Who
+
+Untuk siapa dashboard ini dibuat? Siapa target pembaca dari dashboard ini?
+
+**Jawab**
+
+For top company executives, to analyze sales based on branch, cities and genders.
+
+# Why
+
+Apakah data yang dibuat relevan atau sesuai dengan tujuan? Mengapa?
+
+**Jawab**
+
+Yes, because the sales data can be modified to show based on cities, branches and genders.
+
+# When
+
+Apakah data yang digunakan masih *up to date* atau masih relevan dengan kondisi sekarang? Apakah ada informasi tentang tanggal update terakhir dari data tersebut?
+
+**Jawab**
+
+Yes, this data starts from January 2019 and ends at March 2019.
+
+
+# How
+
+Bagaimana Bapak/Ibu menggunakan visualisasi untuk menjawab tujuan yang telah disebutkan? 
+
+**Jawab**
+
+Plot untuk menjawab tujuan pertama
+
+- Tujuan yang akan dijawab: Total sales per branch
+- Plot yang akan dibuat: Bar Plot
+- Variabel yang dimasukkan ke dalam plot: Branch and Total
+
+
+Plot untuk menjawab tujuan kedua
+
+- Tujuan yang akan dijawab: Payment method with the most use
+- Plot yang akan dibuat: Pie Chart
+- Variabel yang dimasukkan ke dalam plot: Payment
+
+
+Plot untuk menjawab tujuan ketiga
+- Tujuan yang akan dijawab: Top 10 total sales per city
+- Plot yang akan dibuat: Bar Plot
+- Variabel yang dimasukkan ke dalam plot: City and Total
+
+
+Anda dapat menambahkan poin baru apabila terdapat lebih dari 3 tujuan.
+
+# Where
+
+Bagaimana desain layout atau tata letak dashboard yang akan dibuat?
+
+**Jawab**
+
+Konten pada tab atau halaman pertama
+
+- Total sales per city
+- Total sales per branch
+- Total sales
+- Average sales per city
+- Average sales per branch
+
+Konten pada tab atau halaman kedua
+
+- Pie chart of payment methods
+- Top 10 bought product.line
+- Top 10 product with the highest rating
+
