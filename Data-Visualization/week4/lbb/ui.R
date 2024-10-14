@@ -41,11 +41,11 @@ dashboardPage(
               fluidRow(
                 box(
                   width = 6,
-                  plotlyOutput(outputId = "plot2")
+                  plotlyOutput(outputId = "plot3")
                 ),
                 box(
                   width = 6,
-                  plotlyOutput(outputId = "plot3")
+                  plotlyOutput(outputId = "plot2")
                 )
               )
       ),

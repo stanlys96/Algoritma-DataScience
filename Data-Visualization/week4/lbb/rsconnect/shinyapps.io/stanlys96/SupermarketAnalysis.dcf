@@ -1,0 +1,13 @@
+name: SupermarketAnalysis
+title: SupermarketAnalysis
+username: stanlys96
+account: stanlys96
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13008770
+bundleId: 9220371
+url: https://stanlys96.shinyapps.io/SupermarketAnalysis/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: feature-engineering.Rmd

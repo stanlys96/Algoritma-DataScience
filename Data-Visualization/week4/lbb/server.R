@@ -12,31 +12,10 @@ function(input, output, session) {
            x = "Week",
            y = NULL) +
       scale_y_continuous(labels = scales::comma, limits = c(0, NA)) +  
-      scale_x_continuous(breaks = seq(1,nrow(week_group),1)) + # Format y-axis with commas
-      theme(axis.text.x = element_text(angle = 45, hjust = 1))
+      scale_x_continuous(breaks = seq(1,nrow(week_group),1))
     
     ggplotly(plot3, tooltip = "text")
     
-  })
-  
-  output$plot2 <- renderPlotly({
-    branch_group <- supermarket %>% group_by(Branch) %>% summarise(total = sum(Total)) %>% ungroup() %>% 
-      mutate(label = glue(
-        "Branch : {Branch}
-       Total Sales: {comma(total)}"
-      )
-      )
-    
-    plot2 <- ggplot(branch_group, aes(x = Branch, y = total, text = label)) + 
-      labs(title = "Total sales on each branch",
-           x = "Branch",
-           y = NULL) +
-      scale_y_continuous(labels = scales::comma, limits = c(0, NA)) +  
-      theme_minimal() +
-      theme(legend.position = "none") +
-      geom_col(aes(fill = Branch))
-    
-    ggplotly(plot2, tooltip = "text")
   })
   
   output$plot3 <- renderPlotly({
@@ -55,6 +34,26 @@ function(input, output, session) {
       theme_minimal() +
       theme(legend.position = "none") +
       geom_col(aes(fill = City))
+    
+    ggplotly(plot2, tooltip = "text")
+  })
+  
+  output$plot2 <- renderPlotly({
+    branch_group <- supermarket %>% group_by(Payment) %>% summarise(total = sum(Total)) %>% ungroup() %>% 
+      mutate(label = glue(
+        "Payment Method : {Payment}
+       Total Sales: {comma(total)}"
+      )
+      )
+    
+    plot2 <- ggplot(branch_group, aes(x = Payment, y = total, text = label)) +
+      labs(title = "Total sales based on payment method",
+           x = "Payment Method",
+           y = NULL) +
+      scale_y_continuous(labels = scales::comma, limits = c(0, NA)) +  
+      theme_minimal() +
+      theme(legend.position = "none") +
+      geom_col(aes(fill = Payment))
     
     ggplotly(plot2, tooltip = "text")
   })
@@ -102,8 +101,7 @@ function(input, output, session) {
       geom_line(col = "red") +   # Add a red line
       geom_point() +             # Optionally, add points at each month
       scale_y_continuous(labels = scales::comma, limits = c(0, NA)) +  
-      scale_x_continuous(breaks = seq(1,nrow(supermarket_filter),1)) + # Format y-axis with commas
-      theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+      scale_x_continuous(breaks = seq(1,nrow(supermarket_filter),1)) + 
       labs(title = glue("Sales progress in {input$input_city}"),
            x = "Week",
            y = NULL) 
