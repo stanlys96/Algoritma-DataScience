@@ -1,0 +1,13 @@
+name: CapstoneProject
+title: CapstoneProject
+username: stanlys96
+account: stanlys96
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13051613
+bundleId: 9236668
+url: https://stanlys96.shinyapps.io/CapstoneProject/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: feature-engineering.Rmd

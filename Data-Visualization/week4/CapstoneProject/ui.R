@@ -2,14 +2,15 @@ dashboardPage(
   
   # Bagian Header
   dashboardHeader(
-    title = "Supermarket Analysis"
+    title = "Capstone Project"
   ),
   
   dashboardSidebar(
     sidebarMenu(
       menuItem("Overview", tabName = "page1", icon = icon("city")),
-      menuItem("Supermarket Analysis", tabName = "page2", icon = icon("store")),
-      menuItem("Dataset", tabName = "page3", icon = icon("server"))
+      menuItem("Product Category Analysis", tabName = "page2", icon = icon("store")),
+      menuItem("Gender Analysis", tabName = "page3", icon = icon("venus-mars")),
+      menuItem("Dataset", tabName = "page4", icon = icon("server"))
     )
   ),
   
@@ -69,12 +70,67 @@ dashboardPage(
               ),
               fluidRow(
                 box(
-                  width = 12,
+                  width = 6,
                   plotlyOutput(outputId = "plot4")
+                ),
+                box(
+                  width = 6,
+                  plotlyOutput(outputId = "plot7")
                 )
               )
       ),
       tabItem(tabName = "page3",
+              fluidRow(
+                box(
+                  width = 12,
+                  tags$style(HTML("
+                        .pretty-radio .shiny-input-container {
+                           margin-top: 10px;
+                           margin-bottom: 10px;
+                        }
+                        
+                        .pretty-radio label {
+                           font-size: 16px;       
+                           font-weight: bold;     
+                           color: #555555;        
+                           padding-right: 10px;   
+                           cursor: pointer;
+                           transition: all 0.3s ease;
+                        }
+                        
+                        .pretty-radio label:hover {
+                           color: green;
+                           background-color: #fff111;
+                           border-radius: 50%;
+                        }
+                        
+                        .pretty-radio input[type='radio']:checked {
+                           background-color: #007bff;
+                           border-color: #007bff;
+                        }
+                     ")),
+                  div(class = "pretty-radio",radioButtons("radio", "Choose one:", choices = c("Male", "Female"), inline = TRUE)),
+                  textOutput("selection")
+                )
+              ),
+              fluidRow(
+                box(
+                  width = 12,
+                  plotlyOutput(outputId = "plot3_lolipop")
+                )
+              ),
+              fluidRow(
+                box(
+                  width = 6,
+                  plotlyOutput(outputId = "plot5")
+                ),
+                box(
+                  width = 6,
+                  plotlyOutput(outputId = "plot6")
+                )
+              )
+              ),
+      tabItem(tabName = "page4",
               fluidRow(
                 box(
                   width = 12,
