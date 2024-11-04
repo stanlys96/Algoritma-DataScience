@@ -1,0 +1,316 @@
+---
+title: "Kuis Klasifikasi pada Machine Learning I"
+author: "Team Algoritma"
+date: "`r format = Sys.Date('%e, %B %Y')`"
+output: 
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+    theme: united
+    highlight: zenburn
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      mmessage = FALSE,
+                      warning = FALSE,
+                      fig.align = 'center',
+                      comment = '#>')
+options(scipen = 999)
+```
+
+# Kuis Klasifikasi 1
+
+Kuis ini merupakan bagian dari proses penilaian *Algoritma Academy*. Selamat Anda sudah menyelesaikan materi *Classification in Machine Learning I*! Kami akan melakukan penilaian berupa kuis untuk menguji praktek teknik pembuatan model klasifikasi yang sudah Anda pelajari. Pengerjaan kuis diharapkan dapat dilakukan di dalam kelas, silakan hubungi tim instruktur kami jika Anda melewatkan kesempatan untuk mengambilnya di kelas.
+
+# Pemahaman Metode
+
+Klasifikasi merupakan metode prediktif untuk memprediksi suatu target variabel yang bertipe kategorik dalam *supervised machine learning*. Model yang dapat digunakan dalam melakukan klasifikasi dibedakan menjadi 2 jenis. Model yang dapat diinterpretasikan; salah satunya *logistic regression*, dan model yang robust serta sulit diinterpretasikan; salah satunya *k-nearest neighbor*. 
+
+Salah satu pengaplikasian model klasifikasi pada industri finansial yaitu dalam melakukan credit scoring. Credit scoring dilakukan untuk menilai apakah seorang nasabah layak diberikan pinjaman atau tidak. Data yang biasa dibutuhkan dalam analisis credit scoring yaitu data profil nasabah (calon peminjam), baik berupa demografi nasabah, pendapatan, status pekerjaan, status pendapatan, jumlah pendapatan, status kepemilikan rumah, dan masih banyak lagi. Semakin lengkap informasi yang ada, maka perhitungan dalam pembuatan model dapat menjadi lebh akurat. 
+
+Bayangkan sebuah perusahaan finansial yang sedang ingin mengefisienkan proses credit scoring menggunakan *machine learning*. Perusahaan tersebut berharap mendapatkan model prediksi dengan performa yang baik serta dapat mengetahui kontribusi dari masing-masing variabel yang digunakan terhadap penilaian apakah nasabah layak diberikan pinjaman atau tidak. Model yang dibuat nantinya ingin digunakan sebagai acuan dalam penentuan keputusan bisnis. Harapannya penggunaan model mampu mengurangi resiko kerugian akibat kesalahan pemberian pinjaman pada nasabah yang nantinya tidak mampu membayar pinjaman.
+
+1. Berdasarkan permasalahan di atas, manakah pernyataan di bawah ini yang **tidak tepat**?
+- [ ] variabel prediktor yang dapat digunakan yaitu pendapatan, demografi nasabah, dan status pekerjaan
+- [ ] variabel target yang dapat digunakan yaitu penilaian status credit (mampu bayar/gagal bayar pinjaman)
+- [ ] model yang lebih tepat digunakan yaitu k-nearest neighbor
+- [ ] kasus ini dapat diselesaikan dengan metode klasifikasi
+
+*Referensi Opsi Bahasa Inggris:*
+- [ ] the variables that can be used as predictors are income, customer demographics, and employment status
+- [ ] the target variable is credit status assessment (whether the customer will be able to pay/unable to pay for the loan)
+- [ ] the more appropriate model to use is the k-nearest neighbor
+- [ ] this case can be solved using a classification model
+
+Selain kasus di atas, banyak sekali kasus lain yang berasal dari beragam lini bisnis yang dapat diselesaikan menggunakan metode klasifikasi. Salah satunya adalah pada lingkup *human resource* (HR). Selesaikanlah kasus di bawah ini dengan mengaplikasikan metode klasifikasi yang sudah dipelajari.
+
+# Ekplorasi Data
+
+Pertama, kita akan menyiapkan dan melakukan eksplorasi data. Pada kuis ini, Anda akan menggunakan data pergantian karyawan (`turnover`). Data disimpan dalam format `.csv` pada *repository* ini yaitu file `turnover_balance.csv`. Bacalah data tersebut ke dalam R menggunakan `read.csv()` atau `read_csv()` dan simpanlah sebagai objek `turnover`. Sebelum membuat model klasifikasi, Anda perlu melakukan eksplorasi data untuk memahami data tersebut. Lihatlah struktur data `turnover` kita! Anda dapat menggunakan fungsi `str()` atau `glimpse()`.
+
+```{r}
+# your code here
+```
+
+Data *turnover* terdiri dari 10 kolom dan 7142 baris. Data ini merupakan data *Human Resource* (HR) yang menunjukkan rekam historis karakteristik karyawan yang telah mengundurkan diri dan yang tidak. Di bawah ini merupakan informasi detail terkait variabel yang terdapat pada dataset:
+
+  - `satisfaction_level`: tingkat kepuasan karyawan selama bekerja di perusahaan
+  - `last_evaluation`: tingkat kepuasan karyawan pada evaluasi terakhir
+  - `number_project`: jumlah projek yang diterima oleh karyawan
+  - `average_monthly_hours`: rata-rata jam kerja per bulan
+  - `time_spend_company`: lama waktu bekerja di perusahaan (dalam tahun)
+  - `work_accident`: ada atau tidaknya kecelakaan kerja, 0 = tidak ada, 1 = ada
+  - `promotion_last_5years`: apakah karyawan pernah mendapatkan promosi dalam 5 tahun terakhir, 0 = tidak, 1 = ya
+  - `division`: nama divisi atau departemen
+  - `salary`: tingkat pendapatan, dibedakan menjadi *low*, *medium*, dan *high*
+  - `left`: apakah karyawan mengundurkan diri, 0 = tidak, 1 = ya
+  
+Pada kuis ini, kita akan memprediksi kecenderungan karyawan untuk mengundurkan diri atau tidak yang tersimpan dalam kolom `left` sebagai variabel target. Silahkan ubah tipe data pada kolom `Work_accident`, `promotion_last_5years`, `division`, `salary` dan `left` agar menjadi tipe data *factor* seperti seharusnya. 
+
+```{r}
+# your code here
+```
+
+
+Misal, sebagai seorang staff HR, kita diminta untuk menginvestigasi divisi yang memiliki rekam jejak karyawan yang mengundurkan diri berdasarkan rata-rata jam kerja per bulan. Silahkan lakukan agregasi data berdasarkan `average_monthly_hours` untuk masing-masing divisi. Karena Anda hanya fokus pada karyawan yang mengundurkan diri, Anda harus menyeleksi data berdasarkan kondisi yang dibutuhkan. 
+
+Menggunakan fungsi **dplyr**, Anda dapat menggunakan fungsi `filter()` lalu menggunakan fungsi `group_by()` berdasarkan variabel `division`, dan menggunakan fungsi `summarise()` untuk mendapatkan rata-rata dari variabel `average_monthly_hours` serta urutkanlah berdasarkan nilai rata-rata tertinggi pada `average_monthly_hours` dengan menggunakan fungsi `arrange()`.  
+
+Apabila Anda lebih familiar menggunakan **base R**, lakukanlah filter data dengan *conditional subsetting* `data["kondisi",]`, lalu simpanlah ke dalam objek `df_left`. Selanjutnya, Anda dapat melakukan agregasi `df_left` berdasarkan kolom `division` dan `average_monthly_hours` menggunakan fungsi `aggregate()`. Jangan lupa untuk menggunakan `mean` dalam parameter `FUN` yang terdapat pada fungsi `aggregate()`, kemudian simpanlah ke dalam objek `df_agg`. Untuk mengurutkan rata-rata `average_monthly_hours` dari yang tertinggi hingga terendah, Anda dapat menggunakan fungsi `order` di dalam *conditional subsetting* `data[order(nama_kolom, decreasing = T), ]`
+
+
+```{r}
+# your code here
+
+```
+___
+2. Berdasarkan agregasi data yang telah Anda buat, divisi mana yang merupakan 3 divisi dengan rata-rata jam kerja per bulan tertinggi?
+  - [ ] Marketing, Accounting, Management
+  - [ ] Accounting, Support, Sales
+  - [ ] Technical, IT, Management
+  - [ ] Technical, IT, Research and Development (RandD)
+___
+
+# Data Pre-Prosessing
+
+Setelah melakukan eksplorasi data, kita akan melanjutkan pada tahap pre-proses sebelum membangun model klasifikasi. Lihatlah proporsi kelas pada variabel target yaitu kolom `left` dengan menggunakan fungsi `prop.table(table(data))`. 
+
+```{r}
+# your code here
+```
+
+Variabel target kita terlihat memiliki proporsi kelas yang seimbang. Sebelum kita membangun model, kita harus memisahkan data menjadi data *train* dan *test* agar dapat memvalidasi performa model klasifikasi yang dibuat. Pisahkan data `turnover` dengan pembagian proporsi 80% untuk data *train* dan  20% untuk data *test* menggunakan fungsi `sample()`. Gunakan `set.seed()` dengan besaran 100. Simpan hasil pemisahan data pada objek `train` dan `test`. 
+
+> **Catatan:** Pastikan Anda menggunakan `RNGkind()` dan `set.seed()` sebelum melakukan pemisahan data dan jalankan bersamaan dengan fungsi `sample()` yang Anda gunakan
+
+```{r}
+RNGkind(sample.kind = "Rounding")
+set.seed(100)
+# your code here
+
+```
+
+Mari kita lihat proporsi kelas target pada data `train` menggunakan fungsi `prop.table(table(data))` untuk memastikan data *train* memiliki proporsi kelas yang seimbang. Silahkan bulatkan nilai proporsinya hingga dua angka desimal di belakang koma dengan menggunakan fungsi `round()`. 
+
+```{r}
+# your code here
+
+```
+
+___
+3. Berdasarkan hasil di atas, manakah pernyataan di bawah ini yang paling tepat?
+  - [ ] Distribusi dikatakan tidak seimbang, namun kita tidak perlu membuat proporsi kelas target seimbang.
+  - [ ] Distribusi dikatakan seimbang, namun kita tidak perlu membuat proporsi kelas target seimbang.
+  - [ ] Distribusi dikatakan seimbang, namun kita juga harus menguji apakah proporsi kelas pada data test dapat dikatakan seimbang.
+  - [ ] Distribusi dikatakan seimbang, dan hal ini penting sehingga model dapat memprediksi dengan baik kedua kelas target.
+
+*Referensi Opsi Bahasa Inggris:*
+  - [ ] The class distribution is not balanced, but it is not necessary to balance the class proportion.
+  - [ ] The class distribution is balanced, but it is not necessary to balance the class proportion.
+  - [ ] The class distribution is balanced, but we should also make sure that the test data set also have balanced proportion.
+  - [ ] The class distribution is balanced, and it is important to balance the class proportion so that model can predict well in both classes.
+  
+___
+
+# *Model Fitting* Regresi Logistik 
+
+Setelah membagi data menjadi data *train* dan *test*, mari kita modelkan variabel `left` dengan menggunakan seluruh variabel sebagai prediktor dengan regresi logistik. Silahkan gunakan fungsi `glm(formula, data, family = "binomial")` untuk membangun model dan simpanlah model tersebut pada objek `model_logistic`. Ingat, kita tidak lagi menggunakan data `turnover` namun kita akan menggunakan data `train`. 
+
+```{r}
+# model_logistic <- glm()
+```
+
+Berdasarkan `model_logistic` yang telah Anda buat, mari kita lihat ringkasan model menggunakan fungsi `summary()`.
+
+```{r}
+# your code here
+```
+___
+4. Regresi logistik adalah salah satu model yang dapat diinterpretasikan. Kita dapat menjelaskan bagaimana masing-masing variabel memberikan pengaruh pada hasil prediksi. Berdasarkan ringkasan model di atas, apa yang dapat diinterpretasikan dari koefisien `salarymedium`?
+  - [ ] Probabilitas karyawan yang mendapatkan medium salary untuk mengundurkan diri adalah sebesar 1.50.
+  - [ ] Karyawan yang mendapatkan medium salary 4.48 kali lebih mungkin untuk mengundurkan diri dibandingkan karyawan yang menerima kategori salary lainnya.
+  - [ ] Karyawan yang mendapatkan medium salary 4.48 kali lebih mungkin untuk mengundurkan diri dibandingkan karyawan yang menerima high salary.
+
+*Referensi Opsi Bahasa Inggris:*
+  - [ ] The probability of an employee that received medium salary to resign is 1.50.
+  - [ ] Employee who received medium salary is about 4.48 more likely to resign than the employee who received the other levels of salary.
+  - [ ] Employee who received medium salary is about 4.48 more likely to resign than the employee who received high salary.
+
+___
+
+# *Model Fitting K-Nearest Neighbor*
+
+Sekarang mari kita mengeksplorasi algoritma klasifikasi *k-Nearest Neighbor*. Pada algoritma *k-Nearest Neighbor*, kita perlu melakukan satu tahap data pre-proses tambahan. Untuk setiap data `train` dan `test` yang kita miliki, hilangkan variabel kategorik kecuali variabel `left`. Pisahkan variabel prediktor dan target dari data `train` dan `test`. 
+
+```{r}
+# variabel prediktor pada `train`
+train_x <-
+
+# variabel prediktor pada `test`
+test_x <-
+
+# variabel target pada `train`
+train_y <-
+
+# variabel target pada `test`
+test_y <-
+```
+
+Ingatlah bahwa pengukuran jarak pada *kNN* sangat bergantung pada skala data dari variabel prediktor yang dimasukkan sebagai *input* model. Adanya prediktor yang memiliki *range* nilai yang amat berbeda dari prediktor lainnya dapat menyebabkan masalah pada model klasifikasi. Oleh karena itu, mari lakukan normalisasi data untuk menyamakan skala dari tiap variabel prediktor agar memiliki *range* nilai yang standar.
+
+Untuk menormalisasi data `train_x`, silahkan gunakan fungsi `scale()`. Sementara itu, untuk menormalisasi data *test*, silahkan gunakan fungsi yang sama namun menggunakan atribut *center* dan *scale* yang didapat dari data `train_x`. 
+
+Silahkan lihat *code* di bawah ini sebagai contoh untuk melakukan normalisasi pada data `train_x` dan `test_x`:
+
+```{r eval=FALSE}
+# JANGAN RUN CODE BERIKUT
+# train
+train_scaled <- scale(train)
+# test
+test_scaled <- scale(test, 
+      center = attr(train_scaled, "scaled:center"),
+      scale = attr(train_scaled, "scaled:scale"))
+```
+
+Sekarang giliran Anda untuk mencobanya pada *code* di bawah ini:
+
+```{r}
+# your code here
+
+# scale train_x data
+train_x <- scale()
+
+# scale test_x data
+test_x <- scale()
+```
+
+Setelah kita selesai menormalisasi data, kita perlu menemukan nilai **K** yang optimum untuk digunakan pada model *kNN*. Pada praktiknya, memilih nilai `k` bergantung pada kompleksitas data yang sedang dianalisis dan banyaknya observasi/baris yang terdapat pada data *train*.
+
+___
+5. Metode yang digunakan untuk mendapatkan nilai `k` tidak menjamin Anda untuk mendapatkan hasil terbaik. Namun, terdapat salah satu metode yang sering digunakan untuk menentukan nilai `k`. Metode apa yang dapat kita gunakan untuk memilih nilai `k`?
+  - [ ] menggunakan k = 5
+  - [ ] banyaknya baris
+  - [ ] akar dari banyaknya baris
+  
+*Referensi Opsi Bahasa Inggris:*
+  - [ ] use k = 5
+  - [ ] number of row
+  - [ ] square root by number of row 
+___
+
+Setelah menjawab pertanyaan di atas, temukan nilai `k` dengan mengisi chunk di bawah ini:
+
+**Petunjuk:** Apabila Anda mendapatkan angka desimal, jangan lupa untuk membulatkan nilai tersebut.
+
+```{r}
+# your code here
+
+```
+
+
+Dengan menggunakan nilai `k` yang telah kita dapatkan, cobalah untuk memprediksi `test_y` dengan menggunakan data `train_x` dan `train_y`. Untuk membuat model *kNN*, silahkan gunakan fungsi `knn()` dan simpanlah hasil prediksi pada objek `model_knn`. Gunakan code berikut untuk membantu Anda:
+
+```{r}
+library(class)
+model_knn <- knn(train = ______, test = ________, cl = _______, k = _____)
+```
+
+# Prediksi
+
+Sekarang, mari kembali pada `model_logistic` kita. Pada bagian ini, cobalah untuk memprediksi data `test` menggunakan `model_logistic` untuk menghasilkan nilai probabilitas. Gunakan fungsi `predict()` dengan mengatur parameter `type = "response"` kemudian simpanlah hasilnya kedalam objek `prob_value`. 
+
+```{r}
+prob_value <-
+```
+
+Karena hasil prediksi pada model regresi logistik berupa probabilitas, kita harus mengubah nilai tersebut menjadi kategori/ kelas target kita. Dengan menggunakan *threshold* 0.55, cobalah untuk mengklasifikan mana karyawan yang akan mengundurkan diri atau tidak. Silahkan gunakan fungsi `ifelse()` dan simpanlah hasil prediksi pada objek `pred_value`.
+
+```{r}
+pred_value <-
+```
+
+Berdasarkan hasil prediksi di atas, jawablah pertanyaan di bawah ini.
+
+___
+6. Pada prescriptive analytics, hasil prediksi suatu model akan dipertimbangkan untuk membuat keputusan bisnis. Untuk itu mari periksa hasil prediksi model Anda. Berapa banyak hasil prediksi untuk masing-masing kelas yang dihasilkan oleh `model_logistic`?
+  - [ ] class 0 = 614, class 1 = 815
+  - [ ] class 0 = 717, class 1 = 712
+  - [ ] class 0 = 524, class 1 = 905
+___ 
+ 
+# Evaluasi Model
+ 
+Pada bagian sebelumnya, kita telah melakukan prediksi menggunakan model regresi logistik maupun algoritma *kNN*. Namun, kita juga perlu mengevaluasi kebaikan model dalam memprediksi data baru (*unseen data*). Pada tahap ini, buatlah *confusion matrix* dari model regresi logistik menggunakan label aktual dari data `test` dan hasil prediksi (`pred_value`) kemudian atur kelas positif yaitu "1" (`positive = "1"`).
+
+**Catatan:** Jangan lupa untuk melakukan *explicit coercion* menggunakan `as.factor` bila data Anda belum tersimpan dalam tipe *factor*.
+
+```{r}
+# your code here
+```
+
+Buatlah *confusion matrix* yang sama untuk hasil prediksi `model_knn` dan label aktual `test_y`.
+
+```{r}
+# your code here
+
+```
+
+Katakanlah kita bekerja sebagai staf HR pada suatu perusahaan. Kita ingin mengetahui manakah karyawan yang memiliki potensi tinggi untuk mengundurkan diri sehingga kita dapat melakukan pendekatan sesegera mungkin. 
+
+Sebagai catatan tambahan, perusahaan lebih fokus dalam menghasilkan prediksi yang tepat daripada mendeteksi sebanyak mungkin karyawan yang mungkin mengundurkan diri. Hal ini untuk menghindari anggaran yang tidak perlu untuk karyawan yang keliru diprediksi mengundurkan diri. 
+
+Sekarang coba jawab pertanyaan di bawah ini.
+
+___
+7. Manakah *metrics* yang tepat untuk mengevaluasi kebaikan model berdasarkan kebutuhan bisnis di atas?
+  - [ ] Recall
+  - [ ] Specificity  
+  - [ ] Accuracy  
+  - [ ] Precision 
+
+___
+8. Dengan menggunakan *metrics* yang Anda pilih sebelumnya, manakah dari kedua model yang telah dibuat, yang memiliki performa lebih baik untuk mendeteksi karyawan yang mengundurkan diri?
+  - [ ] *K-Nearest Neighbor*  
+  - [ ] Regresi Logistik
+  - [ ] Kedua model memiliki performa yang kurang lebih sama
+
+*Referensi Opsi Bahasa Inggris:*
+  - [ ] K-Nearest Neighbor  
+  - [ ] Logistic Regression
+  - [ ] Both have more or less similar performance    
+___
+
+9. Sekarang, ingat apa yang sudah kita pelajari mengenai kelebihan dan kekurangan masing-masing model. Manakah pernyataan di bawah ini yang **TIDAK TEPAT**?
+  - [ ] Gunakan kNN karena cenderung memiliki performa yang lebih tinggi dibandingkan Logistic Regression dan dapat digunakan untuk binary maupun multiclass classification
+  - [ ] Gunakan Logistic Regression karena model dapat diinterpretasikan dan dapat memproses variabel numerik maupun kategorik sebagai prediktor
+  - [ ] Masih lebih baik menggunakan kNN daripada Logistic Regression untuk mendapatkan performa model yang lebih tinggi, meskipun sebagian besar prediktor adalah variabel kategorik
+  
+*Referensi Opsi Bahasa Inggris:*
+  - [ ] Use kNN because it tends to have a higher performance than Logistic Regression and able to perform binary or multiclass classification.
+  - [ ] Use Logistic regression because it is interpretable and can can process both numerical and categorical variables as predictor.
+  - [ ] It is still better to use kNN than Logistic Regression to gain higher model performance, even when most of your predictor is categorical variables.
+
+___
