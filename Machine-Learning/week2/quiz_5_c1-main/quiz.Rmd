@@ -202,10 +202,12 @@ Now it's your turn to try it in the code below:
 # your code here
 
 # scale train_x data
-train_x <- scale()
+train_x <- scale(train_x)
 
 # scale test_x data
-test_x <- scale()
+test_x <- scale(test_x,
+                        center = attr(credit_train_xs, "scaled:center"),
+                        scale = attr(credit_train_xs, "scaled:scale"))
 
 ```
 
@@ -249,7 +251,8 @@ Using `k` value we have calculated in the section before, try to predict `test_y
 
 ```{r}
 library(class)
-model_knn <- knn(train = ______, test = ________, cl = _______, k = _____)
+sqrt(nrow(train_x))
+model_knn <- knn(train = ______, test = ________, cl = _______, k = sqrt(nrow(train_x)))
 ```
 
 # Prediction

@@ -1,0 +1,249 @@
+---
+title: "Unsupervised Learning Quiz"
+author: "Team Algoritma"
+date: "`r format = Sys.Date('%e, %B %Y')`"
+output: 
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+    theme: united
+    highlight: zenburn
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(FactoMineR)
+library(factoextra)
+```
+
+This quiz is part of Algoritma Academy assessment process. Congratulations on completing the Unsupervised Learning course! We will conduct an assessment quiz to test practical unsupervised learning techniques you have learned on the course. The quiz is expected to be taken in the classroom, please contact our team of instructors if you missed the chance to take it in class.
+
+# Method Understanding
+
+Based on the presence or absence of a target variable, machine learning is divided into two, namely supervised learning and unsupervised learning. Dimensionality reduction and clustering are some of the methods widely used in unsupervised learning. The purpose of dimensionality reduction is to reduce the dimensions of the data in order to make computations easier and to overcome overfitting in a model. While the purpose of clustering is to group data that has the same characteristics.
+
+___
+1. From the following cases, which case is **most fitting** to be solved using principal component analysis (PCA)?
+  - [ ] customer profiling
+  - [ ] product recommendation
+  - [ ] anomaly detection
+  - [ ] predicting credit default or not
+___
+
+# Data Exploration
+
+In this quiz, we will be using **Fruits-Nutritional Values**. You can get the csv file stored within the folder under the name `fruits.csv`. Before we perform data clustering and principle component analysis, we will need to perform exploratory data analysis. You can glimpse the structure of our dataset by using `str()` or `glimpse()` function.
+
+```{r}
+# your code here
+fruits <- read.csv("fruits.csv")
+fruits <- na.omit(fruits)
+fruits %>% is.na() %>% colSums()
+rownames(fruits) <- fruits$name
+fruits <- fruits %>% 
+  select(-c(name))
+```
+
+This dataset consisted of 52 rows and 21 variables. The first variable `name` contains the name of the fruits and the other variables contains nutritional values in fruits. 
+
+We will not be using fruit names in clustering or PCA but we will need it for better data visualization. Therefore, it would be wise to assign the values of column `name` into row names and remove the column `name` afterward.
+
+```{r}
+# your code
+
+```
+
+We should also check for missing values in the data. If there are missing values in our data, let's take out the observations containing missing values.
+
+```{r}
+# check NA
+
+```
+
+```{r}
+# your code here
+fruits_pca$eig
+```
+
+# 1. Principal Component Analysis (PCA)
+
+## Data Pre-Processing
+
+PCA is very useful to retain information while reducing the dimension of the data. However, we need to make sure that our data is properly scaled in order to get a useful PCA. You may use `scale()` function to scale the numeric variable and store it as `fruits_scale`.
+
+```{r}
+# your code here
+fruits_scale <- scale(fruits)
+```
+
+## Build your Principal Component
+
+We have prepared the scaled data to be used for PCA. Next, we will try to generate the principal component from the `fruits_scale`. Recall how we use `FactoMineR` library to perform PCA. Use `PCA()` function from the library to generate a PCA and store it as `pca_fruits`. Remember to set the `scale.unit` parameter to `FALSE` since we already scaled the data manually. Check the summary of the `pca_fruits`.
+
+```{r}
+# your code here
+fruits_pca <- PCA(
+  X = fruits_scale, # data awal
+  scale.unit = F, # scaling
+  graph = F, # tidak menampilkan gambar
+  ncp = 20 # jumlah kolom numerik
+)
+fruits_pca$eig
+```
+
+2. Based on the summary, how many  Principal Components (PCs) will you use if you only tolerate no more than 20% of information loss?
+ - [ ] 7 PC (PC 1 through 7)
+ - [ ] 5 PC (PC 1 through 5)
+ - [ ] 3 PC (PC 1 through 3)
+ - [ ] 1 PC (PC 1 only)
+
+Another great implementation of PCA is to visualize high dimensional data into 2 dimensional plot for various purposes, such as cluster analysis or detecting outliers. In order to visualize PCA, use `plot.PCA()` function to the `pca_fruits` object. This will generate an individual PCA plot. Observe the data that is located far from most of the data.
+
+```{r}
+# your code here
+plot.PCA(
+  x = fruits_pca,
+  choix = "ind", # pilihan, untuk menampilkan per-observasi
+  invisible = "quali", # untuk menghilangkan garis panah
+  select = "contrib 10", # untuk identifikasi 10 outlier
+
+)
+```
+
+3. Judging from the plot that you have created, which fruit is considered as outlier?
+ - [ ] Avocado, 'Dates, deglet noor'
+ - [ ] Avocado, Lime
+ - [ ] Kumquat, Pear
+ - [ ] Guava, Pear
+
+We can also create a variable PCA plot that shows the variable loading information of the PCA by simply add `choix = "var"` in the `plot.PCA()`. The loading information will be represented by the length of the arrow from the center of coordinates. The longer the arrow, the bigger loading information of those variable. However, this may not be an efficient method if we have a lot of features. Some variables would overlap with each other, making it harder for us to see the variable names.
+
+An alternative way to extract the loading information by using `dimdesc()` function to the `pca_fruits`. Store the result as `pca_dimdesc`. Inspect the loading information from the first dimension/PC by calling `pca_dimdesc$Dim.1` since the first dimension is the one that hold the most information.
+
+```{r}
+# your code here
+pca_dimdesc <- dimdesc(fruits_pca)
+pca_dimdesc$Dim.1
+```
+
+4. Mention the 3 most contributing variables on PC 1 based on the correlation between variables with the PC 1.
+ - [ ] Potassium, Phosphorus, Vitamin B2
+ - [ ] Magnessium, Vitamin B3, Fiber
+ - [ ] Magnessium, Potassium, Phosphorus
+ - [ ] Acidity, Body, Balance
+ - [ ] Water, Vitamin E, Fiber
+
+In the principal component analysis, each produced PC has an eigen value obtained from the covariance matrix. The greater the eigen value, the greater the variance captured by the PC.
+
+5. Which of the following is **NOT TRUE** about PCA?
+ - [ ] PCA requires data to be scaled so they have the same range of measurement
+ - [ ] A Principal Component with an eigenvalue of 0.6 is not more helpful than a PC with an eigenvalue of 6.0
+ - [ ] We cannot fully reconstruct the original data from a PCA even when we have eigen value and eigen vector
+
+# 2. K-Means Clustering
+
+Data clustering is a common data mining technique to create clusters of data that can be identified as "data with the same characteristics". Before performing data clustering, you will need to remove the identified *outliers* based on the previous individual PCA plot. Remove the two outliers that you have found (check question no. 2) from our initial dataset using the code below and once again scale the data.
+
+```{r}
+# remove outliers (fill the blank)
+fruits_outlier <- c("Avocado", "Dates, deglet noor")
+fruits_clean <- fruits[!(row.names(fruits) %in% fruits_outlier),]
+```
+
+*Note: You may want to store the scaled data in a new object for we will still need the original data for the cluster profiling analysis.*
+
+```{r}
+# scale the data
+fruits_clean_s <- scale(fruits_clean)
+```
+
+## 2.1 Choosing Optimum K
+
+The next step in building a K-means clustering is to find the optimum number to cluster our data. Use the defined `kmeansTunning()` function below to find the optimum K using Elbow method. Use a maximum of `maxK` as 5 to limit the plot into 5 distinct clusters.
+
+```{r message=F, warning=F}
+# function
+RNGkind(sample.kind = "Rounding")
+kmeansTunning <- function(data, maxK) {
+  withinall <- NULL
+  total_k <- NULL
+  for (i in 1:maxK) {
+    set.seed(4)
+    temp <- kmeans(data,i)$tot.withinss
+    withinall <- append(withinall, temp)
+    total_k <- append(total_k,i)
+  }
+  plot(x = total_k, y = withinall, type = "o", xlab = "Number of Cluster", ylab = "Total within")
+}
+
+# apply function
+# kmeansTunning(your_data, maxK = 5)
+```
+
+We will select the point where the total within sum of squares reduction is no longer significant in (an elbow). Based on the elbow plot, we will choose **k = 2**.
+
+K-means is a clustering algorithm that groups the data based on distance. The resulting clusters are stated to be optimum if the distance between data in the same cluster is low and the distance between data from different clusters is high.
+
+6. Which of the following is **NOT TRUE** about choosing the optimal number of clusters?
+  - [ ] Choosing the number of clusters can be based on business perspective
+  - [ ] A low number of cluster is preferred when we want to have more option (point of data) within a cluster
+  - [ ] A high number of clusters always indicates a good clustering
+  - [ ] Elbow method compares the total within sum of square variation from different values of k 
+
+7. Which of the following is **NOT TRUE** about K-Means?
+  - [ ] The centroid in the first iteration is placed randomly
+  - [ ] A good cluster are clusters with low `withinss` and high `betweenss`
+  - [ ] Cluster with low `withinss` means the character of the data within 1 cluster are similar to each other
+  - [ ] The greater the value of `betweenss`, indicates the greater the data variance in each cluster
+
+## 2.2 Building Cluster
+
+Once you find the optimum K from the previous section, try to do K-means clustering from your data and store it as `fruits_cluster`. Use `set.seed(101)` to guarantee a reproducible example. Extract the cluster information from the resulting K-means object using `fruits_cluster$cluster` and add them as a new column named `cluster` to the fruits dataset.
+
+```{r}
+library(factoextra)
+fviz_nbclust(fruits_clean_s, FUNcluster = kmeans, method="wss")
+RNGkind(sample.kind = "Rounding")
+set.seed(101)
+# your code here
+fruits_cluster <- kmeans(x = fruits_clean_s, # data yang sudah discaling
+                    centers = 3) # jumlah k (cluster yang diinginkan)
+
+```
+
+## 2.3 Clusters Profiling
+
+You can use the following chunk to answer question number 7.
+
+```{r}
+# your code here
+fruits_clean_opt <- kmeans(fruits_clean_s, centers = 7)
+fruits_clean$cluster <- fruits_clean_opt$cluster
+the_centroid <- fruits_clean %>% 
+  group_by(cluster) %>% 
+  summarise_all(mean)
+
+the_centroid
+```
+
+8. For a customer who like Apricot, which of the following fruit may be characteristically similar enough to warrant a recommendation?
+  - [ ] Kumquat
+  - [ ] Banana
+  - [ ] Apple
+
+Recall how we can perform a cluster profiling by using a combination of `group_by()` and `summarise_all()`, grouped by the previously created cluster column. After you extract the characteristics for each cluster, try to answer the following question:
+
+```{r}
+# your code here
+fruits_clean_opt$cluster
+```
+
+9. Can you describe the characteristic fruits that in the same cluster as Mango!
+  - [ ] Lowest mean of protein, highest mean of vitamin_e, and highest mean of sugars
+  - [ ] Lowest mean of protein, highest mean of fiber, and lowest mean of iron_mg
+  - [ ] Lowest mean of protein, highest mean of water, and highest mean of vitamin_a_iu
+  - [ ] Lowest mean of protein, lowest mean of calcium_mg, and highest mean of sugars
+

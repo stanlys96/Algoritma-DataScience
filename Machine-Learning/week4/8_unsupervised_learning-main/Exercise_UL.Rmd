@@ -1,0 +1,223 @@
+---
+title: "Exercise for Unsupervised Learning"
+author: "Your Name"
+date: "`r format(Sys.Date(), '%B %e, %Y')`"
+output:
+  html_document:
+    number_sections: true
+    df_print: paged
+    highlight: tango
+    theme: cosmo
+    toc: yes
+    toc_depth: 4
+    toc_float:
+      collapsed: true
+  pdf_document:
+    toc: yes
+  word_document:
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+# clear-up the environment
+rm(list = ls())
+
+# chunk options
+knitr::opts_chunk$set(
+  message = FALSE,
+  warning = FALSE,
+  fig.align = "center",
+  comment = "#>"
+)
+
+options(scipen = 999)
+```
+
+<style>
+body {
+text-align: justify}
+</style>
+
+# Business Question
+
+Anda bekerja sebagai data scientist di salah satu perusahaan wholesale. Perusahaan tersebut memiliki data pembelian ragam tipe produk dari masing-masing customer, silahkan gunakan file yang terdapat pada `data_input/wholesale.csv`. Dari data tersebut, ingin dilakukan segmentasi customer berdasarkan karakteristik pembelian dengan begitu penawaran produk lebih tepat sasaran. Manfaatkanlah pengetahuan Anda terkait PCA dan K-means clustering untuk melakukan segmentasi customer!
+
+# Read Data
+
+```{r}
+library(dplyr)
+wholesale <- 
+```
+
+Deskripsi kolom:
+
+- `Channel`: Horeca (hotel, restaurant, cafe) / Retail
+- `Region`: Lokasi branch perusahaan wholesale
+- `Fresh`, `Milk`, `Grocery`, `Frozen`, `Detergents_Paper`, `Delicassen`: jumlah pembelian untuk masing-masing tipe produk 
+
+# Data Cleansing
+
+- Apakah ada kolom yang tidak diperlukan? Apabila ya, silahkan hapus
+
+```{r}
+# your code here
+wholesale <- 
+  
+```
+
+# EDA
+
+Apakah ada missing value pada data? Apabila ya, silahkan handle missing value tersebut
+
+```{r}
+# your code here
+
+
+```
+
+> Apakah ada missing value?
+
+Lakukan scaling pada data dengan z-score, karena asumsinya kita tidak mengetahui deskripsi data-nya (apakah masing-masing kolom memiliki satuan yang sama atau tidak).
+
+```{r}
+# your code here
+
+```
+
+# Outlier Detection
+
+Sebelum melakukan clustering, mari lihat apakah terdapat outlier pada data. Outlier akan sangat mempengaruhi hasil k-means clustering sehingga akan lebih baik bila kita menghilangkan terlebih dahulu outlier dari data. Outlier dapat divisualisasikan dengan biplot dari hasil PCA.
+
+## PCA
+
+Gunakan `PCA()` dari library `FactoMineR`, dan jangan lupa untuk scaling hanya dilakukan sekali saja
+
+```{r}
+# your code here
+library(FactoMineR)
+
+```
+
+## Visualize
+
+Visualisasikan individual factor plot, dan identifikasi 5 outlier terluar
+
+```{r}
+# your code here
+
+```
+
+Simpan index outlier pada sebuah objek vector
+
+```{r}
+# your code here
+outlier <- 
+```
+
+Buang observasi outlier dari data awal `wholesale`, kemudian simpan ke object baru `ws_no_outlier` untuk digunakan pada tahap clustering.
+
+```{r}
+# your code here
+ws_no_outlier <- 
+```
+
+# Clustering
+
+Sebelum melakukan clustering, pastikan data kita hanya terdiri dari kolom numerik yang akan digunakan untuk clustering.
+
+```{r}
+# your code here
+
+```
+
+Untuk melakukan k-means clustering, apakah kita perlu melakukan scaling lagi? Apabila ya, silahkan lakukan scaling
+
+
+```{r}
+# your code here
+
+```
+
+## Choose Optimum K
+
+Gunakan elbow method untuk menentukan $k$ optimum
+
+```{r message=F, warning=F}
+# fungsi untuk plot elbow method
+RNGkind(sample.kind = "Rounding")
+kmeansTunning <- function(data, maxK) {
+  withinall <- NULL
+  total_k <- NULL
+  for (i in 2:maxK) {
+    set.seed(567)
+    temp <- kmeans(data,i)$tot.withinss
+    withinall <- append(withinall, temp)
+    total_k <- append(total_k,i)
+  }
+  plot(x = total_k, y = withinall, type = "o", xlab = "Number of Cluster", ylab = "Total within")
+}
+
+# contoh cara penggunaan:
+# kmeansTunning(your_data, maxK = 8)
+
+kmeansTunning(ws_no_outlier_scale, maxK = 8)
+```
+
+Nilai $k$ yang digunakan adalah: ...
+
+## K-means Clustering
+
+Lakukan k-means clustering berdasarkan elbow method sebelumnya dan simpan hasilnya pada objek `ws_kmeans`
+
+```{r}
+RNGkind(sample.kind = "Rounding")
+set.seed(333)
+
+# your code here
+ws_kmeans <- 
+```
+
+## Cluster Profiling
+
+Kembalikan label cluster masing-masing observasi ke data awal sebelum di-scale, namun yang outliernya sudah di-remove
+
+```{r}
+# your code here
+
+
+```
+
+Lakukan profiling cluster dengan mencari nilai rata-rata untuk masing-masing produk
+
+```{r}
+# your code here
+
+```
+
+**Profiling:** 
+
+- Cluster 1: ...
+- Cluster 2: ...
+.
+.
+.
+- Cluster k: ...
+
+Note: silahkan boleh gunakan `pivot_longer()` ataupun visualisasi biplot untuk mempermudah profiling.
+
+## Business Strategy
+
+Bagaimana karakteristik pembelian produk untuk customerID (index baris) 87? Apa yang strategi bisnis yang dapat kita terapkan untuk customer tersebut?
+
+```{r}
+# ws_no_outlier[87,]
+
+```
+
+CustomerID 87 terdapat pada cluster 6 yang artinya customer tersebut cenderung paling banyak transaksinya untuk Milk, Grocery, Detergents_Paper, Delicassen (cenderung paling tinggi untuk semua tipe barang)
+
+Strategi bisnis:
+
+1. Promosi untuk barang yang jarang dibeli Fresh dan Frozen
+2. Langsung menawarkan produk Milk, Grocery, Detergents_Paper, Delicassen kalau stoknya banyak
+

@@ -1,0 +1,17 @@
+base
+dplyr
+gtools
+class
+gmodels
+NLP
+tm
+SnowballC
+e1071
+gplots
+ROCR
+libcoin
+mvtnorm
+partykit
+lattice
+ggplot2
+caret

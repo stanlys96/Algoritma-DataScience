@@ -1,0 +1,258 @@
+---
+title: "Kuis Unsupervised Learning"
+author: "Team Algoritma"
+date: "`r format = Sys.Date('%e, %B %Y')`"
+output: 
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+    theme: united
+    highlight: zenburn
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(FactoMineR)
+library(factoextra)
+```
+
+Kuis ini merupakan bagian dari proses penilaian *Algoritma Academy*. Selamat anda sudah menyelesaikan materi *Unsupervised Learning*! Kami akan melakukan penilaian berupa kuis untuk menguji materi yang sudah dipelajari. Pengerjaan Kuis diharapkan dapat dilakukan di dalam kelas, silakan hubungi tim instruktur kami jika Anda melewatkan kesempatan untuk mengambilnya di kelas.
+
+# Pemahaman Metode
+
+Berdasarkan ada atau tidak adanya target variabel, *machine learning* dibagi menjadi dua yaitu *supervised learning* dan *unsupervised learning*. *Dimensionality Reduction* dan *clustering* merupakan beberapa metode dalam *unsupervised learning*. Tujuan dalam dimensionality reduction yaitu mengurangi dimensi pada data agar memperingan komputasi dan dapat mengatasi adanya overfitting pada pemodelan. Sedangkan tujuan dalam clustering adalah mengelompokkan data yang memiliki karakteristik yang sama, dimana antar kelompok data memiliki karakteristik yang berbeda.
+
+___
+1. Berikut ini, manakah kasus yang paling tepat untuk diselesaikan menggunakan Principal Component Analysis (PCA)?
+  - [ ] profiling pelanggan
+  - [ ] rekomendasi produk
+  - [ ] deteksi anomali
+  - [ ] prediksi status pinjaman (gagal bayar/mampu bayar)
+  
+*Referensi Opsi Bahasa Inggris:*
+  - [ ] customer profiling
+  - [ ] product recommendation
+  - [ ] anomaly detection
+  - [ ] predicting credit default or not
+___
+
+# Data Exploration
+
+Pada kuis ini, kita akan menggunakan data **Fruits-Nutritional Values**. Anda bisa mendapatkan file csv yang tersimpan dalam folder ini dengan nama `fruits.csv`. Sebelum kita melakukan analisis clustering dan principle component analysis, kita perlu melakukan eksplorasi data. Anda dapat melihat sekilas struktur dari dataset yang digunakan! Anda dapat menggunakan fungsi `str()` atau `glimpse()`. 
+
+```{r}
+# your code here
+fruits <- 
+  
+```
+
+Dataset ini terdiri dari 52 baris dan 21 variabel. Variabel pertama `name` berisi nama buah, sedangkan variabel lainnya menjelaskan komposisi nutrisi pada buah.
+
+Kita tidak menggunakan informasi nama buah untuk melakukan clustering maupun PCA, namun kita membutuhkannya untuk visualisasi data yang lebih baik. Untuk itu, sebaiknya kita simpan isi kolom `name` menjadi nama baris (rownames) dari data dan menghilangkan kolom `name` setelah itu.
+
+```{r}
+# your code here
+
+```
+
+Kita juga perlu melihat adanya *missing value* pada data. Jika terdapat *missing value* pada data, maka kita akan menghilangkan observasi yang memiliki *missing value* tersebut.
+
+```{r}
+# check NA
+
+```
+
+```{r}
+# your code here
+
+```
+
+# 1. Principal Component Analysis (PCA)
+
+## Data Pre-Processing
+
+PCA sangat berguna untuk menyimpan informasi sekaligus mereduksi dimensi data. Namun, kita perlu memastikan bahwa data sudah diskalakan (*scaled*) dengan benar untuk mendapatkan PCA yang berguna. Anda dapat menggunakan fungsi `scale()` untuk malakukan normalisasi/standarisasi skala dari variabel numerik dan menyimpannya sebagai `fruits_scale`.
+
+```{r}
+# your code here
+fruits_scale <- 
+```
+
+## Membuat Principal Component
+
+Kita telah menyiapkan data yang sudah distandarisasi untuk digunakan pada PCA. Selanjutnya, kita akan mencoba membuat *principal component* dari `fruits_scale`. Ingat kembali bagaimana kita menggunakan *library* `FactoMineR` untuk melakukan PCA. Gunakan fungsi `PCA()` dari library tersebut untuk menghasilkan PCA dan menyimpannya sebagai `pca_fruits`. Ingatlah untuk mengatur parameter `scale.unit` ke` FALSE` karena kita sudah melakukan standarisasi data secara manual. Periksa ringkasan dari `pca_fruits`.
+
+```{r}
+# your code here
+pca_fruits <-
+```
+
+2. Berdasarkan hasil ringkasan (*summary*), berapa banyak *Principal Components* (PCs) yang akan anda gunakan bila anda hanya mentoleransi informasi yang hilang tidak lebih dari 20%?
+ - [ ] 7 PC (PC 1 sampai 7)
+ - [ ] 5 PC (PC 1 sampai 5)
+ - [ ] 3 PC (PC 1 sampai 3)
+ - [ ] 1 PC (PC 1 saja)
+
+*Referensi Opsi Bahasa Inggris:*
+ - [ ] 7 PC (PC 1 through 7)
+ - [ ] 5 PC (PC 1 through 5)
+ - [ ] 3 PC (PC 1 through 3)
+ - [ ] 1 PC (PC 1 only)
+ 
+Implementasi lainnya yang sangat menarik adalah memvisualisasikan data berdimensi tinggi menjadi plot 2 dimensi untuk berbagai tujuan, seperti analisis cluster atau mendeteksi pencilan. Untuk memvisualisasikan PCA, gunakan fungsi `plot.PCA()` pada objek `pca_fruits`. Ini akan menghasilkan plot PCA individu. Teliti observasi yang berada jauh dari kebanyakan data yang ada. 
+
+```{r}
+# your code here
+
+```
+
+3. Berdasarkan plot yang sudah Anda buat, buah apa yang dianggap outlier?
+ - [ ] Avocado, 'Dates, deglet noor'
+ - [ ] Avocado, Lime
+ - [ ] Kumquat, Pear
+ - [ ] Guava, Pear
+
+Kita juga dapat membuat plot PCA variabel yang menunjukkan *loading information* setiap variabel dari PCA hanya dengan menambahkan `choix ="var "` di `plot.PCA()`. *Loading information* akan diwakili oleh panjang panah dari pusat koordinat. Semakin panjang panahnya, semakin besar *loading information* dari variabel tersebut. Namun, ini mungkin bukan metode yang efisien jika kita memiliki banyak fitur. Beberapa variabel akan terlihat tumpang tindih satu sama lain, sehingga lebih sulit untuk melihat nama variabel.
+
+Cara alternatif untuk mengekstrak *loading information* adalah menggunakan fungsi `dimdesc()` untuk objek `pca_fruits`. Simpan hasilnya sebagai `pca_dimdesc`. Periksa *loading information* dari dimensi/PC pertama  dengan memanggil `pca_dimdesc$Dim.1` karena dimensi/PC pertama adalah PC yang merangkum informasi paling banyak.
+
+```{r}
+# your code here
+pca_dimdesc <- 
+```
+
+4. Sebutkan 3 variabel yang paling berkontribusi pada PC 1 berdasarkan korelasi antara variabel dengan PC 1.
+ - [ ] Potassium, Phosphorus, Vitamin B2
+ - [ ] Magnessium, Vitamin B3, Fiber
+ - [ ] Magnessium, Potassium, Phosphorus
+ - [ ] Acidity, Body, Balance
+ - [ ] Water, Vitamin E, Fiber
+
+Dalam *principal component analysis*, setiap PC yang dihasilkan memiliki nilai eigen yang diperoleh dari matriks kovarians. Semakin besar nilai eigen, semakin besar varian yang ditangkap oleh PC.
+
+5. Manakah dari pernyataan berikut ini yang **TIDAK BENAR** tentang PCA?
+ - [ ] PCA membutuhkan data yang sudah diskalakan agar tiap variabel memiliki rentang nilai yang sama
+ - [ ] Sebuah *Principal Component* (PC) dengan eigenvalue 0.6 tidak lebih membantu dibandingkan PC dengan eigenvalue 6.0
+ - [ ] Kita tidak dapat merekonstruksi data awal kita secara sempurna dari hasil PCA meskipun kita memiliki eigen value dan eigen vector
+
+*Referensi Opsi Bahasa Inggris:*
+ - [ ] PCA requires data to be scaled so they have the same range of measurement
+ - [ ] A Principal Component with an eigenvalue of 0.6 is not more helpful than a PC with an eigenvalue of 6.0
+ - [ ] We cannot fully reconstruct the original data from a PCA even when we have eigen value and eigen vector
+
+# 2. K-Means Clustering
+
+Pengelompokan data (*Data Clustering*) adalah teknik data mining yang umum untuk membuat kelompok data yang dapat diidentifikasi sebagai "data dengan karakteristik yang sama". Sebelum melakukan pengelompokan data, Anda perlu menghapus *outlier* yang telah teridentifikasi sebelumnya (cek pertanyaan no.2) dari dataset awal dan sekali lagi lakukan *scaling* pada data.
+
+```{r}
+# remove outliers
+fruits_outlier <- c("...", "...")
+fruits_clean <- fruits[!(row.names(fruits) %in% fruits_outlier),]
+```
+
+*Note: Anda mungkin ingin menyimpan data yang sudah diskalakan ke objek baru karena kita masih memerlukan data asli untuk analisis profil cluster nanti.*
+
+```{r}
+# scale the data
+fruits_clean_s <- 
+```
+
+## 2.1 Choosing Optimum K
+
+Langkah selanjutnya dalam membangun cluster dengan K-means adalah menemukan jumlah cluster optimal untuk data kita. Gunakan fungsi `kmeansTunning()` yang disediakan di bawah ini untuk menemukan K yang optimal menggunakan metode Elbow. Gunakan `maxK` sebesar 5 untuk membatasi kemungkinan nilai K hingga 5 cluster berbeda.
+
+```{r message=F, warning=F}
+# function
+RNGkind(sample.kind = "Rounding")
+kmeansTunning <- function(data, maxK) {
+  withinall <- NULL
+  total_k <- NULL
+  for (i in 1:maxK) {
+    set.seed(4)
+    temp <- kmeans(data,i)$tot.withinss
+    withinall <- append(withinall, temp)
+    total_k <- append(total_k,i)
+  }
+  plot(x = total_k, y = withinall, type = "o", xlab = "Number of Cluster", ylab = "Total within")
+}
+
+# apply function
+# kmeansTunning(your_data, maxK = 5)
+```
+
+Kita akan memilih titik dimana penurunan total within sum of squares tidak lagi signifikan/melandai (titik *elbow*). Berdasarkan hasil *elbow plot* kita akan memilih nilai **k = 2**.
+
+K-means merupakan algoritma clustering yang mengelompokkan data berdasarkan jarak. Cluster yang dihasilkan dikatakan optimal jika jarak antar data pada cluster yang sama rendah dan jarak antar data dari cluster yang berbeda tinggi.
+
+6. Manakah dari pernyataan berikut yang **TIDAK BENAR** tentang pemilihan jumlah cluster?
+  - [ ] Pemilihan jumlah cluster bisa berdasarkan perspektif bisnis
+  - [ ] Jumlah cluster yang sedikit lebih disukai bila kita ingin memiliki lebih banyak opsi (poin-poin data) di dalam satu cluster
+  - [ ] Jumlah cluster yang banyak selalu mengindikasikan cluster yang baik
+  - [ ] Metode Elbow membandingkan total dalam jumlah variasi kuadrat (sum of square variation) dari nilai k yang berbeda
+  
+*Referensi Opsi Bahasa Inggris:*  
+  - [ ] Choosing the number of clusters can be based on business perspective
+  - [ ] A low number of cluster is preferred when we want to have more option (point of data) within a cluster
+  - [ ] A high number of clusters always indicates a good clustering
+  - [ ] Elbow method compares the total within sum of square variation from different values of k 
+
+7. Manakah dari pernyataan berikut ini yang **TIDAK BENAR** tentang K-Means?
+  - [ ] Centroid (titik pusat cluster) pada iterasi pertama dipilih secara acak
+  - [ ] Cluster yang baik memiliki nilai `withinss` yang rendah dan `betweenss` yang tinggi
+  - [ ] Cluster dengan nilai `withinss` yang rendah berarti memiliki data dengan karakteristik yang mirip di dalam 1 cluster
+  - [ ] Semakin tinggi nilai `betweenss` mengindikasikan variansi data yang tinggi di dalam setiap cluster
+  
+*Referensi Opsi Bahasa Inggris:*  
+  - [ ] The centroid in the first iteration is placed randomly
+  - [ ] A good cluster are clusters with low `withinss` and high `betweenss`
+  - [ ] Cluster with low `withinss` means the character of the data within 1 cluster are similar to each other
+  - [ ] The greater the value of `betweenss`, indicates the greater the data variance in each cluster
+
+## 2.2 Building Cluster
+
+Setelah Anda menemukan K optimal pada bagian sebelumnya, coba lakukan K-means *clustering*  dari data Anda dan simpan sebagai `fruits_cluster`. Gunakan `set.seed(101)` untuk menjamin contoh yang dapat direproduksi. Ekstrak informasi cluster dari objek K-means yang dihasilkan menggunakan `fruits_cluster$cluster` dan tambahkan sebagai kolom baru bernama` cluster` ke dataset fruits.
+
+```{r}
+RNGkind(sample.kind = "Rounding")
+set.seed(101)
+# your code here
+fruits_cluster <- 
+
+```
+
+## 2.3 Clusters Profiling
+
+Anda dapat menggunakan *chunk* berikut untuk menjawab pertanyaan nomor 8.
+
+```{r}
+# your code here
+
+```
+
+8. Untuk pelanggan yang menikmati buah `Apricot`, manakah dari buah berikut yang mungkin cukup mirip untuk direkomendasi?
+  - [ ] Kumquat
+  - [ ] Banana
+  - [ ] Apple
+
+Ingat bahwa kita dapat melakukan profilisasi cluster dengan menggunakan kombinasi `group_by()` dan `summarise_all()`, yang dikelompokkan berdasarkan kolom cluster yang telah dibuat sebelumnya. Setelah Anda mengekstrak karakteristik untuk setiap cluster, coba jawab pertanyaan berikut:
+
+```{r}
+# your code here
+
+```
+
+9. Bisakah Anda mendeskripsikan karakteristik buah yang ada di cluster yang sama dengan `Mango`!
+
+  - [ ] Nilai rata-rata protein terendah, rata-rata vitamin_e tertinggi, dan rata-rata gula (*sugars*) tertinggi
+  - [ ] Nilai rata-rata protein terendah, rata-rata serat (*fiber*) tertinggi, dan rata-rata zat besi (*iron_mg*) terendah
+  - [ ] Nilai rata-rata protein terendah, rata-rata kandungan air (*water*) tertinggi, dan rata-rata vitamin_a_iu tertinggi
+  - [ ] Nilai rata-rata protein terendah, rata-rata kalsium (*calsium_mg*) terendah, dan nilai rata-rata gula (*sugars*) tertinggi
+  
+*Referensi Opsi Bahasa Inggris:*
+  - [ ] Lowest mean of protein, highest mean of vitamin_e, and highest mean of sugars
+  - [ ] Lowest mean of protein, highest mean of fiber, and lowest mean of iron_mg
+  - [ ] Lowest mean of protein, highest mean of water, and highest mean of vitamin_a_iu
+  - [ ] Lowest mean of protein, lowest mean of calcium_mg, and highest mean of sugars

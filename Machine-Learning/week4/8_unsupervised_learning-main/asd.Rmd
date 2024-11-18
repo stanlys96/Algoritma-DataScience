@@ -1,0 +1,13 @@
+fruits <- fruits %>%
+  mutate(fiber = ifelse(is.na(fiber), mean(fiber, na.rm = TRUE), fiber)) %>%
+  mutate(sugars = ifelse(is.na(sugars), mean(sugars, na.rm = TRUE), sugars)) %>%
+  mutate(magnessium_mg = ifelse(is.na(magnessium_mg), mean(magnessium_mg, na.rm = TRUE), magnessium_mg)) %>%
+  mutate(potassium_mg = ifelse(is.na(potassium_mg), mean(potassium_mg, na.rm = TRUE), potassium_mg)) %>%
+  mutate(sodium_g = ifelse(is.na(sodium_g), mean(sodium_g, na.rm = TRUE), sodium_g)) %>%
+  mutate(vitamin_a_iu = ifelse(is.na(vitamin_a_iu), mean(vitamin_a_iu, na.rm = TRUE), vitamin_a_iu)) %>%
+  mutate(vitamin_b1_mg = ifelse(is.na(vitamin_b1_mg), mean(vitamin_b1_mg, na.rm = TRUE), vitamin_b1_mg)) %>%
+  mutate(vitamin_b2_mg = ifelse(is.na(vitamin_b2_mg), mean(vitamin_b2_mg, na.rm = TRUE), vitamin_b2_mg)) %>%
+  mutate(viatmin_b3_mg = ifelse(is.na(viatmin_b3_mg), mean(viatmin_b3_mg, na.rm = TRUE), viatmin_b3_mg)) %>%
+  mutate(vitamin_b5_mg = ifelse(is.na(vitamin_b5_mg), mean(vitamin_b5_mg, na.rm = TRUE), vitamin_b5_mg)) %>%
+  mutate(vitamin_b6_mg = ifelse(is.na(vitamin_b6_mg), mean(vitamin_b6_mg, na.rm = TRUE), vitamin_b6_mg)) %>%
+  mutate(vitamin_e_mg = ifelse(is.na(vitamin_e_mg), mean(vitamin_e_mg, na.rm = TRUE), vitamin_e_mg))
