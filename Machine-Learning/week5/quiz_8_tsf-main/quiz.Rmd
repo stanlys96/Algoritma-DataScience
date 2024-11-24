@@ -1,0 +1,191 @@
+---
+title: "Time Series and Forecasting Quiz"
+author: "Team Algoritma"
+date: "`r format = Sys.Date('%e, %B %Y')`"
+output: 
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+    theme: united
+    highlight: zenburn
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      mmessage = FALSE,
+                      warning = FALSE,
+                      fig.align = 'center',
+                      comment = '#>')
+library(forecast)
+```
+
+# Time Series and Forecasting Quiz
+
+This quiz is part of Algoritma Academy assessment process. Congratulations on completing the Time Series and Forecasting course! We will conduct an assessment quiz to test the practical forecasting model techniques that you have learned on the course. The quiz is expected to be taken in the classroom, please contact our team of instructors if you missed the chance to take it in class.
+
+# Data Exploration
+
+In this quiz, you will use the Chicago Crime dataset. The dataset contains real-time historical data of the various types of crime in the city of Chicago. This dataset was downloaded from [Chicago Data Portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2) and has been filtered for the primary type of crime "Assault". The data is stored as a `.csv` file in this repository as `assault.csv`.
+
+Please load the data given `assault.csv` and assign it to `assault` object, then investigate the data using `str()` or `glimpse()` function.
+
+```{r}
+# your code here
+assault <- 
+```
+
+The `assault` data consists of 2,190 observations and 2 variables. The description of each feature is explained below:
+
+* `Date` : Date when the incident occurred (recorded daily).
+* `Amount_Assault` : The total amount of assault on each date.
+
+As a data scientist, you will develop a forecasting model that will aid security and other concerned parties in the decision-making process. Based on our data, we want to forecast the number of assault incidents (`Amount_Assault`). The purpose is to anticipate any crime activities on the given date and help security parties to allocate a proper amount of resources in the city of Chicago. 
+
+Before we make a forecasting model, let us first inspect our data. Is our data a time series object? If not, please make a time series object using the `assault` data using `ts()` function with the frequency of this period is 365 and store it under `assault_ts`. 
+```{r}
+# your code here
+assault_ts <-
+```
+
+___
+1. Time series data has several characteristics. Which of the following statement is **TRUE** regarding time series data?
+ - [ ] Additive time series is additive because the seasonal variation is relatively constant over time
+ - [ ] Multiplicative time series is multiplicative because type of data tends to show a linear trend
+ - [ ] Time series data has no trend, seasonality, and error pattern.
+___
+
+To know the characteristics of our time series object we can visualize it with `autoplot()` from `forecast` package.
+
+```{r}
+# your code here
+
+```
+
+# Decompose
+
+After we make the time series object `assault_ts`, we can inspect it's time series element. Try to look at the trend and seasonality pattern of the data to choose the appropriate model in forecasting `assault_ts` data. We can use `decompose()` to inspect the trend, seasonality, and error of our time series data and visualize them using `autoplot()`. Use the parameter `type = "additive"` when decomposing the data to assume that the data is a additive time series. 
+
+```{r}
+# your code here
+ 
+```
+___
+
+2. Based on the decompose plot, how is the trend pattern of `assault_ts`?
+ - [ ] there's no trend
+ - [ ] the trend is increasing
+ - [ ] the trend is decreasing
+___
+
+# Cross Validation
+
+We have looked at the trend and seasonality of our `assault_ts` data. The next step is to build our time series model. However, we should split the dataset into training and test data before we make a model. In this section, please split the `assault_ts` data into `test_assault` which contains the last 365 days of our data using `tail()` function, and use the rest as `train_assault` using `head()` function.
+
+```{r}
+# your code here
+test_assault <- 
+train_assault <- 
+```
+
+# Time Series Modeling
+
+After splitting the `assault_ts` into `train_assault` and `test_assault` data, please inspect the trend and seasonality pattern of `train_assault` data.
+
+```{r}
+# your code here
+
+```
+
+___
+3.  Based on the decomposition plot, is it appropriate to use the Holt-Winters model? Why?
+ - [ ] Yes, because the plot consists of trends and seasonality
+ - [ ] No, it's more appropriate to use Holt's Exponential Smoothing
+ - [ ] No, because we only focus on the trend, therefore, it is more appropriate to use Single Moving Average (SMA)
+ - [ ] Yes, because the plot only consist of seasonality
+___
+
+After we analyze the decomposition result of `train_assault`, we are ready to build our model. Let's build our first model using Holt-Winters algorithm. You can use `HoltWinters()` function and store it under `model_hw` object.
+
+```{r}
+# your code here
+model_hw <- 
+```
+
+___
+4. Using Holt-Winters as a model, which is the most appropriate code to model the `train_assault` data?
+ - [ ] HoltWinters(train_assault, gamma = F)
+ - [ ] HoltWinters(train_assault)
+ - [ ] HoltWinters(train_assault, beta = F)
+ - [ ] HoltWinters(train_assault, beta = F, gamma = F)
+___
+
+Let's explore another method to forecast our `train_assault` data using the ARIMA algorithm. Let's build an ARIMA model using `auto.arima()` function, then store it as `model_arima` object.
+
+```{r}
+# your code here
+model_arima <- 
+```
+
+ARIMA is a statistical model to forecast a time series object. It stands for AR(autoregressive)-I(integrated)-MA(moving average).
+___
+5. Based on the explanation above, which of the following statement is **TRUE** about ARIMA(p,d,q)?
+ - [ ] the time series object is being differenced q times to make it stationary
+ - [ ] p shows the number of differences needed for stationarity
+ - [ ] d shows the number of time in 1 frequency
+ - [ ] q shows the amount of data for smoothing error using Moving Average
+___
+
+# Forecasting
+
+In the previous section, we have built a forecasting model using Holt-Winters and ARIMA. Using `model_hw` and `model_arima`, try to forecast the assault frequency for the following 365 days using `forecast()` function. Store the result of `model_hw` in `hw_forecast` and `model_arima` in `arima_forecast`.
+
+```{r}
+# your code here
+hw_forecast <- 
+arima_forecast <- 
+```
+
+# Model Evaluation (Error)
+
+Now we have the forecast result of the Holt-Winters and ARIMA model. To evaluate our model, find the MAPE (mean absolute percentage error) value between our forecast result and our actual `test_assault` data. Please find each MAPE value from both model using `accuracy()` function from `forecast` package. Pay attention to the error obtained from the forecasted data test.
+
+```{r}
+# your code here
+
+```
+
+___
+6. Based on the *Test Set* result, which of the following statement is **TRUE**?
+ - [ ] using ARIMA model, the mean absolute percentage error is around 17.01% assault event
+ - [ ] using Holt-Winters model, the mean absolute percentage error is around 17.01% assault event
+ - [ ] The difference of mean absolute percentage error between Holt-Winters and Arima model is 1.59%
+___
+
+# Model Evaluation (Assumption Checking)
+
+There are several assumptions when performing time series analysis. These assumptions are used to make our model reliable to predict the real data.
+
+___
+7. What assumption should we check in the time series analysis?
+ - [ ] Multicollinearity, No-Autocorrelation
+ - [ ] No-Autocorrelation, Normality
+ - [ ] Linearity, No-Autocorrelation
+ - [ ] Heteroscedasticity, No-Autocorrelation
+___
+
+Please check the assumption of no-autocorrelation from arima model using Ljung-Box Test.
+
+```{r}
+# your code here
+
+```
+
+___
+8. Which of the following statement is **TRUE** about the no-autocorrelation assumption of our time series model?
+ - [ ] there is no autocorrelation in error, meaning that each error have no relation
+ - [ ] there is autocorrelation in error, meaning that each error have a relation
+ - [ ] there is autocorrelation in the prediction data, meaning that each predicted data a have relation
+ - [ ] there is no autocorrelation in the prediction data, meaning that each predicted data have no relation
+___
