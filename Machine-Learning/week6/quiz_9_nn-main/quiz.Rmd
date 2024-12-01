@@ -1,0 +1,324 @@
+---
+title: "Neural Network Quiz"
+author: "Team Algoritma"
+date: "`r format(Sys.Date(), '%B %e, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Neural Network Quiz
+
+This quiz is part of Algoritma Academy assessment process. Congratulations on completing the Neural Network course! We will conduct an assessment quiz to test the practical neural network techniques that you have learned on the course. The quiz is expected to be taken in the classroom, please contact our team of instructors if you missed the chance to take it in class.
+
+To complete this assignment, you need to build your classification model to classify the categories of sign language image using Neural Network algorithm in `keras` framework by following these steps:
+
+# 1 Data Preparation
+
+Let us start our neural network experience by first preparing the dataset. You will use `sign-language-mnist` dataset which can be downloaded on [the following page](https://www.kaggle.com/datamunge/sign-language-mnist). Data to download are `sign-mnist-train.csv` as train data and `sign-mnist-test.csv` as test date, then save both data into quiz folder that you use *(Neural-Network-v2)*. Both of the data stores sign language images measuring 28 x 28 pixels for 24 different categories.
+
+**1.1 Load the library and data**
+
+Please load the following package.
+
+```{r warning=FALSE, message=FALSE}
+library(dplyr)
+library(keras)
+library(caret)
+```
+
+In this phase, please load and check the `sign-mnist-train.csv` dan `sign-mnist-test.csv` data, then store it as `sign_train` and `sign_test`. 
+
+```{r}
+# your code here
+sign_train <- 
+sign_test <- 
+```
+
+Inspect the `sign_train` data by using `head()` function.
+
+```{r}
+# your code here
+
+```
+
+The `sign_train` data consists of 27455 observations and 785 variables (1 target and 784 predictors). Each predictor represent pixels of the image.
+
+**1.2 Fixed category on target variable**
+
+Check the category on the target variable in both the `sign_train` and `sign_test` data by using the `unique()` function
+
+```{r}
+# your code here
+
+```
+
+We need to fix the categories on the target variable in both the `sign_train` and `sign_test` data. Since labels 9 and 25 are missing, we can subtract by 1 all labels greater than 9. In this way, our labels become all integers from 0 to 23. You can use the `mutate()` and `ifelse( )` function to fix the category on the target variable in both `sign_train` and `sign_test` data.
+
+Use the *code* below to fix the categories on the target variable in the `sign_train` and `sign_test` data.
+
+```{r}
+sign_train <- sign_train %>% 
+  mutate(label = ifelse(label > 9, label-1, label))
+
+sign_test <- sign_test %>% 
+  mutate(label = ifelse(label > 9, label-1, label))
+```
+
+**1.3 Separates predictors and targets, converts data into matrix, and features scaling**
+
+The data contains the value of pixels stored in a **data.frame**. However, we have to separates predictors and targets for `sign_train` and `sign_test` data and store it as `train_x`, `train_y`, `test_x`, dan `test_y`. You can use `select()` function for separates predictors and targets on `sign_train` and `sign_test` data.
+
+After that, convert `train_x`, `train_y`, `test_x`, dan `test_y` data into matrix before we create a model. Please convert the data into matrix format using `data.matrix()` function. Especially for predictor variables stored in `train_x` and `test_x`, do *features scaling* by dividing with 255.
+
+```{r}
+# Predictor variables in `sign_train`
+train_x <- 
+
+# Predictor variables in `sign_test`
+test_x <- 
+
+# Target variable in `sign_train`
+train_y <- 
+
+# Target variable in `sign_test`
+test_y <- 
+```
+
+___
+1. If you inspect an image in the training set, you will see that the pixel values fall in the range of 0 to 255. What is the purpose of dividing the values in the array by 255?
+  - [ ] Normalize the array from 0 to 255 into -1 to 1
+  - [ ] Reshape the width and height into single dimension since the data is a 3-d array (images, width, height)
+  - [ ] Normalize the array value from 0 to 255 into 0 to 1
+___
+
+**1.4 Converting matrix to array**
+
+Next, we have to convert the predictor matrix into an array form. You can use the `array_reshape(data, dim(data))` function to convert the predictor matrix into an array.
+
+```{r}
+# Predictor variables in `train_x`
+train_x_array <- 
+
+# Predictor variables in `test_x`
+test_x_array <- 
+```
+
+We should also do *one-hot encoding* to the target variable (`train_y`) using `to_categorical()` function from `keras` and stored it as `train_y_dummy` object.
+
+```{r}
+# Target variable in `train_y`
+train_y_dummy <- 
+```
+
+# 2 Build Neural Network Model
+
+Before we apply the neural network model to the `sign-language-mnist` dataset, we should check the necessary knowledge about neural network by answering the following questions:
+
+___
+2. Which of the following is **NOT TRUE** about Neural Networks?
+  - [ ] The neural network is called deep learning when it has more than one hidden layer
+  - [ ] The neural network model is built by minimizing error/loss function
+  - [ ] The initial weight  for each neuron is defined randomly
+  - [ ] Activation function is not doing any transformation to the data
+___
+
+**2.1 Build a model base using `keras_model_sequential()`**
+
+To organize the layers, we should create a base model, which is a sequential model. Call a `keras_model_sequential()` function, and please pipe the base model with the model architecture.
+
+**2.2 Building Architecture (define layers, neurons, and activation function)**
+
+To define the architecture for each layer, we will build several models by tuning several parameters. 
+
+First, create a model (stored it as `model_base`) by defining the following parameters:
+- the first layer contains 64 nodes, relu activation function, 784 input shape
+- the second layer contains 32 nodes, relu activation function
+- the third layer contains 24 nodes, softmax activation function
+
+But before building the architecture, we set the randomness of our weight on first epoch with `set_random_seed()` from tensorflow. Make sure to run all of this chunk together to make it works.
+
+```{r}
+# your code here
+tensorflow::set_random_seed(8)
+model_base <- 
+```
+
+Second, create a model (stored it as `model_bigger`) by defining the following parameters:
+- the first layer contains 256 nodes, relu activation function, 784 input shape
+- the second layer contains 128 nodes, relu activation function
+- the third layer contains 64 nodes, relu activation function
+- the fourth layer contains 24 nodes, softmax activation function
+
+```{r}
+# your code here
+tensorflow::set_random_seed(8)
+model_bigger <- 
+```
+
+Please answer the following question.
+
+___
+3. In building the model architecture, we set several numbers for units. Below is the consideration in using those number, *EXCEPT*
+  - [ ] In the first layer, we use 784 input shape based on the number of our predictors
+  - [ ] In the output layer, we use 24 that is the number of our categories 
+  - [ ] In the hidden and output layer, we use any even number
+___
+
+**2.3 Building Architecture (define cost function and optimizer)**
+
+We still need to do several settings before training the `model_base` and `model_bigger`. We must compile the model by defining the *loss function*, *optimizer* type, and evaluation metrics. Please compile the model to `model_base` and `model_bigger` by setting these parameters:
+- *categorical_crossentropy* as the loss function
+- *optimizer_adam* as the optimizer with learning rate of *0.001*
+- use *accuracy* as the evaluation metric
+
+```{r}
+# your code here
+
+```
+
+```{r}
+# your code here
+
+```
+
+
+**2.4 Fitting model in the training set (define epoch and batch size)**
+
+In this step, we fit our model using `epoch = 10`, `batch_size = 150`, and set parameter `shuffle = F` so that the samples in each batch are not taken *randomly* but sorted (*sequence*) for `model_base` and `model_bigger`. Please save the fit model results into `history_base` and `history_bigger`.
+
+```{r}
+# your code here
+history_base <- 
+```
+
+```{r}
+# your code here
+history_bigger <- 
+```
+
+___
+4. In the fitting model above, what is the meaning of `epoch=10`?
+  - [ ] The model does the feed-forward - back-propagation for all batch 10 times
+  - [ ] The model does the feed-forward - back-propagation for 10 batch 1 times
+  - [ ] The model divides one batch into 10 groups of training data
+___
+
+# 3 Predicting on the testing set
+
+To evaluate the model performance in unseen data, we will predict the testing (`test_x_.keras_array`) data using the trained model. Please predict using `predict()` function and store it as `pred_base` and `pred_bigger`.
+
+```{r}
+# your code here
+pred_base <- predict(object = ..., x = ...)  %>% k_argmax() %>% as.array() %>% as.factor()
+
+pred_bigger <- 
+```
+
+
+# 4 Evaluating the neural network model
+
+**4.1 Confusion Matrix (classification)**
+
+You can evaluate the model using several *metrics*. In this quiz, please check the accuracy by creating confusion matrix. You can use `confusionMatrix()` from `caret` package.
+
+Note: do not forget to do the *explicit coercion* `as.factor` if your data is not yet stored as factor.
+
+```{r}
+# your code here
+
+```
+
+___
+5. From the two confusion matrix above, which statement below is most fitting?
+  - [ ] The number of hidden layer and neuron does not relate with the model performance
+  - [ ] The less hidden layer and neuron, the model may have better performance because less unnecessary features will be extracted from the data
+  - [ ] The more hidden layer and neuron, the model may have better performance because more features will be extracted from the data
+
+___
+
+**4.2 Model Tuning**
+
+Because both models have not provided a good enough performance (*best fit*) where `model_base` tends to be *underfitting* and `model_bigger` tends to be *overfitting*, improvements will be made to `model_bigger`. Now, let's try to build `model_tuning` by defining the following parameters:
+- the first layer contains 128 nodes, relu activation function, 784 input shape
+- the second layer contains 64 nodes, relu activation function
+- the third layer contains 24 nodes, softmax activation function
+
+```{r}
+# your code here
+tensorflow::set_random_seed(8)
+model_tuning <- 
+```
+
+Then, *compile* the by setting these parameters:
+- *categorical_crossentropy* as the loss function
+- *optimizer_adam* as the optimizer with learning rate of *0.001*
+- use *accuracy* as the evaluation metric
+
+```{r}
+# your code here
+
+```
+
+Last, fit model using `epoch = 10`, `batch_size = 150`, and set parameter `shuffle = F` so that the samples in each batch are not taken *randomly* but sorted (*sequence*).
+
+```{r}
+# your code here
+history_tuning <- 
+```
+
+After tuning the model, please do the predict `test_x_array` using `model_tuning`. Please predict using `predict()` function and store it as `pred_tuning`
+
+```{r}
+# your code here
+pred_tuning <- 
+```
+
+Check the model performance using accuracy. You can use `confusionMatrix()` function from `caret` package.
+
+Note: do not forget to do the *explicit coercion* `as.factor` if your data is not yet stored as factor.
+
+```{r}
+# your code here
+
+```
+
+Please answer the following question.
+___
+6. The hidden layer is the place where information from the data is extracted. What can you conclude from `model_bigger` and `model_tuning` about hidden layers?
+  - [ ] The more number of hidden layers used (*deep*), the neural network model tends to be *underfitting*
+  - [ ] The more number of hidden layers used (*deep*), the neural network model tends to be *overfitting*
+  - [ ] Using both of small or large number of hidden layers does not influence the model's performance
+  
+*Note: Consider the following criteria for this case*
+- The model is considered quite good if the accuracy reaches >= 70%
+- The model is considered poor if the accuracy is below 70%
+- Model performance is considered balanced in both train and test data if the difference in accuracy is <= 20%        
+  
+___
+
+___
+7. From the three models above (`model_base`, `model_bigger` and `model_tuning`), what is the best model for us to pick?
+  - [ ] *model_base*, because the accuracy is quite high and the difference in accuracy between train data and test data is the smallest
+  - [ ] *model_bigger*, because the accuracy is quite high and the difference in accuracy between train data and test data is the smallest
+  - [ ] *model_tuning*, because the accuracy is quite high and the difference in accuracy between train data and test data is the smallest
+
+
+*Note: for this case, we consider a model that has a high enough accuracy is the model that obtains an accuracy above 65% both on the train data and on the test data.*
+___
+
+You have completed the task to build a deep learning model to classify sign language images. This model will be very helpful for person with hearing impairment/loss that communicates with sign language, so that they can communicate with common people. This project can be developed further into a sign language-based communication app.
+
+# 5 Method Understanding
+
+Deep learning models are often used to process unstructured data (non-tabular) that we find frequently today. Some examples are photo/video from social media, CCTV recordings, voice/audio transmissions, document or text sequences, chat recordings, etc. Unstructured data are difficult to model because of their complexity; having no specific column with respective information, making it difficult for us to determine the important features to predict the target. Therefore, deep learning models are often used to process the data, automatically choose features, and create a model with a satisfying result.
+
+Although structured data can also be solved using deep learning models, sometimes the use of other models such as Random Forest or Decision Tree is already sufficient. Choosing which *machine learning* model to use really depends on the case and data that needs to be processed.
+
+8. Which of the following pairs of cases and data **must** be analyzed using a deep learning model?
+  - [ ] House price prediction; available data includes location, total floors, number of rooms, etc., for each house
+  - [ ] Internet demand prediction; available data includes internet demand data recorded periodically every 1 hour
+  - [ ] Creating a speech recognizer; available data includes sound files recorded by people
+  - [ ] Cancer diagnosis; available data includes a set of features describing cell characteristics (radius, diameter, shape, etc.) that were extracted from cancer/non-cancer cell images.

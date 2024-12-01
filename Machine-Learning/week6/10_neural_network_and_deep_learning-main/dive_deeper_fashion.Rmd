@@ -1,0 +1,152 @@
+---
+title: "Dive Deeper"
+author: "Algoritma Team"
+date: "3/17/2022"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float:
+        collapsed: true
+    number_sections: true
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message = FALSE,
+                      warning = FALSE)
+```
+
+Pada dive deeper kali ini, cobalah untuk membuat sebuah model *Neural Net/Deep Learning* dengan framework `keras` untuk mengklasifikasikan gambar tentang barang-barang fashion. 
+
+Data source: [kaggle](https://www.kaggle.com/zalando-research/fashionmnist)
+
+Challenge:
+* Buatalah model *Neural Net/Deep Learning* dengan maksimal **3 layer dense** dan **minimal nilai akurasi sebesar 85% pada data test**.    
+
+# Library Setup
+
+```{r}
+
+```
+
+# Read Data
+
+```{r}
+fashion_train <- 
+fashion_test <- 
+```
+
+**Labels**
+
+Each training and test example is assigned to one of the following labels:
+
+- 0 T-shirt/top
+- 1 Trouser
+- 2 Pullover
+- 3 Dress
+- 4 Coat
+- 5 Sandal
+- 6 Shirt
+- 7 Sneaker
+- 8 Bag
+- 9 Ankle boot
+
+# EDA
+
+* Berapakah dimensi `fashion_train`?
+
+```{r}
+
+```
+
+* Berapakah range data?
+
+```{r}
+
+```
+
+* Apakah proporsi target variable seimbang? Berapakh observasi untuk setiap target variable?
+
+```{r}
+
+```
+
+# Cross Validation
+
+Lakukan cross validasi pada data train dengan proporsi sebesar 70% untuk train model dan 30% untuk validasi model
+
+* Gunakan `initial_split()` dari package `rsample`
+* Aturlah `set_seed(100)`
+
+```{r}
+
+```
+
+# Further Data Pre-Processing
+
+## Matrix -> Array + Scalling
+
+```{r}
+
+```
+
+## One Hot Encoding 
+
+```{r}
+
+```
+
+# Modeling
+
+## Architecture
+
+Aturlah `set_seed(100)`
+
+```{r}
+
+```
+
+## Compile Model
+
+```{r}
+
+```
+
+## Train Model
+
+```{r}
+
+```
+
+# Model Prediction & Evaluation Data Validation
+
+## Predict Data Validation
+
+```{r}
+
+```
+
+## Evaluation Data Validation
+
+```{r}
+
+```
+
+# Model Prediction & Evaluation Data Test
+
+## Predict Data Test
+
+```{r}
+
+```
+
+## Evaluation Data Test
+
+```{r}
+
+```
+
+# Conclusion
+

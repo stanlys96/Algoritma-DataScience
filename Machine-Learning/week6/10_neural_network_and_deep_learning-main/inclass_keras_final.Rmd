@@ -1,0 +1,766 @@
+---
+title: "Neural Network with Keras in R"
+author: "Dwi Gustin Nurdialit"
+date: "`r format(Sys.Date(), '%B %e, %Y')`"
+output:
+  html_document:
+    number_sections: true
+    df_print: paged
+    highlight: tango
+    theme: cosmo
+    toc: yes
+    toc_depth: 4
+    toc_float:
+      collapsed: true
+  pdf_document:
+    toc: yes
+  word_document:
+    toc: yes
+editor_options: 
+  chunk_output_type: inline
+---
+
+<style>
+
+body {
+text-align: justify}
+
+</style>
+
+```{r setup, include=FALSE}
+# clear-up the environment
+rm(list = ls())
+
+# chunk options
+knitr::opts_chunk$set(
+  message = FALSE,
+  warning = FALSE,
+  fig.align = "center",
+  comment = "#>"
+)
+
+options(scipen = 999)
+```
+
+<style>
+
+body {
+text-align: justify}
+
+</style>
+
+install.packages("tensorflow")
+tensorflow::install_tensorflow(version = "2.0.0")
+tensorflow::tf_config()
+
+
+
+Berikut adalah revisi agar lebih ramah untuk pemula, lebih menarik, dan dilengkapi dengan emoji untuk menambah kesan visual:
+
+---
+
+# 📚 Neural Network dengan Keras
+
+
+> **Apa itu Keras?**  
+Keras adalah package yang memudahkan kita mengimplementasikan model Deep Learning. Ia bekerja di atas **TensorFlow**, sebuah framework open-source yang dikembangkan oleh Google. Di R, Keras dan TensorFlow berfungsi sebagai penghubung (mediator), sedangkan proses utama tetap dilakukan di Python. 🐍
+
+Mari kita uji apakah Keras sudah terhubung dengan benar dengan menjalankan kode berikut:
+
+```{r}
+library(keras)
+library(dplyr)
+
+# Membuat model sederhana
+p <- keras_model_sequential(name = "Model Pertama") %>% 
+  
+  # 🔹 Hidden Layer Pertama
+  layer_dense(units = 3, 
+              input_shape = 3, 
+              activation = "sigmoid", 
+              name = "Hidden_layer") %>% 
+  
+  # 🔹 Output Layer
+  layer_dense(units = 2, activation = "sigmoid", name = "Output")
+
+p
+```
+
+Jika berhasil, akan muncul informasi modelnya. 🎉 Ini menandakan Keras sudah siap digunakan!
+
+
+# 🖼️ Dataset MNIST
+
+Kita akan menggunakan **MNIST**, dataset berisi ribuan gambar digit angka hasil tulisan tangan. 🎨 Tugas kita adalah membuat model Machine Learning untuk mengenali angka **0 sampai 9**. 
+
+💡 **Gambaran Dataset**: 
+
+- **Target Variabel (`label`)**: Digit angka yang harus dikenali (misal: 0, 1, 2).  
+- **Pixel Grayscale**: Nilai kecerahan tiap pixel pada gambar hitam putih.
+
+Berikut contoh tampilan dataset MNIST:
+
+```{r echo=FALSE, out.width="80%" }
+knitr::include_graphics("asset/mnist.png")
+```
+
+🌼Quick Summary :🌼
+
+- System komputer kita mengenali data gambar dengan sebuah pixel yang bernilai 0-255 
+- Nilai pixel 0 : semakin gelap / tidak ada warna
+- Nilai pixel 255 : semakin terang / berwarna
+
+## 1️⃣ Memuat Data
+
+Pertama-tama, mari kita muat dataset-nya. MNIST sudah dibagi menjadi data latih (train) dan uji (test), jadi kita tidak perlu melakukan cross-validation manual.
+
+```{r}
+# Memuat data
+train_mnist <- read.csv("data_input/mnist/train.csv")
+test_mnist <- read.csv("data_input/mnist/test.csv")
+
+# Melihat dimensi data
+dim(train_mnist)
+```
+
+```{r}
+head(train_mnist)
+```
+Setiap gambar memiliki 784 piksel -> 28 x 28
+
+## 2️⃣ Exploratory Data
+
+Mari lihat beberapa baris pertama dari data latih untuk memahami formatnya:
+
+```{r}
+
+```
+
+
+
+
+### 🖍️ Visualisasi Gambar
+
+Setiap gambar direpresentasikan dalam ukuran **28 x 28** pixel. Untuk memudahkan, kita akan mengubah nilai pixel menjadi gambar visual menggunakan fungsi berikut:
+
+```{r}
+vizTrain <- function(input){
+  dimmax <- sqrt(ncol(input[,-1]))
+  dimn <- ceiling(sqrt(nrow(input)))
+  par(mfrow = c(dimn, dimn), mar = c(.1, .1, .1, .1))
+  
+  for (i in 1:nrow(input)){
+    m1 <- as.matrix(input[i, 2:785])
+    dim(m1) <- c(28, 28)
+    m1 <- apply(apply(m1, 1, rev), 1, t)
+    
+    image(1:28, 1:28, 
+          m1, col = grey.colors(255), 
+          xaxt = 'n', yaxt = 'n') # Hilangkan sumbu
+    text(2, 20, col = "white", cex = 1.2, input[i, 1]) # Tambah label angka
+  }
+}
+```
+
+Mari kita coba menampilkan **36 gambar pertama** dari dataset latih:
+
+```{r}
+vizTrain(head(train_mnist, 36))
+```
+
+
+
+
+
+
+## 3️⃣ Cross-Validation
+
+Untuk memvalidasi model, kita perlu membagi data menjadi **data latih (train)** dan **data validasi (validation)**. 💡 
+
+- **80%** data akan digunakan sebagai data latih.  
+- Data validasi akan membantu kita menguji performa model selama proses pelatihan.  
+- Data uji (`test.csv`) hanya digunakan untuk kompetisi di [Kaggle](https://www.kaggle.com/c/digit-recognizer) karena tidak memiliki label.
+
+Mari kita bagi data menggunakan `rsample`:
+
+```{r}
+library(rsample)
+
+# Membagi data menjadi train dan validation
+set.seed(100)
+index <- initial_split(data = train_mnist, prop = 0.8, strata = "label")
+
+data_train <- training(index)
+data_test <- testing(index)
+```
+
+Untuk memastikan proporsi kelas target tetap terjaga, kita cek distribusi kelas pada data latih:
+
+```{r}
+# Cek proporsi kelas
+table(data_train$label)
+```
+
+
+## ️4️⃣ Data Preprocessing
+
+Sebelum membuat model dengan **Keras**, kita perlu mempersiapkan data. Ini langkah-langkah yang dilakukan:
+
+1. **Pisahkan target variabel (`label`) dari prediktor**.  -> train maupun test
+2. **Ubah prediktor menjadi array** untuk mempermudah komputasi.  -> train_x dan test_x -> matrix / array
+3. **(Optional) Scaling nilai pixel (0-255) menjadi rentang 0-1**.  -> train_x dan test_x -> untuk meringankan beban komputasi
+4. **One-hot encoding** target variabel karena model memerlukan representasi numerik biner. -> train_y dan test_y
+
+### 1. Memisahkan data, Ubah menjadi matrix, Scaling Data
+
+Karena nilai pixel gambar berada pada rentang 0-255, kita akan membagi nilai tersebut dengan 255 untuk merubah rentangnya menjadi **0-1**.
+
+```{r}
+library(dplyr)
+
+# Pisahkan data latih
+train_x <- data_train %>% 
+  select(-label) %>%     # Buang kolom label
+  as.matrix()/255        # Konversi ke matrix dan scaling (0-1)
+  
+
+train_y <- data_train$label   # Pilih kolom label sebagai target
+
+# Pisahkan data validasi
+test_x <- data_test%>% 
+  select(-label) %>%     # Buang kolom label
+  as.matrix()/255        # Konversi ke matrix dan scaling (0-1)
+
+test_y <- data_test$label   # Pilih kolom label sebagai target
+```
+
+👉 **Catatan**: Scaling sangat penting untuk mempercepat konvergensi model deep learning!
+
+Cek apakah scaling bekerja dengan benar:
+
+```{r}
+range(data_train$pixel400)/255
+```
+
+### 2. Reshaping Data
+
+Format data harus diubah ke array agar dapat diterima oleh Keras. Kita gunakan fungsi `array_reshape(x, dim)`:
+
+```{r}
+library(keras)
+
+# Ubah format ke array
+train_x <- array_reshape(train_x, dim = dim(train_x))
+test_x <- array_reshape(test_x, dim = dim(test_x))
+```
+
+> prediktor(x) -> diubah ke matriks -> scaling menjadi range 0-1 -> dilakukan `array_reshape`
+
+### 3. One-Hot Encoding
+
+Target variabel (`label`) berupa angka **0-9** perlu diubah menjadi format **one-hot encoding**. Ini dilakukan menggunakan fungsi `to_categorical(data, num_classes)` dari Keras.
+
+```{r}
+# One-hot encoding untuk target variabel
+train_y <- to_categorical(train_y, num_classes = 10)
+test_y <- to_categorical(test_y, num_classes = 10)
+```
+
+> target (y) -> one hot encoding menggunakan `to_categorical`
+
+
+
+
+
+
+
+
+
+
+## 🏗️ Arsitektur Neural Network
+
+Sekarang, kita akan membangun arsitektur **Neural Network**! 🎉  
+Berikut adalah **aturan dasar** saat membuat arsitektur di Keras:
+
+1. Mulai dengan `keras_model_sequential()` untuk mendefinisikan model.  
+2. Layer pertama yang dibuat menjadi **input layer** secara otomatis.  
+3. Tambahkan **parameter `input_shape`** pada layer pertama untuk menentukan dimensi input.  
+4. Layer terakhir yang dibuat menjadi **output layer**.
+
+
+Yang perlu ditentukan sebelum membuat arsitektur neural net
+1. Dimensi data (jumlah kolom) (berdasarkan data)
+    - Prediktor
+    - Target
+2. Menentukan hidden layer (custom, tergantung user)
+    - jumlah layer
+    - jumlah node tiap layer
+    - menentukan activation function
+3. Menentukan activation function pada output layer (berdasarkan data)
+
+### 🔢 Menentukan Dimensi Input dan Output
+
+Pertama, mari tentukan dimensi input (jumlah prediktor) dan jumlah kategori target (jumlah kelas 0-9):
+
+```{r}
+input_dim <- ncol(train_x)          # Jumlah prediktor (784 pixel)
+num_class <- n_distinct(data_train$label) # Jumlah kelas target (0-9)
+```
+
+
+### 💡 Desain Arsitektur Neural Network
+
+Kita akan membangun model dengan spesifikasi berikut:  
+
+- **Input Layer**: 784 neuron (untuk 28x28 pixel).  
+- **Hidden Layer 1**: 64 neuron dengan activation function **ReLU**.  
+- **Hidden Layer 2**: 32 neuron dengan activation function **ReLU**.  
+- **Output Layer**: 10 neuron (jumlah kelas 0-9) dengan activation function **Softmax**.  
+
+
+📌 Pro-tips: Dalam menentukan Hidden Layer dan node pada hidden layer
+
+1. Semakin banyak jumlah layer, artinya semakin deep, semakin kompleks model cenderung overfitting
+    - Untuk tahapan awal, coba dulu dengan jumlah 2 hidden layer
+2. Jumlah node semakin banyak semakin wide, artinya semakin kompleks model, cenderung overfitting
+    - Semakin mendekati output jumlah node semakin sedikit
+    - Jumlah neuron: 2, 4, 8, 16, 32, 64, 128
+
+
+## 5️⃣ Membangun Model/ Arsitektur
+
+Mari kita buat model Neural Network dengan menggunakan `keras_model_sequential()`:
+
+```{r}
+library(keras)
+
+# Membuat arsitektur Neural Network
+model1 <- keras_model_sequential(name = "model_mnist1") %>% 
+  
+  # Input Layer + hidden layer 1
+  layer_dense(input_shape = input_dim,     # Dimensi input layer (784)
+              units = 64,                  # Jumlah nodes pada hidden layer 1
+              activation = "relu",         # Activation function pada hidden layer 1
+              name = "hidden_1") %>% 
+  
+  # Hidden layer 2
+  layer_dense(units = 32,                  # Jumlah nodes pada hidden layer 2
+              activation = "relu",         # Activation function pada hidden layer 2
+              name = "hidden_2") %>% 
+  
+  # Output layer
+  layer_dense(units = num_class,           # Jumlah kelas target (10)
+              activation = "softmax",      # Activation function untuk multikelasifikasi
+              name = "output")
+
+model1
+```
+
+```{r}
+(784*64)+64
+```
+
+
+📌 **Keterangan**:  
+
+- **Total params**: Jumlah total parameter (bobot + bias) dalam model.  
+- **Trainable params**: Parameter yang dapat diperbarui selama pelatihan.  
+- **Non-trainable params**: Parameter yang terkunci dan tidak diperbarui.  
+
+
+
+## 🔧 Model Compile
+
+Sebelum melatih model, kita perlu menentukan:  
+1. **Error Function** (*Loss Function*): Mengukur seberapa baik model memprediksi data.  
+
+   - **Regresi**: `MSE`, `MAE`, dll.  
+   - **Klasifikasi Biner**: `Binary Cross-Entropy`.  
+   - **Klasifikasi Multikelas**: `Categorical Cross-Entropy`.  
+
+2. **Optimizer**: Mengatur cara model memperbarui bobot selama pelatihan.  
+
+   - Contoh: `SGD`, `Adam`.  
+
+3. **Metrics**: Metode evaluasi performa model selama pelatihan (misalnya `accuracy`).  
+
+💡 Referensi: [Loss Function](https://keras.rstudio.com/reference/loss_mean_squared_error.html), [Optimizer](https://keras.rstudio.com/reference/index.html#section-optimizers)
+
+
+## 6️⃣ Meng-Compile Model
+
+Kita gunakan **Categorical Cross-Entropy** sebagai *loss function*, **SGD** sebagai optimizer, dan evaluasi dengan **accuracy**.
+
+```{r}
+# Compile model
+model1 %>% 
+  compile(loss = "categorical_crossentropy",
+          optimizer = optimizer_sgd(learning_rate=0.1),
+          metrics = "accuracy")
+```
+
+
+
+## 🏋 Model Fitting
+
+Tahap berikutnya adalah melatih model Neural Network kita menggunakan data training! Pada tahap ini, model akan:
+
+1. **Feed Forward**: Menghitung prediksi berdasarkan data input.  
+2. **Back Propagation**: Memperbarui bobot model berdasarkan kesalahan prediksi (error).  
+
+### 🧩 Apa Itu Batch dan Epoch?
+
+- **Batch Size**: Jumlah data yang diproses model sebelum memperbarui bobot.  
+- **Epoch**: Ketika model telah memproses seluruh data training satu kali penuh (termasuk semua batch).  
+
+Contoh:  
+
+Jika data training terdiri dari 33,600 baris dan **batch size = 4,200**, maka:  
+\[
+\text{Jumlah batch} = \frac{\text{Jumlah data}}{\text{Batch size}} = \frac{33600}{4200} = 8
+\]  
+Dalam 1 epoch, model akan melakukan feed forward dan back propagation sebanyak 8 kali.  
+
+
+📊 **Karakteristik Batch Size**:
+
+- **Batch size kecil**: Pelatihan lebih lama, tetapi cenderung memberikan hasil yang lebih baik.  
+- **Batch size besar**: Pelatihan lebih cepat, tetapi dapat kehilangan detail dalam pembelajaran.
+
+
+## 7️⃣ Melatih Model
+
+Saat melatih model, berikut parameter yang perlu disiapkan:
+
+- `x`: Prediktor (data input).  
+- `y`: Target variabel (label).  
+- `epochs`: Jumlah iterasi untuk pelatihan.  
+- `batch_size`: Jumlah data dalam satu batch.  
+- `validation_data`: Data validasi untuk mengevaluasi model selama pelatihan.  
+- `verbose`: Apakah ingin menampilkan progres pelatihan secara visual.  
+
+Kita akan melatih model selama **10 epoch** dengan **batch size = 4200**. Berikut adalah kode untuk melatih model:
+
+```{r}
+# Melatih model
+history <- model1 %>% 
+  fit(x = train_x,       # data prediktor train
+      y = train_y,       # data target train
+      epochs = 10,       # jumlah step / epoch
+      validation_data = list(test_x, test_y),  # data test prediktor dan target
+      
+      # Optional
+      batch_size = 4200,   # Jumlah observasi tiap batch
+      verbose = 1)         # Menampilkan progress training data
+
+# Visualisasi performa model
+plot(history)
+```
+
+~~~~~~~~ Start of Day 2 ~~~~~~~~
+
+## 8️⃣ Model Evaluation
+
+Setelah model dilatih, mari evaluasi performanya menggunakan data validasi! 🎯  
+
+1. **Prediksi Data Validasi**  
+   Model akan memberikan probabilitas untuk setiap kelas. Kita ambil kelas dengan probabilitas tertinggi menggunakan `k_argmax()`.
+   
+```{r}
+predict(model1, test_x) %>% 
+  k_argmax() %>% 
+  as.array() %>% 
+  as.factor()
+```
+   
+
+```{r}
+# Prediksi data validasi
+pred <- predict(model1, test_x) %>% 
+  k_argmax() %>%     # Mendapatkan kolom dengan probabilitas tertinggi
+  as.array() %>%     # Ubah menjadi array
+  as.factor()        # Ubah ke factor
+```
+
+2. Evaluasi dengan Confusion Matrix
+
+   Gunakan `confusionMatrix` dari paket `caret` untuk melihat akurasi model.
+
+```{r}
+# Evaluasi performa dengan Confusion Matrix
+library(caret)
+confusionMatrix(data = pred, reference = as.factor(data_test$label))
+```
+
+
+## 🔄 Summary Workflow
+
+Berikut langkah-langkah untuk membangun Neural Network dengan Keras:  
+
+1. **Bangun Arsitektur Model**:  
+
+   - Tentukan jumlah hidden layer dan neuron.  
+   - Pilih jenis activation function (contoh: ReLU, Sigmoid).  
+
+2. **Compile Model**:  
+
+   - Pilih error function (contoh: Cross-Entropy).  
+   - Pilih optimizer dan learning rate.  
+
+3. **Training Model**: 
+
+   - Tentukan batch size dan jumlah epoch.  
+   - Gunakan data validasi untuk melihat performa selama pelatihan.  
+
+
+
+## 🚀 Model Improvement
+
+Jika hasil model belum memuaskan, kita bisa mencoba **tuning hyperparameter** untuk meningkatkan performa. 🔧  
+
+🔑 **Hyperparameter yang Bisa Dicoba**:
+
+1. **Activation Function**: Ganti ReLU dengan fungsi lain (contoh: Leaky ReLU, Tanh).  
+2. **Jumlah Neuron**: Tambah atau kurangi neuron di hidden layer.  
+3. **Jumlah Layer**: Tambahkan layer untuk menangkap lebih banyak informasi.  
+4. **Optimizer**: Ganti dari `SGD` ke `Adam` atau yang lain.  
+5. **Learning Rate**: Coba berbagai nilai, misalnya 0.01, 0.001.  
+
+
+
+
+## Tuning 1
+
+Kita coba ubah jumlah unit pada tiap layer dengan ketentuan sebagai berikut:
+
+- Input layer: 784 prediktor (gambar 28x28 pixel)
+- Hidden Layer 1: 128 neuron dengan activation function = relu
+- Hidden Layer 2: 64 neuron dengan activation function = relu
+- Output Layer: 10 neuron (sesuai jumlah kategori 0-9) dengan activation function = softmax
+
+```{r}
+model_tuning1 <- keras_model_sequential(name = "model_tuning1") %>% 
+  
+  # Input Layer + hidden layer 1
+  layer_dense(input_shape = input_dim,     # Dimensi input layer (784)
+              units = 128,                  # Jumlah nodes pada hidden layer 1
+              activation = "relu",         # Activation function pada hidden layer 1
+              name = "hidden_1") %>% 
+  
+  # Hidden layer 2
+  layer_dense(units = 64,                  # Jumlah nodes pada hidden layer 2
+              activation = "relu",         # Activation function pada hidden layer 2
+              name = "hidden_2") %>% 
+  
+  # Output layer
+  layer_dense(units = num_class,           # Jumlah kelas target (10)
+              activation = "softmax",      # Activation function untuk multikelasifikasi
+              name = "output")
+
+model_tuning1
+```
+
+```{r}
+model_tuning1 %>% 
+  compile(loss = "categorical_crossentropy",
+          optimizer = optimizer_sgd(learning_rate=0.1),
+          metrics = "accuracy")
+
+
+# Melatih model
+history_tuning1 <- model_tuning1 %>% 
+  fit(x = train_x,       # data prediktor train
+      y = train_y,       # data target train
+      epochs = 10,       # jumlah step / epoch
+      validation_data = list(test_x, test_y),  # data test prediktor dan target
+      
+      # Optional
+      batch_size = 4200,   # Jumlah observasi tiap batch
+      verbose = 1)         # Menampilkan progress training data
+
+# Visualisasi performa model
+plot(history_tuning1)
+```
+
+- model1        : loss: 0.4895 - accuracy: 0.8694 - val_loss: 0.4733 - val_accuracy: 0.8765
+- model_tuning1 : loss: 0.4588 - accuracy: 0.8759 - val_loss: 0.4311 - val_accuracy: 0.8872 📌
+
+## Tuning 2
+
+Kita coba tambah jumlah hidden layer dengan ketentuan sebagai berikut:
+
+- Input layer: 784 prediktor (gambar 28x28 pixel)
+- Hidden Layer 1: 128 neuron dengan activation function = relu
+- Hidden Layer 2: 64 neuron dengan activation function = relu
+- Hidden Layer 3: 32 neuron dengan activation function = relu
+- Output Layer: 10 neuron (sesuai jumlah kategori 0-9) dengan activation function = softmax
+
+```{r}
+model_tuning2 <- keras_model_sequential(name = "model_tuning2") %>% 
+  
+  # Input Layer + hidden layer 1
+  layer_dense(input_shape = input_dim,     # Dimensi input layer (784)
+              units = 128,                  # Jumlah nodes pada hidden layer 1
+              activation = "relu",         # Activation function pada hidden layer 1
+              name = "hidden_1") %>% 
+  
+  # Hidden layer 2
+  layer_dense(units = 64,                  # Jumlah nodes pada hidden layer 2
+              activation = "relu",         # Activation function pada hidden layer 2
+              name = "hidden_2") %>% 
+  
+  # Hidden layer 3
+  layer_dense(units = 32,                  # Jumlah nodes pada hidden layer 3
+              activation = "relu",         # Activation function pada hidden layer 3
+              name = "hidden_3") %>% 
+  
+  # Output layer
+  layer_dense(units = num_class,           # Jumlah kelas target (10)
+              activation = "softmax",      # Activation function untuk multikelasifikasi
+              name = "output")
+
+model_tuning2
+```
+```{r}
+model_tuning2 %>% 
+  compile(loss = "categorical_crossentropy",
+          optimizer = optimizer_sgd(learning_rate=0.1),
+          metrics = "accuracy")
+
+
+# Melatih model
+history_tuning2 <- model_tuning2 %>% 
+  fit(x = train_x,       # data prediktor train
+      y = train_y,       # data target train
+      epochs = 10,       # jumlah step / epoch
+      validation_data = list(test_x, test_y),  # data test prediktor dan target
+      
+      # Optional
+      batch_size = 4200,   # Jumlah observasi tiap batch
+      verbose = 1)         # Menampilkan progress training data
+
+# Visualisasi performa model
+plot(history_tuning2)
+```
+
+- model1        : loss: 0.4895 - accuracy: 0.8694 - val_loss: 0.4733 - val_accuracy: 0.8765
+- model_tuning1 : loss: 0.4588 - accuracy: 0.8759 - val_loss: 0.4311 - val_accuracy: 0.8872 📌
+- model_tuning2 : loss: 0.5294 - accuracy: 0.8395 - val_loss: 0.5336 - val_accuracy: 0.8373
+
+
+
+
+
+
+
+
+
+___________________________________________
+
+
+## 🏄 Dive Deeper
+
+Lakukan tuning terhadap model dengan mengganti jumlah layer, jumlah node/neuron maupun mengganti parameter lain yang ada di model sehingga mendapatkan akurasi yang lebih tinggi dibandingkan model yang sudah dibuat.
+
+___________________________________________
+
+## Tuning 3
+
+Kita coba ubah optimizernya dari `sgd` menjadi `adam`
+
+```{r}
+set.seed(100)
+model_tuning3 <- keras_model_sequential(name = "model_tuning3") %>% 
+  
+  # Input Layer + hidden layer 1
+  layer_dense(input_shape = input_dim,     # Dimensi input layer (784)
+              units = 128,                  # Jumlah nodes pada hidden layer 1
+              activation = "relu",         # Activation function pada hidden layer 1
+              name = "hidden_1") %>% 
+  
+  # Hidden layer 2
+  layer_dense(units = 64,                  # Jumlah nodes pada hidden layer 2
+              activation = "relu",         # Activation function pada hidden layer 2
+              name = "hidden_2") %>% 
+  
+  # Output layer
+  layer_dense(units = num_class,           # Jumlah kelas target (10)
+              activation = "softmax",      # Activation function untuk multikelasifikasi
+              name = "output")
+
+model_tuning3
+```
+
+
+```{r}
+model_tuning3 %>% 
+  compile(loss = "categorical_crossentropy",
+          optimizer = optimizer_adam(learning_rate = 0.1),
+          metrics = "accuracy")
+
+
+# Melatih model
+history_tuning3 <- model_tuning3 %>% 
+  fit(x = train_x,       # data prediktor train
+      y = train_y,       # data target train
+      epochs = 10,       # jumlah step / epoch
+      validation_data = list(test_x, test_y),  # data test prediktor dan target
+      
+      # Optional
+      batch_size = 4200,   # Jumlah observasi tiap batch
+      verbose = 1)         # Menampilkan progress training data
+
+# Visualisasi performa model
+plot(history_tuning2)
+```
+
+- model1        : loss: 0.4895 - accuracy: 0.8694 - val_loss: 0.4733 - val_accuracy: 0.8765
+- model_tuning1 : loss: 0.4588 - accuracy: 0.8759 - val_loss: 0.4311 - val_accuracy: 0.8872 📌
+- model_tuning2 : loss: 0.5294 - accuracy: 0.8395 - val_loss: 0.5336 - val_accuracy: 0.8373
+- model_tuning3 : loss: 0.6607 - accuracy: 0.7703 - val_loss: 0.6427 - val_accuracy: 0.7849
+
+> Dari beberapa model yang sudah dibuat, yang memiliki performa paling baik adalah `model_tuning1`
+
+## 📥 Save & Load Model
+
+ini sama seperti save model pada rds
+
+```{r eval=FALSE}
+# save
+save_model_tf(model_tuning1, filepath = "model_mnist_digit")
+```
+
+```{r eval = F}
+# load model
+model_nn <- load_model_tf(filepath = "model_mnist_digit")
+```
+
+```{r eval = F}
+# cek model
+summary(model_nn)
+```
+
+
+🍀 Pro Tips: Untuk tuning model neural network
+
+- Tidak ada aturan baku untuk kita melakukan tuning dari mana dulu, karena neural network adalah model yang sangat customable
+- Namun, biasanya ketika kita ingin melakukan tuning model NN:
+    1. Diawali dari tuning arsitektur: jumlah layer hidden, jumlah nodes hidden, activation function hidden
+    2. Tuning Optimizer atau learning rate 
+    3. Batch size
+    4. Epoch
+- Ketika history trainingnya mencapai nilai yang itu-itu saja, yang harus dilakukan adalah:
+    1. Bisa menambahkan observasi
+    2. Datanya tidak memiliki pola
+    3. Bisa gunakan arsitektur deep learning lainnya, selain NN basic.
+
+
+
+# Additional Link & References
+
+[Deep Learning Tips and Tricks cheatsheet, By Afshine Amidi and Shervine Amidi, Stanford Edu](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-deep-learning-tips-and-tricks)
+
+[11 Essential Neural Network Architectures, Visualized & Explained](https://medium.com/analytics-vidhya/11-essential-neural-network-architectures-visualized-explained-7fc7da3486d8)
+
+
+[Image Classification using CNN](https://algolearn.netlify.app/p/image-classification-cnn/)
